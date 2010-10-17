@@ -3,18 +3,23 @@
 # Marius Andreiana <mandreiana@yahoo.com>, 2001.
 # Dan Damian <dand@mate.ro>, 2001.
 # Mișu Moldovan <dumol@mate.ro>, 2003 - 2009.
-#
+# Daniel Șerbănescu <cyber19rider@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: libmatecomponent\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-07 23:44+0200\n"
-"PO-Revision-Date: 2009-03-07 23:50+0200\n"
-"Last-Translator: Mișu Moldovan <dumol@mate.ro>\n"
-"Language-Team: Romanian <matero-list@lists.sourceforge.net>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=matecomponent&component=libmatecomponent\n"
+"POT-Creation-Date: 2010-10-13 13:05+0000\n"
+"PO-Revision-Date: 2010-10-15 23:59+0100\n"
+"Last-Translator: Daniel Șerbănescu <cyber19rider@gmail.com>\n"
+"Language-Team: Romanian Mate Team <matero-list@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -24,29 +29,29 @@ msgstr "Nu s-a putut găsi în care copil era listat serverul"
 msgid "Not a valid Activation ID"
 msgstr "Nu e un ID de activare valid"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Directorul de unde se vor citi fișiere .server"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIRECTOR"
 
-#: ../activation-server/activation-server-main.c:179
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "Servește ca ActivationContext (implicit este numai ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Descriptor fișier pentru scrierea IOR"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:186
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
@@ -56,15 +61,15 @@ msgstr ""
 "(lock). Atenție: această opțiune poate dăuna stabilității sesiunii pornite "
 "și ar trebui utilizată doar pentru depanare."
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Interoghează expresia pentru evaluare"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "EXPRESIE"
 
-#: ../activation-server/activation-server-main.c:547
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
@@ -90,8 +95,9 @@ msgstr "Serviciu de notificare pentru activare"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr "Nu se gestionează deocamdată obiecte shlib activante într-un proces "
-"la distanță"
+msgstr ""
+"Nu se gestionează deocamdată obiecte shlib activante într-un proces la "
+"distanță"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
@@ -356,7 +362,7 @@ msgstr "Eroare generală de activare fără descriere"
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
+msgid "Failed to resolve, or extend '%s'"
 msgstr "Nu s-a putut rezolva ori extinde „%s”"
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
@@ -493,4 +499,3 @@ msgstr "Arată directoarele în fișierul de configurare"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Arată calea către fișierul de configurare"
-
