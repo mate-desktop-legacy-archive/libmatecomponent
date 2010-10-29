@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmatecomponent 2.11.92\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-23 00:00+0200\n"
-"PO-Revision-Date: 2008-01-22 22:31+0100\n"
+"POT-Creation-Date: 2010-10-29 21:24+0100\n"
+"PO-Revision-Date: 2010-04-23 00:51+0200\n"
 "Last-Translator: Jordi Mallach <jordi@sindominio.net>\n"
 "Language-Team: Catalan <tradmate@softcatala.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,30 +24,31 @@ msgstr "No s'ha trobat en quin fill estava llistat el servidor"
 msgid "Not a valid Activation ID"
 msgstr "No és un ID d'activació vàlid"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Directori d'on llegir fitxers .server"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIRECTORI"
 
-#: ../activation-server/activation-server-main.c:179
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr ""
-"Serveix com a un «ActivationContext» (per defecte és només un ObjectDirectory)"
+"Serveix com a un «ActivationContext» (per defecte és només un "
+"ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Descriptor de fitxer on escriure l'IOR"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "DF"
 
-#: ../activation-server/activation-server-main.c:186
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
@@ -57,15 +59,15 @@ msgstr ""
 "sessió en execució de l'usuari, per tant, només s'hauria d'utilitzar per a "
 "la depuració"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Expressió de consulta a avaluar"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "EXPRESSIÓ"
 
-#: ../activation-server/activation-server-main.c:547
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
@@ -91,7 +93,8 @@ msgstr "Servei de notificació per a l'activació"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr "Encara no es gestiona l'activació d'objectes «shlib» en un procés remot"
+msgstr ""
+"Encara no es gestiona l'activació d'objectes «shlib» en un procés remot"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
@@ -357,7 +360,7 @@ msgid "General activation error with no description"
 msgstr "S'ha produït un error general d'activació sense descripció"
 
 #: ../matecomponent/matecomponent-moniker.c:342
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to resolve, or extend '%s'"
 msgstr "No s'ha pogut resoldre o estendre «%s»"
 
