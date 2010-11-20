@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmatecomponent\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=matecomponent&component=libmatecomponent\n"
-"POT-Creation-Date: 2010-10-29 20:29+0000\n"
+"POT-Creation-Date: 2010-11-13 23:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Gheyret Kenji<gheyret@yahoo.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -70,7 +70,7 @@ msgstr "'%s --help' ئىجرا قىلىنسا بۇيرۇق قۇرى تاللان
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
-msgstr ""
+msgstr "CORBA CosNaming مۇلازىمىتى."
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:2
 msgid "Name service"
@@ -164,7 +164,7 @@ msgstr ""
 
 #: ../matecomponent-activation/matecomponent-activation-init.c:409
 msgid "MateComponent Activation options:"
-msgstr ""
+msgstr "MateComponent ئاكتىپلاش تاللانمىلىرى:"
 
 #: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
@@ -172,7 +172,7 @@ msgstr ""
 
 #: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
-msgstr ""
+msgstr "MateComponent ئاكتىپلاش تاللانمىلىرى"
 
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:107
 #, c-format
@@ -452,7 +452,7 @@ msgstr ""
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
-msgstr ""
+msgstr "%s سەپلىمە ھۆججەتنىڭ ئىچىدە بار\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:166
 #, c-format
