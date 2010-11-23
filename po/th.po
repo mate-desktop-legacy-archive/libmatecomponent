@@ -1,52 +1,53 @@
 # Thai translation of libmatecomponent.
-# Copyright (C) 2007 Free Software Foundation, Inc.
+# Copyright (C) 2007-2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the libmatecomponent package.
 # aka.ape <aka.ape@gmail.com>, 2007.
-# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2007.
-# 
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2007, 2010.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: libmatecomponent\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-10-03 17:05+0700\n"
-"PO-Revision-Date: 2007-10-04 11:39+0700\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=matecomponent&component=libmatecomponent\n"
+"POT-Creation-Date: 2010-06-21 20:31+0000\n"
+"PO-Revision-Date: 2010-11-23 22:01+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../activation-server/activation-context-corba.c:527
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "หาโหนดลูกที่เป็นเจ้าของผู้ให้บริการไม่พบ"
 
-#: ../activation-server/activation-context-corba.c:819
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "ไม่ใช่ Activation ID ที่ใช้การได้"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "ไดเรกทอรีแหล่งแฟ้ม .server ที่จะอ่าน"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIRECTORY"
 
-#: ../activation-server/activation-server-main.c:165
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "บริการแบบ ActivationContext (ค่าปริยายเป็นแบบ ObjectDirectory เท่านั้น)"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "File descriptor ที่จะใช้เขียน IOR"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:172
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
@@ -56,15 +57,15 @@ msgstr ""
 "ตัวเลือกนี้สามารถทำให้เกิดผลข้างเคียงที่ทำให้วาระที่ทำงานอยู่ของผู้ใช้ไม่เสถียรได้ "
 "และควรใช้เพื่อการดีบั๊กโปรแกรมเท่านั้น"
 
-#: ../activation-server/activation-server-main.c:180
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "ระบุนิพจน์สอบถามที่จะประเมินค่า"
 
-#: ../activation-server/activation-server-main.c:180
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "EXPRESSION"
 
-#: ../activation-server/activation-server-main.c:429
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
@@ -205,11 +206,11 @@ msgstr "ชื่อ"
 msgid "Application unique name"
 msgstr "ชื่อเอกลักษณ์ของโปรแกรม"
 
-#: ../matecomponent/matecomponent-object.c:926
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
-#: ../matecomponent/matecomponent-object.c:926
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "CORBA POA กำหนดเอง"
 
@@ -351,8 +352,8 @@ msgstr "เกิดข้อผิดพลาดทั่วไปของก
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "ไม่สามารถเปิดหาหรือขยาย '%s"
+msgid "Failed to resolve, or extend '%s'"
+msgstr "ไม่สามารถเปิดหาหรือขยาย '%s'"
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
