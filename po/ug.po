@@ -4,14 +4,16 @@
 # Gheyret Kenji<gheyret@yahoo.com>,2010.
 # Sahran <sahran.ug@gmail.com>, 2010.
 # Zeper <zeper@msn.com>, 2010.
-#
+# dolkun731 <dolkun731@gmail.com>
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: libmatecomponent\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=matecomponent&component=libmatecomponent\n"
-"POT-Creation-Date: 2010-11-13 23:06+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Gheyret Kenji<gheyret@yahoo.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=matecomponent&component=libmatecomponent\n"
+"POT-Creation-Date: 2010-11-23 15:02+0000\n"
+"PO-Revision-Date: 2010-12-08 13:34+0800\n"
+"Last-Translator: dolkun731 <dolkun731@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +25,11 @@ msgstr ""
 
 #: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
-msgstr ""
+msgstr "ئىناۋەتلىك ئاكتىپلاش ID سى ئەمەس"
 
 #: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
-msgstr ""
+msgstr " .server ھۆججىتىنى ئوقۇيدىغان مۇندەرىجە"
 
 #: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
@@ -35,11 +37,11 @@ msgstr "DIRECTORY"
 
 #: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
+msgstr "ActivationContext دەك بولىدۇ(كۆڭۈلدىكى قىممىتى ObjectDirectory )"
 
 #: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
-msgstr ""
+msgstr "IOR غا يېزىلىدىغان ھۆججەت چۈشەندۈرۈش بەلگىسى"
 
 #: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
@@ -56,17 +58,19 @@ msgstr ""
 
 #: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
-msgstr ""
+msgstr "باھالىنىدىغان سۈرۈشتۈرۈش ئىپادىسى"
 
 #: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
-msgstr ""
+msgstr "EXPRESSION"
 
 #: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr "'%s --help' ئىجرا قىلىنسا بۇيرۇق قۇرى تاللانمىسىنى ئىشلىتىشنىڭ تولۇق تىزىملىكى كۆرۈنىدۇ.\n"
+msgstr ""
+"'%s --help' ئىجرا قىلىنسا بۇيرۇق قۇرى تاللانمىسىنىڭ تولۇق تىزىملىكى "
+"كۆرۈنىدۇ.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -74,19 +78,20 @@ msgstr "CORBA CosNaming مۇلازىمىتى."
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:2
 msgid "Name service"
-msgstr ""
+msgstr "ئات مۇلازىمىتى"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:3
 msgid "Notification service"
-msgstr ""
+msgstr "ئۇقتۇرۇش مۇلازىمىتى"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:4
 msgid "Notification service for activation"
-msgstr ""
+msgstr "ئاكتىپلىنىدىغان ئۇقتۇرۇش مۇلازىمىتى"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
 msgstr ""
+"بىز يىراق مەشغۇلاتتىكى shilib نەڭىنى ئاكتىپلايدىغان ئىشنى تېخى قىلالمايمىز"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
@@ -94,58 +99,61 @@ msgid ""
 "The MateComponent Activation configuration file was not read successfully. Please, "
 "check it is valid in: %s"
 msgstr ""
+"MateComponent ئاكتىپلاش سەپلىمە ھۆججىتىنى ئوقۇش مۇۋەپپەقىيەتلىك بولمىدى. ئۇنىڭ %s "
+"نىڭ ئىچىدە ئىناۋەتلىك ئىكەنلىكىنى تەكشۈرۈڭ"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
-msgstr ""
+msgstr "بىر NULL iid ئىناۋەتسىز"
 
 #: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
-msgstr ""
+msgstr "iid %s دە NULL تىپ بار"
 
 #: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
-msgstr ""
+msgstr "iid %s دە بىر NULL ئورۇن بار"
 
 #: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
-msgstr ""
+msgstr "iid «%2$s» دىكى  ھەرپ «%1$c» ئىناۋەتسىز"
 
 #: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
-msgstr ""
+msgstr "خاسلىق «%s» قىممىتى يوق"
 
 #: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
-msgstr ""
+msgstr "ئۆلچەمسىز XML  ھۆججىتى %s نى بىر تەرەپ قىلغىلى بولمىدى"
 
 #: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
-msgstr ""
+msgstr "مۇندەرىجە %s نى سىناۋاتىدۇ"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
 msgstr ""
+"بالا process ھېچقانداق خاتالىق ئۇچۇرى چىقارمىدى، نامەلۇم خاتالىق يۈز بەردى"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
 msgid "Failed to read from child process: %s\n"
-msgstr ""
+msgstr "بالا process تىن ئوقۇش مەغلۇپ بولدى: %s\n"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
 #, c-format
 msgid "EOF from child process\n"
-msgstr ""
+msgstr "بالا process تىن EOF كەلدى\n"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
-msgstr ""
+msgstr "يېڭى جەريان قۇرۇغىلى بولمىدى"
 
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
@@ -155,12 +163,12 @@ msgstr ""
 #: ../matecomponent-activation/matecomponent-activation-init.c:354
 #: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
-msgstr ""
+msgstr "ئاكتىپلايدىغان ID"
 
 #: ../matecomponent-activation/matecomponent-activation-init.c:356
 #: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
-msgstr ""
+msgstr "مۇلازىمېتىرنى OAF بىلەن خەتلىتىشنى توس"
 
 #: ../matecomponent-activation/matecomponent-activation-init.c:409
 msgid "MateComponent Activation options:"
@@ -168,7 +176,7 @@ msgstr "MateComponent ئاكتىپلاش تاللانمىلىرى:"
 
 #: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
-msgstr ""
+msgstr "MateComponent نىڭ ئاكتىپلاش تىزىملىكىنى كۆرسەت"
 
 #: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
@@ -177,13 +185,13 @@ msgstr "MateComponent ئاكتىپلاش تاللانمىلىرى"
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:107
 #, c-format
 msgid "g_module_open of `%s' failed with `%s'"
-msgstr ""
+msgstr "«%s» نىڭدىكى g_module_open «%s» نىڭ سەۋەبىدىن مەغلۇپ بولدى"
 
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:126
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:163
 #, c-format
 msgid "Can't find symbol MateComponent_Plugin_info in `%s'"
-msgstr ""
+msgstr "«%s» دىن MateComponent_Plugin_info بەلگىسىنى تاپقىلى بولمىدى"
 
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:212
 #, c-format
@@ -193,7 +201,7 @@ msgstr ""
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:229
 #, c-format
 msgid "Shlib `%s' didn't contain `%s'"
-msgstr ""
+msgstr "Shlib «%s»  ئىچىدە «%s» يوق"
 
 #: ../matecomponent/matecomponent-application.c:352
 msgid "Name"
@@ -201,27 +209,27 @@ msgstr "ئاتى"
 
 #: ../matecomponent/matecomponent-application.c:352
 msgid "Application unique name"
-msgstr ""
+msgstr "پروگراممىنىڭ بىردىنبىر ئاتى"
 
 #: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
-msgstr ""
+msgstr "POA"
 
 #: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
-msgstr ""
+msgstr "ئىختىيارىي CORBA POA  "
 
 #: ../matecomponent/matecomponent-exception.c:154
 msgid "An unsupported action was attempted"
-msgstr ""
+msgstr "ئىشلەتكىلى بولمايدىغان مەشغۇلات ئېلىپ بېرىلدى"
 
 #: ../matecomponent/matecomponent-exception.c:157
 msgid "IO Error"
-msgstr ""
+msgstr "IO خاتالىقى"
 
 #: ../matecomponent/matecomponent-exception.c:160
 msgid "Invalid argument value"
-msgstr ""
+msgstr "پارامېتىر قىممىتى ئىناۋەتسىز"
 
 #: ../matecomponent/matecomponent-exception.c:164
 msgid "Object not found"
@@ -229,95 +237,95 @@ msgstr "نەڭ تېپىلمىدى"
 
 #: ../matecomponent/matecomponent-exception.c:167
 msgid "Syntax error in object description"
-msgstr ""
+msgstr "نەڭ چۈشەندۈرۈشىدە گرامماتىكا خاتالىقى بار"
 
 #: ../matecomponent/matecomponent-exception.c:172
 msgid "Cannot activate object from factory"
-msgstr ""
+msgstr "factory(زاۋۇت) دىكى نەڭنى ئاكتىپلىغىلى بولمىدى"
 
 #: ../matecomponent/matecomponent-exception.c:177
 msgid "No permission to access stream"
-msgstr ""
+msgstr "ئېقىمنى زىيارەت قىلىش ھوقۇقى يوق"
 
 #: ../matecomponent/matecomponent-exception.c:180
 msgid "An unsupported stream action was attempted"
-msgstr ""
+msgstr "ئىشلەتكىلى بولمايدىغان ئېقىم مەھسۇلاتى ئېلىپ بېرىلدى"
 
 #: ../matecomponent/matecomponent-exception.c:183
 msgid "IO Error on stream"
-msgstr ""
+msgstr "ئېقىمدا IO خاتالىقى كۆرۈلدى"
 
 #: ../matecomponent/matecomponent-exception.c:187
 msgid "IO Error on storage"
-msgstr ""
+msgstr "ساقلىغۇچ(storage) تا IO خاتالىقى كۆرۈلدى"
 
 #: ../matecomponent/matecomponent-exception.c:190
 msgid "Name already exists in storage"
-msgstr ""
+msgstr "ساقلىغۇچ(storage) بۇ ئىسىم مەۋجۇت"
 
 #: ../matecomponent/matecomponent-exception.c:193
 msgid "Object not found in storage"
-msgstr ""
+msgstr "ساقلىغۇچ(storage)تىن نەڭ تېپىلمىدى"
 
 #: ../matecomponent/matecomponent-exception.c:196
 msgid "No permission to do operation on storage"
-msgstr ""
+msgstr "ساقلىغۇچ(storage) قا مەشغۇلات قىلىش ھوقۇقى يوق"
 
 #: ../matecomponent/matecomponent-exception.c:198
 msgid "An unsupported storage action was attempted"
-msgstr ""
+msgstr "ئىشلەتكىلى بولمايدىغان ساقلىغۇچ(storage) مەھسۇلاتى ئېلىپ بېرىلدى"
 
 #: ../matecomponent/matecomponent-exception.c:200
 msgid "Object is not a stream"
-msgstr ""
+msgstr "نەڭ ئېقىم ئەمەس"
 
 #: ../matecomponent/matecomponent-exception.c:203
 msgid "Object is not a storage"
-msgstr ""
+msgstr "نەڭ ساقلىغۇچ(storage) ئەمەس"
 
 #: ../matecomponent/matecomponent-exception.c:206
 msgid "Storage is not empty"
-msgstr ""
+msgstr "ساقلىغۇچ(storage) قۇرۇق ئەمەس"
 
 #: ../matecomponent/matecomponent-exception.c:210
 msgid "malformed user interface XML description"
-msgstr ""
+msgstr "فورماتى توغرا بولمىغان كۆرۈنمەيۈز XML چۈشەندۈرۈشى"
 
 #: ../matecomponent/matecomponent-exception.c:213
 msgid "invalid path to XML user interface element"
-msgstr ""
+msgstr "كۆرۈنمەيۈز XML ئېلېمېنتىنىڭ يولى ئىناۋەتسىز"
 
 #: ../matecomponent/matecomponent-exception.c:216
 msgid "the requested UI attribute didn't exist"
-msgstr ""
+msgstr "ئىلتىماس قىلىنغان كۆرۈنمەيۈز(UI) خاسلىقى مەۋجۇت ئەمەس"
 
 #: ../matecomponent/matecomponent-exception.c:219
 msgid "Unknown command or verb"
-msgstr ""
+msgstr "نامەلۇم بۇيرۇق ياكى پېئىل"
 
 #: ../matecomponent/matecomponent-exception.c:222
 msgid "Command is insensitive"
-msgstr ""
+msgstr "بۇيرۇق سەزگۈر ئەمەس"
 
 #: ../matecomponent/matecomponent-exception.c:226
 msgid "incorrect data type"
-msgstr ""
+msgstr "سانلىق-مەلۇمات تىپى توغرا ئەمەس"
 
 #: ../matecomponent/matecomponent-exception.c:229
 msgid "stream not found"
-msgstr ""
+msgstr "ئېقىم تېپىلمىدى"
 
 #: ../matecomponent/matecomponent-exception.c:233
 msgid "property not found"
-msgstr ""
+msgstr "خاسلىق تېپىلمىدى"
 
 #: ../matecomponent/matecomponent-exception.c:236
 msgid "property has invalid type"
-msgstr ""
+msgstr "خاسلىقنىڭ تىپى  ئىناۋەتسىز"
 
 #: ../matecomponent/matecomponent-exception.c:239
 msgid "property is read only"
-msgstr ""
+msgstr "خاسلىقنى «ئوقۇش»قىلە بولىدۇ"
 
 #: ../matecomponent/matecomponent-exception.c:242
 msgid "config database backend failed "
@@ -325,27 +333,27 @@ msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:246
 msgid "Moniker interface cannot be found"
-msgstr ""
+msgstr "Moniker ئارايۈزنى تاپقىلى بولمىدى "
 
 #: ../matecomponent/matecomponent-exception.c:249
 msgid "Moniker activation timed out"
-msgstr ""
+msgstr "Moniker نى ئاكتىپلاش ۋاقتى قەرەلدىن ئېشىپ كەتتى"
 
 #: ../matecomponent/matecomponent-exception.c:252
 msgid "Syntax error within moniker"
-msgstr ""
+msgstr "Moniker دا گرامماتىكىلىق خاتالىق بار "
 
 #: ../matecomponent/matecomponent-exception.c:255
 msgid "Moniker has an unknown moniker prefix"
-msgstr ""
+msgstr "Moniker دا بىر نامەلۇم ئالدى قوشۇلغۇچى بار"
 
 #: ../matecomponent/matecomponent-exception.c:279
 msgid "Error checking error; no exception"
-msgstr ""
+msgstr "خاتالىقنى تەكشۈرۈۋاتقاندا خاتالىق كۆرۈلدى؛ بىنورماللىق يوق"
 
 #: ../matecomponent/matecomponent-exception.c:288
 msgid "General activation error with no description"
-msgstr ""
+msgstr "چۈشەندۈرۈشى يوق ئادەتتىكى ئاكتىپلاش خاتالىقى"
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
@@ -354,21 +362,21 @@ msgstr ""
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
-msgstr ""
+msgstr "نەڭنى ئاكتىپلاش مەغلۇپ بولدى"
 
 #: ../monikers/matecomponent-moniker-oaf.c:53
 #, c-format
 msgid "Exception activating '%s'"
-msgstr ""
+msgstr "«%s» نى ئاكتىپلاۋاتقاندا بىنورماللىق يۈز بەردى"
 
 #: ../monikers/matecomponent-moniker-oaf.c:62
 #, c-format
 msgid "Failed to activate '%s'"
-msgstr ""
+msgstr "«%s» ئاكتىپلاش مەغلۇپ بولدى"
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:1
 msgid "HTTP Moniker"
-msgstr ""
+msgstr "HTTP Moniker"
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:2
 msgid "ORB IOR handling moniker"
@@ -376,7 +384,7 @@ msgstr ""
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:3
 msgid "Standard Moniker factory"
-msgstr ""
+msgstr "ئۆلچەملىك Moniker زاۋۇتى"
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:4
 msgid "generic Oaf activation moniker"
@@ -396,15 +404,15 @@ msgstr ""
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:8
 msgid "stream MonikerExtender"
-msgstr ""
+msgstr "ئېقىم MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
 msgid "MateComponent Echo server factory"
-msgstr ""
+msgstr "MateComponent Echo مۇلازىمېتىر زاۋۇتى"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "MateComponent Echo server sample program"
-msgstr ""
+msgstr "MateComponent Echo مۇلازىمېتىر ئۈلگە پروگراممىسى"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
@@ -416,7 +424,7 @@ msgstr ""
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
-msgstr ""
+msgstr "MateComponent نى دەسلەپلەشتۈرەلمىدىم"
 
 #: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
@@ -425,22 +433,22 @@ msgstr ""
 #: ../samples/echo/echo-client.c:47
 #, c-format
 msgid "An exception occurred '%s'"
-msgstr ""
+msgstr "بىنورماللىق كۆرۈلدى «%s»"
 
 #: ../utils/matecomponent-activation-sysconf.c:83
 #, c-format
 msgid "Could not save configuration file.\n"
-msgstr ""
+msgstr "سەپلىمە ھۆججەتنى ساقلىغىلى بولمىدى.\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
-msgstr ""
+msgstr "«%s» نىنغا يېزىش ھوقۇقىڭىز بارمۇ جەزملەڭ.\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:87
 #, c-format
 msgid "Successfully wrote configuration file.\n"
-msgstr ""
+msgstr "سەپلىمە ھۆججەت مۇۋەپپەقىيەتلىك يېزىلدى.\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
@@ -448,6 +456,8 @@ msgid ""
 "configuration file is:\n"
 "    %s\n"
 msgstr ""
+"سەپلىمە ھۆججەت：\n"
+"    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -457,30 +467,30 @@ msgstr "%s سەپلىمە ھۆججەتنىڭ ئىچىدە بار\n"
 #: ../utils/matecomponent-activation-sysconf.c:166
 #, c-format
 msgid "there is not a properly structured configuration file\n"
-msgstr ""
+msgstr "سەپلىمە ھۆججەتنىڭ قۇرۇلمىسى مۇۋاپىق ئەمەس\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:237
 #, c-format
 msgid "MateComponent-activation configuration file contains:\n"
-msgstr ""
+msgstr "MateComponent-activation سەپلىمە ھۆججەتتە تۆۋەندىكىلەر بار：\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
-msgstr ""
+msgstr "سەپلىمە ھۆججەتتىن ئۆچۈرىدىغان مۇندەرىجە"
 
 #: ../utils/matecomponent-activation-sysconf.c:267
 #: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
-msgstr "يولى"
+msgstr "PATH"
 
 #: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
-msgstr ""
+msgstr "سەپلىمە ھۆججەتكە قوشىدىغان مۇندەرىجە"
 
 #: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
-msgstr ""
+msgstr "سەپلىمە ھۆججەتنىڭ ئىچىدىكى مۇندەرىجىلەرنى كۆرسەت"
 
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
-msgstr ""
+msgstr "سەپلىمە ھۆججەتنىڭ يولىنى كۆرسەت"
