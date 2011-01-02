@@ -1,18 +1,22 @@
 # Norwegian translation of libmatecomponent (bokmål dialect).
 # Copyright (C) 1999-2004 Free Software Foundation, Inc.
-# Kjartan Maraas <kmaraas@gnome.org>, 1999-2010.
 #
+# Kjartan Maraas <kmaraas@gnome.org>, 1999-2010.
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: libmatecomponent 2.24.4\n"
-"Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2010-05-01 17:07+0200\n"
-"PO-Revision-Date: 2010-05-01 17:08+0200\n"
-"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
-"Language-Team: Norwegian <i18n-nb@lister.ping.uio.no>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=matecomponent&component=libmatecomponent\n"
+"POT-Creation-Date: 2010-06-21 20:31+0000\n"
+"PO-Revision-Date: 2010-12-30 22:18+0100\n"
+"Last-Translator: Torstein Adolf Winterseth <kvikende@fsfe.org>\n"
+"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -22,31 +26,31 @@ msgstr "Kunne ikke finne ut hvilket barn tjeneren var listet i"
 msgid "Not a valid Activation ID"
 msgstr "Ikke en gyldig aktiverings-ID"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Katalog .server-filer skal lese fra"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "KATALOG"
 
-#: ../activation-server/activation-server-main.c:179
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr ""
 "Funger som en ActivationContext (standard oppførsel er å fungere kun som en "
 "ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Fildeskriptor som IOR skal skrives til"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:186
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
@@ -54,17 +58,17 @@ msgid ""
 msgstr ""
 "Registrer som brukes aktiveringstjener uten låsing. Advarsel: dette "
 "alternativet kan har farlige sideeffekter i forhold til stabilitet i "
-"brukerens aktive sesjon og bør kun brukes ved feilsøking"
+"brukerens aktive økt og bør kun brukes ved feilsøking"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Uttrykk i spørring som skal evalueres"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "UTTRYKK"
 
-#: ../activation-server/activation-server-main.c:547
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
@@ -493,3 +497,4 @@ msgstr "Vis kataloger i konfigurasjonsfilen"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Vis sti til konfigurasjonsfil"
+
