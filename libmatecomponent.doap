@@ -9,7 +9,7 @@
   <homepage rdf:resource="http://www.gnome.org/" />
   <mailing-list rdf:resource="http://mail.gnome.org/mailman/listinfo/desktop-devel-list" />
   <download-page rdf:resource="http://download.gnome.org/sources/libmatecomponent/" />
-  <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=libmatecomponent" />
+  <bug-database rdf:resource="https://bugzilla.gnome.org/enter_bug.cgi?product=matecomponent%26component=libmatecomponent" />
   <category rdf:resource="http://api.gnome.org/doap-extensions#platform" />
 
   <maintainer>
