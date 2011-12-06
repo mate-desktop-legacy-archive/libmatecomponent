@@ -20,6 +20,7 @@ matecomponent_echo_2_SOURCES = \
 
 matecomponent_echo_2_LDADD = \
 	$(top_builddir)/matecomponent/libmatecomponent-2.la \
+	$(top_builddir)/matecomponent-activation/libmatecomponent-activation.la \
 	libEcho.a \
 	$(LIBMATECOMPONENT_LIBS) \
 	$(INTLLIBS)
