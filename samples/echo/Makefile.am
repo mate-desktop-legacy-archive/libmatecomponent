@@ -22,6 +22,7 @@ matecomponent_echo_2_LDADD = \
 	$(top_builddir)/matecomponent-activation/libmatecomponent-activation.la \
 	$(top_builddir)/matecomponent/libmatecomponent-2.la \
 	libEcho.a \
+	MateComponent_Sample_Echo-skels.o \
 	$(LIBMATECOMPONENT_LIBS) \
 	$(INTLLIBS)
 
