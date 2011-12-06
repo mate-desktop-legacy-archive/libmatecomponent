@@ -105,3 +105,4 @@ pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = matecomponent-activation-2.0.pc
 
 EXTRA_DIST = $(pkgconfig_DATA) matecomponent-activation-2.0-uninstalled.pc.in AUTHORS
+
