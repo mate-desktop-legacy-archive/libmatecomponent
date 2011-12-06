@@ -19,16 +19,16 @@ matecomponent_echo_2_SOURCES = \
 	echo.h
 
 matecomponent_echo_2_LDADD = \
-	$(top_builddir)/matecomponent/libmatecomponent-2.la \
 	$(top_builddir)/matecomponent-activation/libmatecomponent-activation.la \
+	$(top_builddir)/matecomponent/libmatecomponent-2.la \
 	libEcho.a \
 	$(LIBMATECOMPONENT_LIBS) \
 	$(INTLLIBS)
 
 matecomponent_echo_client_2_SOURCES = echo-client.c
 matecomponent_echo_client_2_LDADD = \
-	$(top_builddir)/matecomponent/libmatecomponent-2.la \
 	$(top_builddir)/matecomponent-activation/libmatecomponent-activation.la \
+	$(top_builddir)/matecomponent/libmatecomponent-2.la \
 	libEcho.a \
 	$(LIBMATECOMPONENT_LIBS) \
 	$(INTLLIBS)
