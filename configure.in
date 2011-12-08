@@ -1,8 +1,8 @@
 AC_PREREQ([2.59])
 
-m4_define([matecomponent_major_version], [2011])
-m4_define([matecomponent_minor_version], [12])
-m4_define([matecomponent_micro_version], [06])
+m4_define([matecomponent_major_version], [1])
+m4_define([matecomponent_minor_version], [1])
+m4_define([matecomponent_micro_version], [0])
 m4_define([matecomponent_version],[matecomponent_major_version.matecomponent_minor_version.matecomponent_micro_version])
 
 AC_INIT([libmatecomponent],[matecomponent_version],[https://github.com/perberos/mate-desktop-environment])
@@ -108,12 +108,12 @@ AC_CHECK_HEADERS(sys/wait.h syslog.h)
 #
 # Start of pkg-config checks
 #
-MATECORBA_VERSION=2.11.2
+MATECORBA_VERSION=1.1.0
 GLIB_VERSION=2.25.7
 
 PKG_CHECK_MODULES(LIBMATECOMPONENT, \
-	MateCORBA-2.0 >= $MATECORBA_VERSION \
-	MateCORBA-CosNaming-2.0 >= $MATECORBA_VERSION \
+	MateCORBA-2.0 \
+	MateCORBA-CosNaming-2.0 \
 	gmodule-2.0 >= 2.0.1 \
 	glib-2.0 >= $GLIB_VERSION \
 	gobject-2.0 >= $GLIB_VERSION \
@@ -125,8 +125,8 @@ AC_SUBST(LIBMATECOMPONENT_LIBS)
 PKG_CHECK_MODULES(SERVER, \
 	gmodule-2.0 >= 2.0.1 \
 	gio-2.0 >= 2.25.5 \
-	MateCORBA-2.0 >= 2.4.0 \
-	MateCORBA-CosNaming-2.0 >= 2.4.0 \
+	MateCORBA-2.0 \
+	MateCORBA-CosNaming-2.0 \
 	libxml-2.0 >= 2.4.20)
 AC_SUBST(SERVER_LIBS)
 AC_SUBST(SERVER_CFLAGS)
