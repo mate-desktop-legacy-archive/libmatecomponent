@@ -22,6 +22,7 @@ msgstr ""
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr ""
+"بۇ مۇلازىمەت  قايسى بالا جەريان تەرىپىدىن تىزىملىتىلغانلىقىنى بىلگىلى بولمىدى"
 
 #: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
@@ -55,6 +56,9 @@ msgid ""
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
 msgstr ""
+"قۇلۇپلانمايدىغان ئىشلەتكۈچى ئاكتىپ مۇلازىمېتىر قىلىپ خەتلەندى. "
+"ئاگاھلاندۇرۇش: بۇ تاللانما ئىشلەتكۈچى ئىجرا قىلىۋاتقان ئەڭگىمەگە مۇقىملىق "
+"جەھەتتە خەتەر يەتكۈزۈشى مۇمكىن، سازلاش مەقسىتىدىلا ئىشلىتىلىدۇ."
 
 #: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
@@ -158,7 +162,7 @@ msgstr "يېڭى جەريان قۇرۇغىلى بولمىدى"
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
-msgstr ""
+msgstr "IOR غا بېسىلىدىغان ھۆججەت چۈشەندۈرۈش بەلگىسى"
 
 #: ../matecomponent-activation/matecomponent-activation-init.c:354
 #: ../matecomponent-activation/matecomponent-activation-init.c:399
@@ -196,7 +200,7 @@ msgstr "«%s» دىن MateComponent_Plugin_info بەلگىسىنى تاپقىل�
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:212
 #, c-format
 msgid "Factory `%s' returned NIL for `%s'"
-msgstr ""
+msgstr "`%s' دېگەن زاۋۇت `%s' غا NIL قايتۇردى"
 
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:229
 #, c-format
@@ -329,7 +333,7 @@ msgstr "خاسلىقنى «ئوقۇش»قىلە بولىدۇ"
 
 #: ../matecomponent/matecomponent-exception.c:242
 msgid "config database backend failed "
-msgstr ""
+msgstr "تەڭشەك ساندانىنىڭ ئاخىرقى ئۇچى مەغلۇپ بولدى "
 
 #: ../matecomponent/matecomponent-exception.c:246
 msgid "Moniker interface cannot be found"
@@ -358,7 +362,7 @@ msgstr "چۈشەندۈرۈشى يوق ئادەتتىكى ئاكتىپلاش خا
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
 msgid "Failed to resolve, or extend '%s'"
-msgstr ""
+msgstr "'%s' نى يېشىش ياكى يېيىش مەغلۇپ بولدى"
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -380,7 +384,7 @@ msgstr "HTTP Moniker"
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:2
 msgid "ORB IOR handling moniker"
-msgstr ""
+msgstr "ORB IOR باشقۇرۇش moniker ئى"
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:3
 msgid "Standard Moniker factory"
@@ -388,19 +392,19 @@ msgstr "ئۆلچەملىك Moniker زاۋۇتى"
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:4
 msgid "generic Oaf activation moniker"
-msgstr ""
+msgstr "ئادەتتىكى Oaf ئاكتىپلاش moniker ئى"
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:5
 msgid "generic Oaf query moniker"
-msgstr ""
+msgstr "ئادەتتىكى Oaf سۈرۈشتۈرۈش moniker ئى"
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:6
 msgid "generic factory 'new' moniker"
-msgstr ""
+msgstr "ئادەتتىكى زاۋۇت «يېڭى» moniker ئى"
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:7
 msgid "generic item moniker"
-msgstr ""
+msgstr "ئادەتتىكى تۈر moniker ئى"
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:8
 msgid "stream MonikerExtender"
@@ -416,11 +420,11 @@ msgstr "MateComponent Echo مۇلازىمېتىر ئۈلگە پروگراممى�
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
-msgstr ""
+msgstr "Echo بۆلەك"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
 msgid "Echo component factory"
-msgstr ""
+msgstr "Echo بۆلەك زاۋۇتى"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -428,7 +432,7 @@ msgstr "MateComponent نى دەسلەپلەشتۈرەلمىدىم"
 
 #: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
-msgstr ""
+msgstr "ئۈلگە Echo بۆلەكنىڭ مىسالىنى قۇرالمىدى"
 
 #: ../samples/echo/echo-client.c:47
 #, c-format
@@ -443,7 +447,7 @@ msgstr "سەپلىمە ھۆججەتنى ساقلىغىلى بولمىدى.\n"
 #: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
-msgstr "«%s» نىنغا يېزىش ھوقۇقىڭىز بارمۇ جەزملەڭ.\n"
+msgstr "«%s» نىڭغا يېزىش ھوقۇقىڭىز بارمۇ جەزملەڭ.\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:87
 #, c-format
