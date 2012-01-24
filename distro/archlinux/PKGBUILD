@@ -10,14 +10,12 @@ groups=('mate')
 options=('!emptydirs' '!libtool')
 backup=('etc/matecomponent-activation/matecomponent-activation-config.xml')
 url="http://www.gnome.org"
-source=(http://sourceforge.net/projects/matede/files/${pkgver}/${pkgname}.tar.gz/download
-        matecomponent-activation-config.xml)
+source=(matecomponent-activation-config.xml)
 install=libmatecomponent.install
-sha256sums=('ccc017266e2dd5bedd0994442e249877cbcec4d6caeb48322c801fc65ad78cc1'
-            'c1fc9b102f2635b0d4be39728d19737c1013b61395d0bd0c508fc6ad6b61643e')
+sha256sums=('c1fc9b102f2635b0d4be39728d19737c1013b61395d0bd0c508fc6ad6b61643e')
 
 build() {
-    cd "${srcdir}/${pkgname}"
+	cd "${srcdir}/../../../"
     ./autogen.sh \
         --prefix=/usr \
         --sysconfdir=/etc \
@@ -28,7 +26,7 @@ build() {
 }
 
 package() {
-    cd "${srcdir}/${pkgname}"
+	cd "${srcdir}/../../../"
     make DESTDIR="${pkgdir}" install
     install -m644 "${srcdir}/matecomponent-activation-config.xml" "${pkgdir}/etc/matecomponent-activation/"
 }
