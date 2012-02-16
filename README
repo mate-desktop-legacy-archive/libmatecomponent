@@ -1,17 +1,10 @@
+libmatecomponent is a fork of GNOME libbonobo.
 
 libmatecomponent is the non-GUI part of the matecomponent component infrastructure,
 it is most useful for creating aggregate interfaces & doing IPC
 easily. It also contains a rather badly designed & implemented
 per-system activation system. This needs re-writing & simplifying to
 be per-display.
-
-Take a look at samples/echo/.
-
-2005-02-02 Michael Meeks.
-
-
-This is the distribution of MateComponent, the MATE component and compound
-document system for the GNU system.
 
 * What is MateComponent
 
@@ -40,23 +33,12 @@ document system for the GNU system.
 
 * Bug reports
 
-   File any bug reports at http://bugzilla.gnome.org/
+   File any bug reports at https://github.com/mate-desktop/libmatecomponent/issues
 
 * What you will need
 
    You will need a working MATE 2.x system with the development tools
    to compile and install MateComponent.
-
-* Mailing lists
-
-   mate-components-list@gnome.org
-
-   To subscribe, send mail to mate-components-list-request@gnome.org
-   and in the body of the message put the word "subscribe".
-
-   Archive of the mailing list is available at:
-
-     http://mail.gnome.org/archives/mate-components-list
 
 * The layout
 
@@ -71,8 +53,3 @@ document system for the GNU system.
 
    The real MateComponents are endangered species.  If you want to help
 preserve the MateComponents go to this web site:
-
-http://www.gsu.edu/~wwwbpf/bpf
-
-Miguel de Icaza (miguel@gnu.org)
-August, 1999.
