@@ -1,30 +1,28 @@
-# translation of libmatecomponent.HEAD.ar.po to Arabic
-# translation of libmatecomponent.HEAD.ar.po to
-# Arabic translation of 1.
-# Copyright (C) 2003 THE 1'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the 1 package.
-#
-# Mohammed Gamal <f2c2001@yahoo.com>, 2002.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Ammer Alsabbagh <whollyboss@yahoo.com>, 2002.
-# Isam Bayazidi <bayazidi@arabeyes.org>, 2003.
-#  <lumina@silverpen.de>, 2004.
 # Djihed Afifi <djihed@gmail.com>, 2006.
+#   <elachecheanis@gmail.com>, 2012.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2003.
 # Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007.
+#  <lumina@silverpen.de>, 2004.
+# Mohammed Gamal <f2c2001@yahoo.com>, 2002.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent.HEAD.ar\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=libmatecomponent&component=general\n"
-"POT-Creation-Date: 2009-03-13 18:59+0000\n"
-"PO-Revision-Date: 2007-01-19 21:38+0200\n"
-"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
-"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 18:39+0000\n"
+"Last-Translator: elachecheanis <elachecheanis@gmail.com>\n"
+"Language-Team: Arabic (http://www.transifex.net/projects/p/MATE/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && "
-"n<=10 ? 2 : 3\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -34,46 +32,44 @@ msgstr "تعذّر معرفة في أي الأبناء أُدرج الخادوم
 msgid "Not a valid Activation ID"
 msgstr "هوية تنشيط غير سليمة"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "الدليل الذي تقرء منه ملفات .server"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIRECTORY"
 
-#: ../activation-server/activation-server-main.c:179
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "يخدم كـ ActivationContext (الإفتراضي ObjectDirectory فقط)"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "واصف الملف الذي سيكتب إليه الـ IOR"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:186
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"سجّل كخادوم تفعيل المستخدم بدون قفل. تحذير: قد يكون لهذا الخيار آثار جانبيّة "
-"خطير على ثبات الجلسة التي يشغلها المستخدم، ويجب استخدامه لأغراض التنقيح فقط"
+msgstr "سجّل كخادوم تفعيل المستخدم بدون قفل. تحذير: قد يكون لهذا الخيار آثار جانبيّة خطير على ثبات الجلسة التي يشغلها المستخدم، ويجب استخدامه لأغراض التنقيح فقط"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "تعبير الاستعلام ليُقيَّم"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "EXPRESSION"
 
-#: ../activation-server/activation-server-main.c:547
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
@@ -102,8 +98,8 @@ msgstr "لا نُعالج حاليا تنشيط أجسام shlib في عمليا
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
 msgstr "لم يقرأ ملف إعداد MateComponent Activation بنجاح. من فضلط تأكد من صحته في: %s"
 
 #: ../activation-server/object-directory-load.c:102
@@ -360,8 +356,8 @@ msgstr "خطأ تنشيط عام بدون وصف"
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "فشل حل أو توسعة '%s"
+msgid "Failed to resolve, or extend '%s'"
+msgstr "فشل في الحلّ، أوالتمديد '%s'"
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -410,20 +406,20 @@ msgid "stream MonikerExtender"
 msgstr "تيار بيانات MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "مصنع خادوم صدى بونوبو"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "برنامج مثالي لخادوم صدى بونوبو"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "مكون صدى"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "مصنع لمكون الصدى"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "مصنع خادوم صدى بونوبو"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "برنامج مثالي لخادوم صدى بونوبو"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -458,9 +454,7 @@ msgstr "كتِب ملف الإعدادات بنجاح.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"ملف الإعدادات هو:\n"
-"    %s\n"
+msgstr "ملف الإعدادات هو:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -497,6 +491,3 @@ msgstr "اعرض الدلائل في ملف الإعدادات"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "اعرض المسار الى ملف الإعدادات"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "تعذّر تفعيل بونوبو"
