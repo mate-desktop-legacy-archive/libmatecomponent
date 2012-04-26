@@ -2,6 +2,11 @@
 #define MATECOMPONENT_ACTIVATION_CLIENT_H
 
 #include <glib.h>
+
+/* FIXME: redeclared, but should be removed */
+#ifdef G_DISABLE_DEPRECATED 
+typedef void (*GVoidFunc) (void);
+#endif
 #include <matecomponent-activation-private.h>
 
 void matecomponent_activation_release_corba_client (void);
