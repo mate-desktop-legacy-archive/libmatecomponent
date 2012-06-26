@@ -1,24 +1,27 @@
-# Simplified Chinese translation of libmatecomponent
-# Copyright (C) 2010 Free Software Foundation, Inc.
-# Wang Jian <lark@linux.net.cn>, 2001
-# Funda Wang <fundawang@linux.net.cn>, 2003
-# Wang Xiaozhe <wangxz00@mails.tsinghua.edu.cn>, 2003
-# Yang Zhang <zyangmath@gmail.com>, 2007.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Aron Xu <happyaron.xu@gmail.com>, 2010.
-#
+# Funda Wang <fundawang@linux.net.cn>, 2003.
+# Wang Jian <lark@linux.net.cn>, 2001.
+# Wang Xiaozhe <wangxz00@mails.tsinghua.edu.cn>, 2003.
+# Yang Zhang <zyangmath@gmail.com>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-30 16:55+0800\n"
-"PO-Revision-Date: 2010-06-30 16:58+0800\n"
-"Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
-# SUN CHANGED MESSAGE
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "无法找到列出该服务器的子进程"
@@ -27,7 +30,6 @@ msgstr "无法找到列出该服务器的子进程"
 msgid "Not a valid Activation ID"
 msgstr "不是有效的激活 ID"
 
-# SUN CHANGED MESSAGE
 #: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "从其中读取 .server 文件的目录"
@@ -36,12 +38,10 @@ msgstr "从其中读取 .server 文件的目录"
 msgid "DIRECTORY"
 msgstr "目录"
 
-# SUN CHANGED MESSAGE
 #: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "充当 ActivationContext（默认仅为 ObjectDirectory）"
 
-# SUN CHANGED MESSAGE
 #: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "要将 IOR 写入其上的文件描述符"
@@ -57,11 +57,8 @@ msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"注册成为不锁定的用户 activation 服务器。警告：此选项可能对用户正在运行的会话"
-"的稳定性有危险的副作用，只应当被用于调试目的。"
+msgstr "注册成为不锁定的用户 activation 服务器。警告：此选项可能对用户正在运行的会话的稳定性有危险的副作用，只应当被用于调试目的。"
 
-# SUN CHANGED MESSAGE
 #: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "要计算的查询表达式"
@@ -80,12 +77,10 @@ msgstr "运行‘%s --help’以查看可用命令行选项的完整列表。\n"
 msgid "CORBA CosNaming service."
 msgstr "CORBA CosNaming 服务。"
 
-# SUN CHANGED MESSAGE
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:2
 msgid "Name service"
 msgstr "名称服务"
 
-# SUN CHANGED MESSAGE
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:3
 msgid "Notification service"
 msgstr "通告服务"
@@ -94,37 +89,31 @@ msgstr "通告服务"
 msgid "Notification service for activation"
 msgstr "待激活的通告服务"
 
-# SUN CHANGED MESSAGE
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
 msgstr "我们尚未处理在远程进程中激活 shlib 对象的操作"
 
-# SUN CHANGED MESSAGE
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
 msgstr "MateComponent 激活配置文件未能成功读取。请在 %s 中检查它是否有效"
 
-# SUN CHANGED MESSAGE
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr "空的 iid 是无效的"
 
-# SUN CHANGED MESSAGE
 #: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr "iid %s 有一个空类型"
 
-# SUN CHANGED MESSAGE
 #: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr "iid %s 有一个空位置"
 
-# SUN CHANGED MESSAGE
 #: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
@@ -145,29 +134,24 @@ msgstr "无法处理非规格的 XML 文档 %s"
 msgid "Trying dir %s"
 msgstr "尝试目录 %s"
 
-# SUN CHANGED MESSAGE
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
 msgstr "子进程没有给出错误消息，发生了未知错误"
 
-# SUN CHANGED MESSAGE
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
 msgid "Failed to read from child process: %s\n"
 msgstr "无法从子进程 %s 读取\n"
 
-# SUN CHANGED MESSAGE
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
 #, c-format
 msgid "EOF from child process\n"
 msgstr "无法从子进程 EOF\n"
 
-# SUN CHANGED MESSAGE
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
 msgstr "无法创建新进程"
 
-# SUN CHANGED MESSAGE
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
@@ -178,7 +162,6 @@ msgstr "要将 IOR 打印到其上的文件描述符"
 msgid "IID to activate"
 msgstr "要激活的 IID"
 
-# SUN CHANGED MESSAGE
 #: ../matecomponent-activation/matecomponent-activation-init.c:356
 #: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
@@ -196,7 +179,6 @@ msgstr "显示 MateComponent 激活选项"
 msgid "MateComponent activation options"
 msgstr "MateComponent 激活选项"
 
-# SUN CHANGED MESSAGE
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:107
 #, c-format
 msgid "g_module_open of `%s' failed with `%s'"
@@ -208,13 +190,11 @@ msgstr "“%s”的 g_module_open 由于“%s”而失败"
 msgid "Can't find symbol MateComponent_Plugin_info in `%s'"
 msgstr "无法在“%s”中找到符号 MateComponent_Plugin_info"
 
-# SUN CHANGED MESSAGE
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:212
 #, c-format
 msgid "Factory `%s' returned NIL for `%s'"
 msgstr "车间“%s”对于“%s”返回空值"
 
-# SUN CHANGED MESSAGE
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:229
 #, c-format
 msgid "Shlib `%s' didn't contain `%s'"
@@ -256,7 +236,6 @@ msgstr "未找到对象"
 msgid "Syntax error in object description"
 msgstr "对象描述中有语法错误"
 
-# SUN CHANGED MESSAGE
 #: ../matecomponent/matecomponent-exception.c:172
 msgid "Cannot activate object from factory"
 msgstr "无法从车间中激活对象"
@@ -400,7 +379,6 @@ msgstr "HTTP Moniker"
 msgid "ORB IOR handling moniker"
 msgstr "ORB IOR 处理 moniker"
 
-# SUN CHANGED MESSAGE
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:3
 msgid "Standard Moniker factory"
 msgstr "标准 Moniker 车间"
@@ -413,7 +391,6 @@ msgstr "通用 Oaf 激活 moniker"
 msgid "generic Oaf query moniker"
 msgstr "通用 Oaf 查询 moniker"
 
-# SUN CHANGED MESSAGE
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:6
 msgid "generic factory 'new' moniker"
 msgstr "通用车间“新”moniker"
@@ -427,21 +404,20 @@ msgid "stream MonikerExtender"
 msgstr "流 MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent Echo server factory"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "MateComponent Echo server 示例程序"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Echo 部件"
 
-# SUN CHANGED MESSAGE
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Echo 部件车间"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent Echo server factory"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "MateComponent Echo server 示例程序"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -461,35 +437,28 @@ msgstr "出现异常“%s”"
 msgid "Could not save configuration file.\n"
 msgstr "无法保存配置文件。\n"
 
-# SUN CHANGED MESSAGE
 #: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "请确保您有写入到“%s”的权限。\n"
 
-# SUN CHANGED MESSAGE
 #: ../utils/matecomponent-activation-sysconf.c:87
 #, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "已成功写入配置文件。\n"
 
-# SUN CHANGED MESSAGE
 #: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"配置文件为：\n"
-"    %s\n"
+msgstr "配置文件为：\n    %s\n"
 
-# SUN CHANGED MESSAGE
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "%s 已经在配置文件中\n"
 
-# SUN CHANGED MESSAGE
 #: ../utils/matecomponent-activation-sysconf.c:166
 #, c-format
 msgid "there is not a properly structured configuration file\n"
@@ -520,9 +489,3 @@ msgstr "显示配置文件中的目录"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "显示配置文件的路径"
-
-#~ msgid "MateComponent Activation"
-#~ msgstr "MateComponent 激活"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "无法初始化 MateComponent"

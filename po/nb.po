@@ -1,18 +1,21 @@
-# Norwegian translation of libmatecomponent (bokmål dialect).
-# Copyright (C) 1999-2004 Free Software Foundation, Inc.
-# Kjartan Maraas <kmaraas@gnome.org>, 1999-2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent 2.24.4\n"
-"Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2010-05-01 17:07+0200\n"
-"PO-Revision-Date: 2010-05-01 17:08+0200\n"
-"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
-"Language-Team: Norwegian <i18n-nb@lister.ping.uio.no>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:37+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8-bit\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -22,55 +25,48 @@ msgstr "Kunne ikke finne ut hvilket barn tjeneren var listet i"
 msgid "Not a valid Activation ID"
 msgstr "Ikke en gyldig aktiverings-ID"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Katalog .server-filer skal lese fra"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "KATALOG"
 
-#: ../activation-server/activation-server-main.c:179
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Funger som en ActivationContext (standard oppførsel er å fungere kun som en "
-"ObjectDirectory)"
+msgstr "Funger som en ActivationContext (standard oppførsel er å fungere kun som en ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Fildeskriptor som IOR skal skrives til"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:186
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Registrer som brukes aktiveringstjener uten låsing. Advarsel: dette "
-"alternativet kan har farlige sideeffekter i forhold til stabilitet i "
-"brukerens aktive sesjon og bør kun brukes ved feilsøking"
+msgstr "Registrer som brukes aktiveringstjener uten låsing. Advarsel: dette alternativet kan har farlige sideeffekter i forhold til stabilitet i brukerens aktive sesjon og bør kun brukes ved feilsøking"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Uttrykk i spørring som skal evalueres"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "UTTRYKK"
 
-#: ../activation-server/activation-server-main.c:547
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Kjør «%s --help» for å se en full liste med tilgjengelige "
-"kommandolinjeflagg.\n"
+msgstr "Kjør «%s --help» for å se en full liste med tilgjengelige kommandolinjeflagg.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -90,17 +86,14 @@ msgstr "Meldingstjeneste for aktivering"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr ""
-"Vi håndterer ikke aktivering av shlib-objekter i en ekstern prosess ennå"
+msgstr "Vi håndterer ikke aktivering av shlib-objekter i en ekstern prosess ennå"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"MateComponent Activation-konfigurasjonsfilen kunne ikke leses. Vennligs sjekk om "
-"den er gyldig i: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "MateComponent Activation-konfigurasjonsfilen kunne ikke leses. Vennligs sjekk om den er gyldig i: %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -406,20 +399,20 @@ msgid "stream MonikerExtender"
 msgstr "strøm MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent factory for ekkotjener"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Eksempelprogram for MateComponent ekkotjener"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Ekko-komponent"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Factory for Ekko-komponent"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent factory for ekkotjener"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Eksempelprogram for MateComponent ekkotjener"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -454,9 +447,7 @@ msgstr "Fullført skriving av konfigurasjonsfil.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"konfigurasjonsfil er:\n"
-"    %s\n"
+msgstr "konfigurasjonsfil er:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format

@@ -1,69 +1,70 @@
-# Vietnamese translation for LibMateComponent.
-# Copyright © 2007 Mate i18n Project for Vietnamese.
-# Nguyễn Thái Ngọc Duy <pclouds@gmx.net>, 2002.
-# Clytie Siddall <clytie@riverland.net.au>, 2005-2007.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
+# Translators:
+# Nguyễn Thái Ngọc Duy <pclouds@gmx.net>, 2002.
 msgid ""
-""
-msgstr "Project-Id-Version: libmatecomponent Mate HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-02 05:40+0000\n"
-"PO-Revision-Date: 2007-01-04 21:53+1030\n"
-"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
-"Language-Team: Vietnamese <matevi-list@lists.sourceforge.net>\n"
+msgstr ""
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: LocFactoryEditor 1.6fc1\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
-#: ../activation-server/activation-context-corba.c:523
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "Không thể tìm điều con nào liệt kê trình phục vụ này"
 
-#: ../activation-server/activation-context-corba.c:815
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "Không phải ID kích hoạt hợp lệ"
 
-#: ../activation-server/activation-server-main.c:163
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Thư mục từ đó cần đọc các tập tin « .server »"
 
-#: ../activation-server/activation-server-main.c:163
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "THƯ MỤC"
 
-#: ../activation-server/activation-server-main.c:166
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "Phục vụ như là ActivationContext (mặc định chỉ là ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:170
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Bộ mô tả tập tin vào đó cần ghi IOR"
 
-#: ../activation-server/activation-server-main.c:170
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../activation-server/activation-server-main.c:181
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:173
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
 msgstr "Đang ký như là máy phục vụ kích hoạt của người dùng, mà không khoá. Cảnh báo : tùy chọn này có thể có hiệu ứng khác nguy hiểm trong ổn định của phiên chạy đang hoạt động của người dùng thì chỉ nên dùng cho mục đích gỡ lỗi."
 
-#: ../activation-server/activation-server-main.c:181
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Biểu thức truy vấn cần ước lượng"
 
-#: ../activation-server/activation-server-main.c:181
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "BIỂU THỨC"
 
-#: ../activation-server/activation-server-main.c:430
-#: ../utils/matecomponent-activation-sysconf.c:304
+#: ../activation-server/activation-server-main.c:541
+#: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
 msgstr "Hãy chạy « %s --help » (trợ giúp) để xem danh sách các tùy chọn dòng lệnh có sẵn.\n"
@@ -91,40 +92,40 @@ msgstr "Chưa có khả năng xử lý kích hoạt đối tượng « shlib » 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
 msgstr "Không đọc thành công tập tin cấu hình kích hoạt matecomponent. Hãy kiểm tra nó hợp lệ trong: %s"
 
-#: ../activation-server/object-directory-load.c:101
+#: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr "IID NULL (vô giá trị) không hợp lệ"
 
-#: ../activation-server/object-directory-load.c:105
+#: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr "IID %s có kiểu NULL (vô giá trị)"
 
-#: ../activation-server/object-directory-load.c:109
+#: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr "IID %s có địa điểm NULL (vô giá trị)"
 
-#: ../activation-server/object-directory-load.c:118
+#: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "gặp ký tự không hợp lệ « %c » trong IID « %s »."
 
-#: ../activation-server/object-directory-load.c:348
+#: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
 msgstr "Thuộc tính « %s » không có giá trị"
 
-#: ../activation-server/object-directory-load.c:580
+#: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
 msgstr "Không thể phân tách tài liệu XML dạng sai %s"
 
-#: ../activation-server/object-directory-load.c:627
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr "Đang thử ra thư mục %s"
@@ -139,37 +140,38 @@ msgid "Failed to read from child process: %s\n"
 msgstr "Lỗi khi đọc từ tiến trình con: %s\n"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
+#, c-format
 msgid "EOF from child process\n"
 msgstr "Tiến trình con thông báo gặp kết thúc tập tin (EOF)\n"
 
-#: ../matecomponent-activation/matecomponent-activation-fork-server.c:435
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
 msgstr "Không thể tạo tiến trình mới"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
 msgstr "Bộ mô tả tập tin trên đó cần in IOR"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:357
-#: ../matecomponent-activation/matecomponent-activation-init.c:367
+#: ../matecomponent-activation/matecomponent-activation-init.c:354
+#: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
 msgstr "IID cần kích hoạt"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:359
-#: ../matecomponent-activation/matecomponent-activation-init.c:369
+#: ../matecomponent-activation/matecomponent-activation-init.c:356
+#: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
 msgstr "Ngan cản đăng ký trình phục vụ với OAF"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:403
+#: ../matecomponent-activation/matecomponent-activation-init.c:409
 msgid "MateComponent Activation options:"
 msgstr "Tùy chọn kích hoạt MateComponent :"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:404
+#: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
 msgstr "Hiện các tùy chọn kích hoạt MateComponent"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:512
+#: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
 msgstr "Tùy chọn kích hoạt MateComponent"
 
@@ -202,11 +204,11 @@ msgstr "Tên"
 msgid "Application unique name"
 msgstr "Tên ứng dụng duy nhất"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "CORBA POA tự chọn"
 
@@ -346,17 +348,12 @@ msgstr "Lỗi kiểm tra; không có ngoại lệ"
 msgid "General activation error with no description"
 msgstr "Lỗi kích hoạt chung, không có mô tả"
 
-#: ../matecomponent/matecomponent-generic-factory.h:79
-#: ../matecomponent/matecomponent-generic-factory.h:83
-msgid "Could not initialize MateComponent"
-msgstr "Không thể khởi động MateComponent"
-
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "Lỗi phân giải hoặc mở rộng « %s »"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
-#: ../matecomponent/matecomponent-moniker-util.c:246
+#: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
 msgstr "Lỗi kích hoạt đối tượng"
 
@@ -403,97 +400,88 @@ msgid "stream MonikerExtender"
 msgstr "luồng MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Bộ tạo trình phục vụ Vọng MateComponent"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Chương trình mẫu trình phục vụ Vọng MateComponent"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Thành phần vọng"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Bộ tạo thành phần vọng"
 
-#: ../samples/echo/echo-client.c:22
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Bộ tạo trình phục vụ Vọng MateComponent"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Chương trình mẫu trình phục vụ Vọng MateComponent"
+
+#: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
 msgstr "Không thể khởi động MateComponent"
 
-#: ../samples/echo/echo-client.c:33
+#: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
 msgstr "Không thể tạo ra thể hiện của thành phần vọng mẫu"
 
-#: ../samples/echo/echo-client.c:45
+#: ../samples/echo/echo-client.c:47
 #, c-format
 msgid "An exception occurred '%s'"
 msgstr "Gặp ngoài lệ « %s »"
 
-#: ../utils/matecomponent-activation-sysconf.c:82
+#: ../utils/matecomponent-activation-sysconf.c:83
+#, c-format
 msgid "Could not save configuration file.\n"
 msgstr "Không thể lưu tập tin cấu hình.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:83
+#: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "Hãy kiểm tra lại có quyền ghi vào tập tin « %s ».\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:86
+#: ../utils/matecomponent-activation-sysconf.c:87
+#, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "Tập tin cấu hình đã được ghi.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:103
+#: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr "tập tin cấu hình là:\n"
-"    %s\n"
+msgstr "tập tin cấu hình là:\n    %s\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:145
+#: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "%s đã có trong tập tin cấu hình\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:165
+#: ../utils/matecomponent-activation-sysconf.c:166
+#, c-format
 msgid "there is not a properly structured configuration file\n"
 msgstr "không có tập tin cấu hình có cấu trúc đúng\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:236
+#: ../utils/matecomponent-activation-sysconf.c:237
+#, c-format
 msgid "MateComponent-activation configuration file contains:\n"
 msgstr "Tập tin cấu hình matecomponent-activation chứa:\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
+#: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
 msgstr "Thư mục cần gỡ bỏ khỏi tập tin cấu hình"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:267
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
 msgstr "ĐƯỜNG DẪN"
 
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
 msgstr "Thư mục cần thêm vào tập tin cấu hình"
 
-#: ../utils/matecomponent-activation-sysconf.c:270
+#: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
 msgstr "Hiện các thư mục trong tập tin cấu hình"
 
-#: ../utils/matecomponent-activation-sysconf.c:272
+#: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Hiện đường dẫn đến tập tin cấu hình"
-
-#~ msgid ""
-#~ "Register as the users' activation server without locking [!] for debugging"
-#~ msgstr "Đăng ký như là trình phục vụ kích hoạt của các người dùng, không khoá [!] "
-#~ "để gỡ lỗi"
-
-#~ msgid "MateComponent Activation"
-#~ msgstr "Hoạt hóa MateComponent"
-
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "Lỗi race condition (điệu kiện đa truy cập đồng thời) khi kích hoạt trình "
-#~ "phục vụ « %s »."

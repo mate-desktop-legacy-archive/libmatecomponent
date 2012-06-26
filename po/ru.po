@@ -1,25 +1,23 @@
-# translation of ru.po to
-# translation of libmatecomponent.HEAD.po to
-# Copyright (C) 2001-2002, 2005, 2006, 2007 Free Software Foundation, Inc.
-# Sun G11n <mate_int_l10n@ireland.sun.com>
-#
-# Valek Filippov <frob@df.ru>, 2001-2002.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Dmitry Mastrukov <dmitry@taurussoft.org>, 2002.
 # Leonid Kanter <leon@asplinux.ru>, 2005, 2006, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: ru\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-03 16:58+0300\n"
-"PO-Revision-Date: 2010-04-26 19:48+0300\n"
-"Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
-"Language-Team:  <mate-cyr@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:37+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Russian (http://www.transifex.net/projects/p/MATE/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -39,8 +37,7 @@ msgstr "КАТАЛОГ"
 
 #: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Обрабатывать как ActivationContext (по умолчанию только как ObjectDirectory)"
+msgstr "Обрабатывать как ActivationContext (по умолчанию только как ObjectDirectory)"
 
 #: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
@@ -57,11 +54,7 @@ msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Зарегистрировать как сервер активации пользователя без блокирования.  "
-"Внимание: этот параметр может оказывать опасные побочные эффекты на "
-"стабильность текущего сеанса пользователя, и может использоваться только в "
-"отладочных целях."
+msgstr "Зарегистрировать как сервер активации пользователя без блокирования.  Внимание: этот параметр может оказывать опасные побочные эффекты на стабильность текущего сеанса пользователя, и может использоваться только в отладочных целях."
 
 #: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
@@ -75,9 +68,7 @@ msgstr "ВЫРАЖЕНИЕ"
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Выполните '%s --help', чтобы просмотреть полный список доступных параметров "
-"командной строки.\n"
+msgstr "Выполните '%s --help', чтобы просмотреть полный список доступных параметров командной строки.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -97,18 +88,14 @@ msgstr "Сервис уведомления для активации"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr ""
-"Активация объектов разделяемых библиотек в удалённых процессах ещё не "
-"поддерживается"
+msgstr "Активация объектов разделяемых библиотек в удалённых процессах ещё не поддерживается"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"Не удалось прочитать файл конфигурации MateComponent Activation. Проверьте, что "
-"файл \"%s\" указан правильно"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "Не удалось прочитать файл конфигурации MateComponent Activation. Проверьте, что файл \"%s\" указан правильно"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -137,8 +124,7 @@ msgstr "Свойству \"%s\" не задано значение"
 #: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
-msgstr ""
-"Не удалось разобрать неверно сформированный документ формата XML \"%s\""
+msgstr "Не удалось разобрать неверно сформированный документ формата XML \"%s\""
 
 #: ../activation-server/object-directory-load.c:629
 #, c-format
@@ -147,8 +133,7 @@ msgstr "Идёт попытка открыть каталог \"%s\""
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr ""
-"Процесс-потомок не выдал сообщения об ошибке, произошел неопознанный сбой"
+msgstr "Процесс-потомок не выдал сообщения об ошибке, произошел неопознанный сбой"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
@@ -416,20 +401,20 @@ msgid "stream MonikerExtender"
 msgstr "потоковый MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Фабрика эхо-сервера MateComponent"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Образец программы эхо-сервера MateComponent"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Компонент Эхо"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Фабрика компонента Эхо"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Фабрика эхо-сервера MateComponent"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Образец программы эхо-сервера MateComponent"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -464,9 +449,7 @@ msgstr "Файл конфигурации успешно записан.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"файл конфигурации:\n"
-"    %s\n"
+msgstr "файл конфигурации:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -503,6 +486,3 @@ msgstr "Показать каталоги из файла конфигураци
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Показать путь к файлу конфигурации"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "Не удалось инициализировать систему MateComponent"

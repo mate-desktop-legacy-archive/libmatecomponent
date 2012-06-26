@@ -1,21 +1,22 @@
-# translation of lv.po to Latvian
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
+# Translators:
 # Raivis Dejus <orvils@gmail.com>, 2006, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: lv\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-11-07 14:28+0100\n"
-"PO-Revision-Date: 2009-01-24 18:28+0200\n"
-"Last-Translator: Raivis Dejus <orvils@gmail.com>\n"
-"Language-Team: Latvian <locale@laka.lv>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:35+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -25,50 +26,48 @@ msgstr "Nevar atrast kuru pakartoto serveris iekārtoja sarakstā"
 msgid "Not a valid Activation ID"
 msgstr "Nav derīgs Aktivācijas ID"
 
-#: ../activation-server/activation-server-main.c:166
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Direktorija, no kuras nolasīt .server failus"
 
-#: ../activation-server/activation-server-main.c:166
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIREKTORIJA"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "Servēt kā ActivitionContext (noklusētais ir tikai ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:173
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Faila deskriptors lai rakstītu IOR uz"
 
-#: ../activation-server/activation-server-main.c:173
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
 msgstr "Reģistrējiet kā lietotāja aktivizācijas serveri bez saslēgšanas. Brīdinājums: šai iespējai var būt bīstami blakusefekti uz lietotāja sesijas stabilitāti, to vajadzētu izmantot vienīgi atkļūdošanas vajadzībām"
 
-#: ../activation-server/activation-server-main.c:184
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Pārbaudāmā prasījuma izteiksme"
 
-#: ../activation-server/activation-server-main.c:184
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "EXPRESSION"
 
-#: ../activation-server/activation-server-main.c:472
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Palaidiet '%s --help' lai iegūtu sarakstu ar pieejamajām komandrindas "
-"opcijām.\n"
+msgstr "Palaidiet '%s --help' lai iegūtu sarakstu ar pieejamajām komandrindas opcijām.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -93,11 +92,9 @@ msgstr "Mēs vēl nepārvaldam shlib objektu aktivizēšanu attālinātajā proc
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"MateComponent Aktivizācijas konfigurācijas fails nav nolasīts veiksmīgi. Lūdzu vai "
-"tas ir pareizs: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "MateComponent Aktivizācijas konfigurācijas fails nav nolasīts veiksmīgi. Lūdzu vai tas ir pareizs: %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -353,8 +350,8 @@ msgstr "Vispārēja aktivizācijas kļūda bez apraksta"
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "Neizdevās atrisināt, vai paplašināt '%s"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -403,20 +400,20 @@ msgid "stream MonikerExtender"
 msgstr "straume MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent Echo servera ražotne"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "MateComponent Echo servera parauga programma"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Echo komponente"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Echo komponentes ražotne"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent Echo servera ražotne"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "MateComponent Echo servera parauga programma"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -451,9 +448,7 @@ msgstr "Veiksmīgi ierakstīts konfigurācijas fails.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"konfigurācijas fails ir:\n"
-"    %s\n"
+msgstr "konfigurācijas fails ir:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -490,4 +485,3 @@ msgstr "Parādīt konfigurācijas faila direktorijas"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Parādīt ceļu uz konfigurācijas failu"
-

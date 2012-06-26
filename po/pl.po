@@ -1,29 +1,22 @@
-# translation of libmatecomponent.HEAD.pl.po to Polish
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Artur Flinta <aflinta@at.kernel.pl>, 2006.
-# Copyright (C) 2001-2006 Free Software Foundation, Inc.
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Aviary.pl
-# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
-# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
-# matepl@aviary.pl
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=matecomponent&component=libmatecomponent\n"
-"POT-Creation-Date: 2010-06-21 20:31+0000\n"
-"PO-Revision-Date: 2010-08-07 01:01+0200\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <matepl@aviary.pl>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Polish (http://www.transifex.net/projects/p/MATE/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%"
-"100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Poedit-Language: Polish\n"
-"X-Poedit-Country: Poland\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -43,8 +36,7 @@ msgstr "KATALOG"
 
 #: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Udostępnianie jako ActivationContext (domyślnie tylko jako ObjectDirectory)"
+msgstr "Udostępnianie jako ActivationContext (domyślnie tylko jako ObjectDirectory)"
 
 #: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
@@ -61,10 +53,7 @@ msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Rejestracja jako serwer aktywacji użytkownika bez blokowania. Uwaga: opcja "
-"ta może mieć niebezpieczny efekt uboczny mający wpływ na stabilność "
-"uruchomionej sesji użytkownika i powinna być używana tylko debugowania"
+msgstr "Rejestracja jako serwer aktywacji użytkownika bez blokowania. Uwaga: opcja ta może mieć niebezpieczny efekt uboczny mający wpływ na stabilność uruchomionej sesji użytkownika i powinna być używana tylko debugowania"
 
 #: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
@@ -78,9 +67,7 @@ msgstr "WYRAŻENIE"
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Uruchom \"%s --help\" aby zobaczyć pełną listę opcji dostępnych z wiersza "
-"poleceń.\n"
+msgstr "Uruchom \"%s --help\" aby zobaczyć pełną listę opcji dostępnych z wiersza poleceń.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -100,18 +87,14 @@ msgstr "Aktywująca usługa powiadamiania"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr ""
-"Aktywowanie obiektów w bibliotekach dzielonych dla zdalnych procesów nie "
-"jest jeszcze obsługiwane"
+msgstr "Aktywowanie obiektów w bibliotekach dzielonych dla zdalnych procesów nie jest jeszcze obsługiwane"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"Nie można odczytać pliku konfiguracyjnego MateComponent Activation. Sprawdź, czy "
-"jest on poprawny (%s)"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "Nie można odczytać pliku konfiguracyjnego MateComponent Activation. Sprawdź, czy jest on poprawny (%s)"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -417,20 +400,20 @@ msgid "stream MonikerExtender"
 msgstr "strumień MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "generator serwera MateComponent Echo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Przykładowy program serwera MateComponent Echo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Komponent echo"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Generator komponentów Echo"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "generator serwera MateComponent Echo"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Przykładowy program serwera MateComponent Echo"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -465,9 +448,7 @@ msgstr "Plik konfiguracyjny został pomyślnie zapisany.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"Plikiem konfiguracyjnym jest:\n"
-"    %s\n"
+msgstr "Plikiem konfiguracyjnym jest:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format

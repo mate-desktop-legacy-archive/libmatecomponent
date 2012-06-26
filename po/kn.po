@@ -1,21 +1,22 @@
-# translation of libmatecomponent.HEAD.po to Kannada
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
+# Translators:
 # Shankar Prasad <svenkate@redhat.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent.HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libmatecomponent&component=general\n"
-"POT-Creation-Date: 2009-01-27 17:34+0000\n"
-"PO-Revision-Date: 2009-03-25 23:21+0530\n"
-"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
-"Language-Team: Kannada <en@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:38+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: kn\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -25,44 +26,44 @@ msgstr "ಪರಿಚಾರಕವನ್ನು ಯಾವ ಚೈಲ್ಡಿನಲ�
 msgid "Not a valid Activation ID"
 msgstr "ಮಾನ್ಯವಾದ ಸಕ್ರಿಯಗೊಳಿಕಾ ID ಆಗಿಲ್ಲ"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr ".server ಕಡತಗಳನ್ನು ಓದಬೇಕಿರುವ ಕೋಶ"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIRECTORY"
 
-#: ../activation-server/activation-server-main.c:179
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "ActivationContext ಆಗಿ ಒಂದು ಪರಿಚಾರಕ (ಪೂರ್ವನಿಯೋಜಿತವು ಕೇವಲ ObjectDirectory ಯಂತೆ ಇರುತ್ತದೆ)"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "IOR ಅನ್ನು ಬರೆಯಲು ಕಡತ ವಿವರಣೆಗಾರ"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:186
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
 msgstr "ಲಾಕ್ ಮಾಡದೆ ಬಳಕೆದಾರರ ಸಕ್ರಿಯಗೊಳಿಕಾ ಪರಿಚಾರಕವಾಗಿ ನೋಂದಾಯಿಸಿ.  ಎಚ್ಚರಿಕೆ: ಈ ಆಯ್ಕೆಯಿಂದ ಬಳಕೆದಾರರ ಚಾಲನೆಯಲ್ಲಿರುವ ಅಧಿವೇಶನದ ಸ್ಥಿರತೆಯ ಮೇಲೆ ಅಪಾಯಕಾರಿ ಅಡ್ಡಪರಿಣಾಮಗಳು ಉಂಟಾಗಬಹುದು, ಹಾಗು ಇದನ್ನು ಕೇವಲ ದೋಷನಿವಾರಣಾ ಕಾರ್ಯಗಳಲ್ಲಿ ಮಾತ್ರವೆ ಬಳಸಬೇಕು"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "ವಿಶ್ಲೇಷಣೆಗಾಗಿ ಸಂದೇಹ ಎಕ್ಸ್‌ಪ್ರೆಶನ್"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "EXPRESSION"
 
-#: ../activation-server/activation-server-main.c:547
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
@@ -91,8 +92,8 @@ msgstr "ದೂರಸ್ಥ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ ಇನ್�
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
 msgstr "MateComponent ಸಕ್ರಿಯಗೊಳಿಕಾ ಸಂರಚನಾ ಕಡತವನ್ನು ಯಶಸ್ವಿಗಾಗಿ ಓದಲಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ಅದು ಇದರಲ್ಲಿ ಮಾನ್ಯವಾಗಿದೆಯೆ ಎಂದು ಪರೀಕ್ಷಿಸಿ: %s"
 
 #: ../activation-server/object-directory-load.c:102
@@ -349,8 +350,8 @@ msgstr "ಯಾವುದೆ ವಿವರಗಳಿಲ್ಲದ ಸಾಮಾನ್�
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "'%s ಅನ್ನು ಪರಿಹರಿಸುವಲ್ಲಿ, ಅಥವ ವಿಸ್ತರಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -399,20 +400,20 @@ msgid "stream MonikerExtender"
 msgstr "ಸ್ಟ್ರೀಮ್ MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent Echo ಪರಿಚಾರಕದ ಫ್ಯಾಕ್ಟರಿ"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "MateComponent Echo ಪರಿಚಾರಕದ ನಮೂನೆ ಪ್ರೋಗ್ರಾಮ್"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Echo ಘಟಕ"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Echo ಘಟಕದ ಫ್ಯಾಕ್ಟರಿ"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent Echo ಪರಿಚಾರಕದ ಫ್ಯಾಕ್ಟರಿ"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "MateComponent Echo ಪರಿಚಾರಕದ ನಮೂನೆ ಪ್ರೋಗ್ರಾಮ್"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -447,9 +448,7 @@ msgstr "ಸಂರಚನಾ ಕಡತಕ್ಕೆ ಯಶಸ್ವಿಯಾಗಿ 
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"ಸಂರಚನಾ ಕಡತವು ಇದಾಗಿದೆ:\n"
-"    %s\n"
+msgstr "ಸಂರಚನಾ ಕಡತವು ಇದಾಗಿದೆ:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -486,4 +485,3 @@ msgstr "ಸಂರಚನಾ ಕಡತದಲ್ಲಿ ಕೋಶಗಳನ್ನು 
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "ಸಂರಚನಾ ಕಡತಕ್ಕಾಗಿನ ಮಾರ್ಗವನ್ನು ತೋರಿಸು"
-

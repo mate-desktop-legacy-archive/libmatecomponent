@@ -1,21 +1,22 @@
-# Asturian translation for libmatecomponent.
-# Copyright (C) 2010 libmatecomponent's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libmatecomponent package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Xuacu Saturio <xuacusk8@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libmatecomponent&component=general\n"
-"POT-Creation-Date: 2010-01-04 01:33+0000\n"
-"PO-Revision-Date: 2010-01-06 18:26+0100\n"
-"Last-Translator: astur <malditoastur@gmail.com>\n"
-"Language-Team: Asturian <alministradores@softastur.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-05-03 10:03+0000\n"
+"Last-Translator: Xuacu Saturio <xuacusk8@gmail.com>\n"
+"Language-Team: Asturian (http://www.transifex.net/projects/p/MATE/language/ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-Language: asturian\n"
+"Language: ast\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -25,41 +26,44 @@ msgstr "Nun pudo determinase qué procesu fíu contién al sirvidor"
 msgid "Not a valid Activation ID"
 msgstr "Nun ye un ID d'Activación válidu"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Direutoriu dende'l que lleer los ficheros .server"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIREUTORIU"
 
-#: ../activation-server/activation-server-main.c:179
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "Sirvir tamién como un ActivationContext (por omisión namái como un ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Descriptor de ficheru nel qu'escribir el IOR"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:186
-msgid "Register as the user's activation server without locking.  Warning: this option can have dangerous side effects on the stability of the user's running session, and should only be used for debugging purposes"
+#: ../activation-server/activation-server-main.c:184
+msgid ""
+"Register as the user's activation server without locking.  Warning: this "
+"option can have dangerous side effects on the stability of the user's "
+"running session, and should only be used for debugging purposes"
 msgstr "Rexistrase como'l sirvidor d'activación del usuariu ensin bloquéu. Alvertencia: esta opción puede tener efeutos llaterales peligrosos pa la estabilidá de la sesión n'execución del usuariu, y namái tendría d'usase pa propósitos de depuración."
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Espresión de consulta a evaluar"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "ESPRESIÓN"
 
-#: ../activation-server/activation-server-main.c:547
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
@@ -87,7 +91,9 @@ msgstr "Entá nun remanamos l'activación d'oxetos shlib nún procesu remotu"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
-msgid "The MateComponent Activation configuration file was not read successfully. Please, check it is valid in: %s"
+msgid ""
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
 msgstr "El ficheru de configuración de matecomponent nun se lleó satisfactoriamente. Compruebe que ye válidu en: %s"
 
 #: ../activation-server/object-directory-load.c:102
@@ -344,8 +350,8 @@ msgstr "Error d'activación xeneral ensin descripción"
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "Nun pudo resolvese o estender «%s»"
+msgid "Failed to resolve, or extend '%s'"
+msgstr "Fallu al resolver o estender '%s'"
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -394,20 +400,20 @@ msgid "stream MonikerExtender"
 msgstr "fluxu MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Fábrica del sirvidor MateComponent Echo (eco)"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Programa d'exemplu del sirvidor MateComponent Echo (eco)"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Componente eco"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Fábrica del componente echo (eco)"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Fábrica del sirvidor MateComponent Echo (eco)"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Programa d'exemplu del sirvidor MateComponent Echo (eco)"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -442,9 +448,7 @@ msgstr "El ficheru de configuración atroxóse correcho.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"El ficheru de configuración ye:\n"
-"    %s\n"
+msgstr "El ficheru de configuración ye:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -481,4 +485,3 @@ msgstr "Amosar los direutorios del ficheru de configuración"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Amosar el camín del ficheru de configuración"
-

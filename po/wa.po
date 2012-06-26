@@ -1,68 +1,71 @@
-# translation of matecomponent-activation.po to Walon
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# Pablo Saratxaga <srtxg@chanae.alphanet.ch>, 2003.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Pablo Saratxaga <pablo@walon.org>, 2004.
-#
+# Pablo Saratxaga <srtxg@chanae.alphanet.ch>, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: matecomponent-activation\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-10-22 16:55+0200\n"
-"PO-Revision-Date: 2004-04-06 21:29+0200\n"
-"Last-Translator: Pablo Saratxaga <pablo@walon.org>\n"
-"Language-Team: Walloon <linux-wa@walon.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:38+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.2\n"
+"Language: wa\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
-#: ../activation-server/activation-context-corba.c:523
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr ""
 
-#: ../activation-server/activation-context-corba.c:815
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr ""
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Ridant k' on léjhe les fitchîs «.server»"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "RIDANT"
 
-#: ../activation-server/activation-server-main.c:165
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Siervi come èn ActivationContext (li prémetowe valixhance c' est del fé "
-"seulmint come èn ObjectDirectory)"
+msgstr "Siervi come èn ActivationContext (li prémetowe valixhance c' est del fé seulmint come èn ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr ""
 
-#: ../activation-server/activation-server-main.c:169
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../activation-server/activation-server-main.c:181
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr ""
 
-#: ../activation-server/activation-server-main.c:172
+#: ../activation-server/activation-server-main.c:184
 msgid ""
-"Register as the users' activation server without locking [!] for debugging"
+"Register as the user's activation server without locking.  Warning: this "
+"option can have dangerous side effects on the stability of the user's "
+"running session, and should only be used for debugging purposes"
 msgstr ""
 
-#: ../activation-server/activation-server-main.c:177
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Ratourneure di cweraedje a-z evalouwer"
 
-#: ../activation-server/activation-server-main.c:177
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "RATOURNEURE"
 
-#: ../activation-server/activation-server-main.c:426
-#: ../utils/matecomponent-activation-sysconf.c:304
+#: ../activation-server/activation-server-main.c:541
+#: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
@@ -90,40 +93,40 @@ msgstr ""
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
 msgstr ""
 
-#: ../activation-server/object-directory-load.c:101
+#: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr ""
 
-#: ../activation-server/object-directory-load.c:105
+#: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr ""
 
-#: ../activation-server/object-directory-load.c:109
+#: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr ""
 
-#: ../activation-server/object-directory-load.c:118
+#: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "caractere «%c» nén valide dins l' iid «%s»"
 
-#: ../activation-server/object-directory-load.c:348
+#: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
 msgstr "Li prôpieté «%s» n' a nole valixhance"
 
-#: ../activation-server/object-directory-load.c:580
+#: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
 msgstr ""
 
-#: ../activation-server/object-directory-load.c:627
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr ""
@@ -138,41 +141,38 @@ msgid "Failed to read from child process: %s\n"
 msgstr "Dji n' a savou lére a pårti do process efant: %s\n"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
-#, fuzzy
+#, c-format
 msgid "EOF from child process\n"
-msgstr "Dji n' a savou lére a pårti do process efant: %s\n"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-fork-server.c:435
-#, fuzzy
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
-msgstr "Dji n' a savou fé on fork() d' on novea process"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
 msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:357
-#: ../matecomponent-activation/matecomponent-activation-init.c:367
+#: ../matecomponent-activation/matecomponent-activation-init.c:354
+#: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
 msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:359
-#: ../matecomponent-activation/matecomponent-activation-init.c:369
+#: ../matecomponent-activation/matecomponent-activation-init.c:356
+#: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
 msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:403
-#, fuzzy
-msgid "MateComponent Activation"
-msgstr "Tchuzes d' activaedje di matecomponent"
+#: ../matecomponent-activation/matecomponent-activation-init.c:409
+msgid "MateComponent Activation options:"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:404
-#, fuzzy
+#: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
-msgstr "Tchuzes d' activaedje di matecomponent"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:512
+#: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
 msgstr "Tchuzes d' activaedje di matecomponent"
 
@@ -205,11 +205,11 @@ msgstr "No"
 msgid "Application unique name"
 msgstr "No unike do programe"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr ""
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr ""
 
@@ -349,16 +349,12 @@ msgstr ""
 msgid "General activation error with no description"
 msgstr ""
 
-#: ../matecomponent/matecomponent-generic-factory.h:79 ../matecomponent/matecomponent-generic-factory.h:83
-msgid "Could not initialize MateComponent"
-msgstr "Dji n' sai inicialijhî MateComponent"
-
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
+msgid "Failed to resolve, or extend '%s'"
 msgstr ""
 
-#: ../matecomponent/matecomponent-moniker-util.c:246
+#: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
 msgstr ""
 
@@ -405,105 +401,88 @@ msgid "stream MonikerExtender"
 msgstr ""
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr ""
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr ""
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr ""
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr ""
 
-#: ../samples/echo/echo-client.c:22
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr ""
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr ""
+
+#: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
 msgstr "Dji n' a savou inicyî MateComponent"
 
-#: ../samples/echo/echo-client.c:33
+#: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
 msgstr ""
 
-#: ../samples/echo/echo-client.c:45
+#: ../samples/echo/echo-client.c:47
 #, c-format
 msgid "An exception occurred '%s'"
 msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:82
+#: ../utils/matecomponent-activation-sysconf.c:83
+#, c-format
 msgid "Could not save configuration file.\n"
 msgstr "Dji n' a savou schaper l' fitchî d' apontiaedje.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:83
+#: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "Acertinez vs ki vos avoz l' permissions po scrire e «%s».\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:86
+#: ../utils/matecomponent-activation-sysconf.c:87
+#, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "Li schapaedje do fitchî d' apontiaedje a stî comifåt.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:103
+#: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"li fitchî d' apontiaedje est:\n"
-"    %s\n"
+msgstr "li fitchî d' apontiaedje est:\n    %s\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:145
+#: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "%s est ddja el fitchî d' apontiaedje\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:165
+#: ../utils/matecomponent-activation-sysconf.c:166
+#, c-format
 msgid "there is not a properly structured configuration file\n"
 msgstr "i gn a pont di fitchî d' apontiaedje sitructuré comifåt\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:236
+#: ../utils/matecomponent-activation-sysconf.c:237
+#, c-format
 msgid "MateComponent-activation configuration file contains:\n"
 msgstr "Li fitchî d' apontiaedje di matecomponent-activation a-st å dvins:\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
+#: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
 msgstr "Ridant a oister foû pol fitchî d' apontiaedje"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:267
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
 msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
 msgstr "Ridant a radjouter pol fitchî d' apontiaedje"
 
-#: ../utils/matecomponent-activation-sysconf.c:270
+#: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
 msgstr "Håyner les ridants do fitchî d' apontiaedje"
 
-#: ../utils/matecomponent-activation-sysconf.c:272
+#: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Håyner li tchmin do fitchî d' apontiaedje"
-
-#~ msgid "Child received signal %u (%s)"
-#~ msgstr "L' efant a rçuvou li signå %u (%s)"
-
-#~ msgid "matecomponent-activation failed to set process group of %s: %s\n"
-#~ msgstr ""
-#~ "matecomponent-activation n' a nén savou mete li groupe li groupe do process di %"
-#~ "s: %s\n"
-
-#~ msgid "Failed to execute %s: %d (%s)\n"
-#~ msgstr "L' enondaedje di %s a fwait berwete: %d (%s)\n"
-
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr ""
-#~ "Pår trop di liveas d' alias po ene locåle; çoula pout esse cåze d' on "
-#~ "betchfessî loyén"
-
-#~ msgid "directory path"
-#~ msgstr "tchimin do ridant"

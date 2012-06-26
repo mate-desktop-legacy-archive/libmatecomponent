@@ -1,87 +1,79 @@
-# translation of libmatecomponent.HEAD.po to Macedonian
-# translation of libmatecomponent.HEAD.mk.po to
-# translation of libmatecomponent.HEAD.mk.po to
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
-#
-# Ivan Stojmirov <stojmir@linux.net.mk>, 2002.
-# Maratonec <kjdskjds@dksjd>, 2002,2003.
-# Vladislav Bidikov <bidikovi@mail.com.mk>, 2003.
-# Arangel Angov <ufo@linux.net.mk>, 2004, 2006.
-# Арангел Ангов <ufo@linux.net.mk>, 2005.
-# Jovan Naumovski <jovan@lugola.net>, 2006.
+# 
+# Translators:
 # Arangel Angov <arangel@linux.net.mk>, 2007.
+# Arangel Angov <ufo@linux.net.mk>, 2004, 2006.
+# Ivan Stojmirov <stojmir@linux.net.mk>, 2002.
+# Jovan Naumovski <jovan@lugola.net>, 2006.
+# Maratonec <kjdskjds@dksjd>, 2002, 2003.
+# Vladislav Bidikov <bidikovi@mail.com.mk>, 2003.
+# Арангел Ангов <ufo@linux.net.mk>, 2005.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-02 05:40+0000\n"
-"PO-Revision-Date: 2007-03-06 10:42+0100\n"
-"Last-Translator: Arangel Angov <arangel@linux.net.mk>\n"
-"Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: mk\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1\n"
 
-#: ../activation-server/activation-context-corba.c:523
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "Не можам да пронајдам во кој подпроцес се наоѓа листата на серверот"
 
-#: ../activation-server/activation-context-corba.c:815
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "Невалидено ID за активирање"
 
-#: ../activation-server/activation-server-main.c:163
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Директориум за вчитување на .server датотеките од"
 
-#: ../activation-server/activation-server-main.c:163
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "Директориум"
 
-#: ../activation-server/activation-server-main.c:166
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Опслужи го како ActivationContext (преддефинирано е само како "
-"ObjectDirectory)"
+msgstr "Опслужи го како ActivationContext (преддефинирано е само како ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:170
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Опишувачот на датотека за пишување на IOR"
 
-#: ../activation-server/activation-server-main.c:170
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../activation-server/activation-server-main.c:181
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:173
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Регистрирај се како корисничкиот сервер за активација без заклучување.  "
-"Внимание, оваа опција може да има опасни последици на стабилноста на "
-"корисничката сесија која се извршува и треба да се користи само за "
-"дебагирање."
+msgstr "Регистрирај се како корисничкиот сервер за активација без заклучување.  Внимание, оваа опција може да има опасни последици на стабилноста на корисничката сесија која се извршува и треба да се користи само за дебагирање."
 
-#: ../activation-server/activation-server-main.c:181
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Прашален израз за проценка"
 
-#: ../activation-server/activation-server-main.c:181
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "ИЗРАЗ"
 
-#: ../activation-server/activation-server-main.c:430
-#: ../utils/matecomponent-activation-sysconf.c:304
+#: ../activation-server/activation-server-main.c:541
+#: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Извршете '%s --help' за да ја видите целосната листа на достапни команди и "
-"опции.\n"
+msgstr "Извршете '%s --help' за да ја видите целосната листа на достапни команди и опции.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -106,42 +98,40 @@ msgstr "Сеуште не ги активираме рачно shlib објек�
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"Конфигурациската датотека за активирање на MateComponent не е прочитана успешно. Ве "
-"молам проверете ја валидноста во: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "Конфигурациската датотека за активирање на MateComponent не е прочитана успешно. Ве молам проверете ја валидноста во: %s"
 
-#: ../activation-server/object-directory-load.c:101
+#: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr "NULL iid не е валиден"
 
-#: ../activation-server/object-directory-load.c:105
+#: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr "iid %s има NULL тип"
 
-#: ../activation-server/object-directory-load.c:109
+#: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr "iid %s има NULL локација"
 
-#: ../activation-server/object-directory-load.c:118
+#: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "неважечки карактер '%c' во iid '%s'"
 
-#: ../activation-server/object-directory-load.c:348
+#: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
 msgstr "Параметарот '%s' нема вредност"
 
-#: ../activation-server/object-directory-load.c:580
+#: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
 msgstr "Не можам да парсирам лошо оштетен XML document %s"
 
-#: ../activation-server/object-directory-load.c:627
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr "Пробувам во директориумот %s"
@@ -156,37 +146,38 @@ msgid "Failed to read from child process: %s\n"
 msgstr "Не успеав да прочитам од подпроцесот %s\n"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
+#, c-format
 msgid "EOF from child process\n"
 msgstr "EOF од подпроцесот\n"
 
-#: ../matecomponent-activation/matecomponent-activation-fork-server.c:435
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
 msgstr "Не можев да создадам нов процес"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
 msgstr "Пронајди опишувач за печатење на IOR на"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:357
-#: ../matecomponent-activation/matecomponent-activation-init.c:367
+#: ../matecomponent-activation/matecomponent-activation-init.c:354
+#: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
 msgstr "IID за активирање"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:359
-#: ../matecomponent-activation/matecomponent-activation-init.c:369
+#: ../matecomponent-activation/matecomponent-activation-init.c:356
+#: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
 msgstr "Спречи регистрација на серверот со OAF"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:403
+#: ../matecomponent-activation/matecomponent-activation-init.c:409
 msgid "MateComponent Activation options:"
 msgstr "Опции за активирање на MateComponent:"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:404
+#: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
 msgstr "Покажи опции за активирање на MateComponent"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:512
+#: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
 msgstr "Опции за активирање на MateComponent"
 
@@ -219,11 +210,11 @@ msgstr "Име"
 msgid "Application unique name"
 msgstr "Уникатно име на апликацијата"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "Сопствена CORBA POA"
 
@@ -363,16 +354,12 @@ msgstr "Грешка при проверување на грешки; без и�
 msgid "General activation error with no description"
 msgstr "Општа грешка при активирање, без опис"
 
-#: ../matecomponent/matecomponent-generic-factory.h:79 ../matecomponent/matecomponent-generic-factory.h:83
-msgid "Could not initialize MateComponent"
-msgstr "Не можам да го иницијализирам MateComponent"
-
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "Неуспешно разрешување или проширување на '%s"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
-#: ../matecomponent/matecomponent-moniker-util.c:246
+#: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
 msgstr "Не успеав да го активирам проектот"
 
@@ -419,87 +406,88 @@ msgid "stream MonikerExtender"
 msgstr "продолжувач за проток на моникер"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent ехо сервер фабрика"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "MateComponent ехо сервер пример програма"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Ехо компонента"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Фабрика за ехо компоненти"
 
-#: ../samples/echo/echo-client.c:22
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent ехо сервер фабрика"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "MateComponent ехо сервер пример програма"
+
+#: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
 msgstr "Не можам да го иницијализирам MateComponent"
 
-#: ../samples/echo/echo-client.c:33
+#: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
 msgstr "Не можам да креирам нова копија од примерот на излезна компонента"
 
-#: ../samples/echo/echo-client.c:45
+#: ../samples/echo/echo-client.c:47
 #, c-format
 msgid "An exception occurred '%s'"
 msgstr "Се појави исклучок '%s'"
 
-#: ../utils/matecomponent-activation-sysconf.c:82
+#: ../utils/matecomponent-activation-sysconf.c:83
+#, c-format
 msgid "Could not save configuration file.\n"
 msgstr "Не можам да ја зачувам конфигурациската датотека.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:83
+#: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "Ве молам проверете дали имате пермисии за запишување во '%s'.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:86
+#: ../utils/matecomponent-activation-sysconf.c:87
+#, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "Успешно запишав во конфигурациската датотека.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:103
+#: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"Конфигурациската датотека е:\n"
-"    %s\n"
+msgstr "Конфигурациската датотека е:\n    %s\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:145
+#: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "%s веќе е во конфигурациската датотека\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:165
+#: ../utils/matecomponent-activation-sysconf.c:166
+#, c-format
 msgid "there is not a properly structured configuration file\n"
 msgstr "нема соодветно структурирана конфигурациска датотека\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:236
+#: ../utils/matecomponent-activation-sysconf.c:237
+#, c-format
 msgid "MateComponent-activation configuration file contains:\n"
 msgstr "Конфигурациската датотека за MateComponent-activation содржи:\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
+#: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
 msgstr "Директориумот да се отстрани од конфигурациската датотека"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:267
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
 msgstr "ПАТЕКА"
 
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
 msgstr "Директориумот да се додаде во конфигурациската датотека"
 
-#: ../utils/matecomponent-activation-sysconf.c:270
+#: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
 msgstr "Прикажи ги директориумите во конфигурациската датотека"
 
-#: ../utils/matecomponent-activation-sysconf.c:272
+#: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Прикажи ја патеката до конфигурациската датотека"
-

@@ -1,75 +1,74 @@
-# libmatecomponent sk.po
-# Copyright (C) 2001, 2002, 2003, 2004, 2005, 2008 Free Software Foundation, Inc.
-# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2000,2001,2002,2003.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Marcel Telka <marcel@telka.sk>, 2001, 2002, 2003, 2004, 2005, 2008.
-#
+# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2000, 2001, 2002, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-03-06 22:00+0100\n"
-"PO-Revision-Date: 2008-03-06 22:00+0100\n"
-"Last-Translator: Marcel Telka <marcel@telka.sk>\n"
-"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:38+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 
-#: ../activation-server/activation-context-corba.c:527
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "Nie je možné zistiť server, v ktorom bol zapísaný potomok"
 
-#: ../activation-server/activation-context-corba.c:819
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "Nie je platné aktivačné ID"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Priečinok, z ktorého čítať súbory .server"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "PRIEČINOK"
 
-#: ../activation-server/activation-server-main.c:165
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "Fungovať ako aktivačný kontext (štandardne je iba ako ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Deskriptor súboru, do ktorého zapísať IOR"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "DS"
 
-#: ../activation-server/activation-server-main.c:172
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Registrovať sa ako aktivačný server používateľa bez uzamykania. Upozornenie: "
-"táto voľba môže mať nebezpečné vedľajšie účinky na stabilitu bežiaceho "
-"sedenia používateľa a mala by byť používaná len na ladiace účely"
+msgstr "Registrovať sa ako aktivačný server používateľa bez uzamykania. Upozornenie: táto voľba môže mať nebezpečné vedľajšie účinky na stabilitu bežiaceho sedenia používateľa a mala by byť používaná len na ladiace účely"
 
-#: ../activation-server/activation-server-main.c:180
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Výraz, ktorý sa má vyhodnotiť"
 
-#: ../activation-server/activation-server-main.c:180
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "VÝRAZ"
 
-#: ../activation-server/activation-server-main.c:430
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Spustite '%s --help', aby ste videli úplný zoznam dostupných volieb "
-"príkazového riadku.\n"
+msgstr "Spustite '%s --help', aby ste videli úplný zoznam dostupných volieb príkazového riadku.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -94,11 +93,9 @@ msgstr "Zatiaľ nie je možné aktivovať shlib objekty vo vzdialených procesoc
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"Konfiguračný súbor MateComponent Activation nebol úspešne načítaný. Prosím, overte, "
-"že je platný v: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "Konfiguračný súbor MateComponent Activation nebol úspešne načítaný. Prosím, overte, že je platný v: %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -208,11 +205,11 @@ msgstr "Názov"
 msgid "Application unique name"
 msgstr "Jedinečné meno aplikácie"
 
-#: ../matecomponent/matecomponent-object.c:926
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
-#: ../matecomponent/matecomponent-object.c:926
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "Vlastné CORBA POA"
 
@@ -354,8 +351,8 @@ msgstr "Všeobecná chyba aktivácie bez popisu"
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "Zlyhalo rozdelenie alebo rozšírenie '%s'"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -404,20 +401,20 @@ msgid "stream MonikerExtender"
 msgstr "prúd MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent továreň servera echo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Ukážkový program matecomponent servera echo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Komponent echo"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Továreň komponentu echo"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent továreň servera echo"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Ukážkový program matecomponent servera echo"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -452,9 +449,7 @@ msgstr "Úspešne zapísaný konfiguračný súbor.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"konfiguračný súbor je:\n"
-"    %s\n"
+msgstr "konfiguračný súbor je:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format

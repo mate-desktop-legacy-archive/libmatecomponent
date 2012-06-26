@@ -1,26 +1,27 @@
-# Translation into spanish of libmatecomponent.
-# Copyright (C) 2001,2003, 2004 Free Software Foundation, Inc.
-# Diego Sevilla Ruiz <dsevilla@um.es>, 2000.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Carlos Perelló Marín <carlos@mate-db.org>, 2001.
-# Héctor García Álvarez <hector@scouts-es.org>, 2001.
-# Germán Poo-Caamaño <gpoo@ubiobio.cl>, 2002.
+# Diego Sevilla Ruiz <dsevilla@um.es>, 2000.
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2004.
+# Germán Poo-Caamaño <gpoo@ubiobio.cl>, 2002.
+# Héctor García Álvarez <hector@scouts-es.org>, 2001.
 # Jorge González <jorgegonz@svn.gnome.org>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent-2.16\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=libmatecomponent&component=general\n"
-"POT-Creation-Date: 2010-04-21 08:51+0000\n"
-"PO-Revision-Date: 2010-04-21 18:23+0200\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
-"Language-Team: Español <mate-es-list@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:37+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.3.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -30,56 +31,48 @@ msgstr "No se ha podido determinar qué proceso hijo contiene al servidor"
 msgid "Not a valid Activation ID"
 msgstr "No es un ID de Activación válido"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Directorio desde el cual leer los archivos .server"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIRECTORIO"
 
-#: ../activation-server/activation-server-main.c:179
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Servir también como un ActivationContext (por omisión sólo como un "
-"ObjectDirectory)"
+msgstr "Servir también como un ActivationContext (por omisión sólo como un ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Descriptor de archivo en el que escribir el IOR"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:186
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Registrarse como el servidor de activación del usuario sin bloqueo. "
-"Advertencia: esta opción puede tener efectos laterales peligrosos para la "
-"estabilidad de la sesión en ejecución del usuario, y sólo se debería usar "
-"para propósitos de depuración."
+msgstr "Registrarse como el servidor de activación del usuario sin bloqueo. Advertencia: esta opción puede tener efectos laterales peligrosos para la estabilidad de la sesión en ejecución del usuario, y sólo se debería usar para propósitos de depuración."
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Expresión de consulta a evaluar"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "EXPRESIÓN"
 
-#: ../activation-server/activation-server-main.c:547
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Ejecutar «%s --help» para ver una lista completa de opciones de línea de "
-"comandos disponibles.\n"
+msgstr "Ejecutar «%s --help» para ver una lista completa de opciones de línea de comandos disponibles.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -104,11 +97,9 @@ msgstr "Aún no manejamos la activación de objetos shlib en un proceso remoto"
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"El archivo de configuración de matecomponent no se leyó satisfactoriamente. "
-"Compruebe que es válido en: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "El archivo de configuración de matecomponent no se leyó satisfactoriamente. Compruebe que es válido en: %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -146,9 +137,7 @@ msgstr "Probando con el directorio %s"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr ""
-"El proceso hijo no dio ningún mensaje de error, ha ocurrido un fallo "
-"desconocido"
+msgstr "El proceso hijo no dio ningún mensaje de error, ha ocurrido un fallo desconocido"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
@@ -366,7 +355,6 @@ msgstr "Error de activación general sin descripción"
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-#| msgid "Failed to resolve, or extend '%s"
 msgid "Failed to resolve, or extend '%s'"
 msgstr "No se pudo resolver o extender «%s»"
 
@@ -417,20 +405,20 @@ msgid "stream MonikerExtender"
 msgstr "flujo MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Fábrica del servidor MateComponent Echo (eco)"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Programa de ejemplo del servidor MateComponent Echo (eco)"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Componente eco"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Fábrica del componente echo (eco)"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Fábrica del servidor MateComponent Echo (eco)"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Programa de ejemplo del servidor MateComponent Echo (eco)"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -465,9 +453,7 @@ msgstr "El archivo de configuración ha sido guardado correctamente.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"El archivo de configuración es:\n"
-"    %s\n"
+msgstr "El archivo de configuración es:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -504,37 +490,3 @@ msgstr "Mostrar los directorios del archivo de configuración"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Mostrar la ruta del archivo de configuración"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "No pude inicializar MateComponent"
-
-#~ msgid "MateComponent Activation"
-#~ msgstr "Activación de MateComponent"
-
-#~ msgid ""
-#~ "Register as the users' activation server without locking [!] for debugging"
-#~ msgstr ""
-#~ "Registrarse como el servidor de activación del usuario sin bloquear [!] "
-#~ "para depurar"
-
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "Condición de carrera activando el servidor «%s»"
-
-#~ msgid "directory path"
-#~ msgstr "directorio"
-
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr "Hay muchos niveles de alias para un locale, puede ser un ciclo"
-
-#~ msgid "Child received signal %u (%s)"
-#~ msgstr "El proceso hijo recibió la señal %u (%s)"
-
-#~ msgid "Unknown non-exit error (status is %u)"
-#~ msgstr "Error de salida desconocido (el estado es %u)"
-
-#~ msgid "matecomponent-activation failed to set process group of %s: %s\n"
-#~ msgstr ""
-#~ "matecomponent-activation no ha podido establecer el grupo del proceso de %s: %s\n"
-
-#~ msgid "Failed to execute %s: %d (%s)\n"
-#~ msgstr "No se ha podido ejecutar %s: %d (%s)\n"

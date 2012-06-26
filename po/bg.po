@@ -1,23 +1,23 @@
-# Bulgarian translation of libmatecomponent po file.
-# Copyright (C) 2002, 2004, 2007, 2010 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Alexander Shopov <ash@kambanaria.org>, 2002, 2004, 2007, 2010.
-# Yanko Kaneti <yaneti@declera.com>
-# Rostislav Raykov <zbrox@i-space.org>, 2004
-#
-#
+# Rostislav Raykov <zbrox@i-space.org>, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-22 23:08+0300\n"
-"PO-Revision-Date: 2010-08-22 23:08+0300\n"
-"Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
-"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
-"Language: bg\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:37+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Bulgarian (http://www.transifex.net/projects/p/MATE/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -37,9 +37,7 @@ msgstr "ПАПКА"
 
 #: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Да служи като контекст на активиране (по подразбиране е само директория на "
-"обектите)"
+msgstr "Да служи като контекст на активиране (по подразбиране е само директория на обектите)"
 
 #: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
@@ -56,11 +54,7 @@ msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Регистриране като сървъра за активиране на потребителя без заключване. "
-"Предупреждение: тази настройка може да има странични ефекти върху "
-"стабилността на работната сесия на потребителя и трябва да се използва само "
-"при откриването и изчистване на грешки"
+msgstr "Регистриране като сървъра за активиране на потребителя без заключване. Предупреждение: тази настройка може да има странични ефекти върху стабилността на работната сесия на потребителя и трябва да се използва само при откриването и изчистване на грешки"
 
 #: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
@@ -74,9 +68,7 @@ msgstr "ИЗРАЗ"
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Стартирайте програмата така: „%s --help“, за да видите пълния списък с опции "
-"за командния ред.\n"
+msgstr "Стартирайте програмата така: „%s --help“, за да видите пълния списък с опции за командния ред.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -101,11 +93,9 @@ msgstr "Все още е невъзможно активирането на shli
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"Конфигурационният файл на активирането на MateComponent не бе прочетен успешно. "
-"Проверете дали е валиден в: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "Конфигурационният файл на активирането на MateComponent не бе прочетен успешно. Проверете дали е валиден в: %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -143,9 +133,7 @@ msgstr "Проба с папка %s"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr ""
-"Дъщерният процес не генерира съобщение за грешка, получи се неизвестен "
-"проблем"
+msgstr "Дъщерният процес не генерира съобщение за грешка, получи се неизвестен проблем"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
@@ -413,20 +401,20 @@ msgid "stream MonikerExtender"
 msgstr "поточен моникър-разширител"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Сървърна фабрика за ехо на MateComponent"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Примерна програма „Ехо“ на MateComponent"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Компонент „Ехо“"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Фабрика на компонента „Ехо“"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Сървърна фабрика за ехо на MateComponent"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Примерна програма „Ехо“ на MateComponent"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -461,9 +449,7 @@ msgstr "Успешно запазване на конфигурационния 
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"конфигурационният файл е:\n"
-"    %s\n"
+msgstr "конфигурационният файл е:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format

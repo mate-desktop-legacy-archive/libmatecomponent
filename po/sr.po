@@ -1,27 +1,23 @@
-# Serbian translation of libmatecomponent
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004, 2005, 2006, 2007.
-#
-# This file is distributed under the same license as the libmatecomponent package.
-#
-# Maintainer: Вељко М. Станојевић <veljko@vms.homelinux.net>
-# Reviewed on 2005-07-09 by: Данило Шеган <dsegan@gmx.net>
-# Translated on 2006-02-01 by Слободан Д. Средојевић <slobo@akrep.be>
 # Милош Поповић <gpopac@gmail.com>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=matecomponent&component=libmatecomponent\n"
-"POT-Creation-Date: 2010-06-21 20:31+0000\n"
-"PO-Revision-Date: 2010-08-21 20:27+0200\n"
-"Last-Translator: Милош Поповић <gpopac@gmail.com>\n"
-"Language-Team: Serbian <gnom@prevod.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:38+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4;    plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -47,7 +43,6 @@ msgstr "Служи као ActivationContext (подразумевано је с�
 msgid "File descriptor to write IOR to"
 msgstr "Описник датотеке за уписивање IOR-а"
 
-# Описник датотеке?
 #: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
@@ -59,10 +54,7 @@ msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Пријави се као корисников сервер за покретања без закључавања. Упозорење: "
-"ова опција се може опасно одразити на стабилност корисникове сесије која је "
-"у току и треба је користити само при откривању грешака"
+msgstr "Пријави се као корисников сервер за покретања без закључавања. Упозорење: ова опција се може опасно одразити на стабилност корисникове сесије која је у току и треба је користити само при откривању грешака"
 
 #: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
@@ -76,9 +68,7 @@ msgstr "ИЗРАЗ"
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Покрените „%s --help“ да бисте видели целу листу доступних опција командне "
-"линије.\n"
+msgstr "Покрените „%s --help“ да бисте видели целу листу доступних опција командне линије.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -103,11 +93,9 @@ msgstr "Још немамо начина за руковање shlib објек�
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"Датотека са подешавањима за Бонобо активацију није успешно прочитана. "
-"Проверите да ли је исправна у: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "Датотека са подешавањима за Бонобо активацију није успешно прочитана. Проверите да ли је исправна у: %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -138,7 +126,6 @@ msgstr "Особина „%s“ нема никакву вредност"
 msgid "Could not parse badly formed XML document %s"
 msgstr "Не могу да обрадим лоше обликован XML документ %s"
 
-# bug: s/dir/directory/
 #: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
@@ -146,8 +133,7 @@ msgstr "Покушавам директоријум %s"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr ""
-"Подпроцес није дао никакву поруку о грешци, догодила се непозната грешка"
+msgstr "Подпроцес није дао никакву поруку о грешци, догодила се непозната грешка"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
@@ -307,7 +293,6 @@ msgstr "неисправна стаза ка XML елементу корисни
 msgid "the requested UI attribute didn't exist"
 msgstr "затражена особина корисничког сучеља не постоји"
 
-# Хм, ово ми сувише личи на функционалне програмске језике и „предикате“, па уместо „глагола“ стављам то...
 #: ../matecomponent/matecomponent-exception.c:219
 msgid "Unknown command or verb"
 msgstr "Непозната наредба или предикат"
@@ -316,7 +301,6 @@ msgstr "Непозната наредба или предикат"
 msgid "Command is insensitive"
 msgstr "Наредба је неосетљива"
 
-# „data“ је множина
 #: ../matecomponent/matecomponent-exception.c:226
 msgid "incorrect data type"
 msgstr "неисправна врста података"
@@ -357,7 +341,6 @@ msgstr "Синтаксна грешка у надимку"
 msgid "Moniker has an unknown moniker prefix"
 msgstr "Надимак има непознат предметак за надимке"
 
-# bug: lovely, indeed
 #: ../matecomponent/matecomponent-exception.c:279
 msgid "Error checking error; no exception"
 msgstr "Грешка при провери грешке; без изузетка"
@@ -368,7 +351,6 @@ msgstr "Општа грешка при активацији без описа"
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-#| msgid "Failed to resolve, or extend '%s"
 msgid "Failed to resolve, or extend '%s'"
 msgstr "Не могу да разрешим или проширим „%s“"
 
@@ -419,20 +401,20 @@ msgid "stream MonikerExtender"
 msgstr "MonikerExtender тока"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Бонобо творница Echo сервера"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Пример Бонобо Echo сервер програма"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Echo компонента"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Творница Echo компоненте"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Бонобо творница Echo сервера"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Пример Бонобо Echo сервер програма"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -467,9 +449,7 @@ msgstr "Успешно записана датотека са подешавањ
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"датотека са подешавањима је:\n"
-"    %s\n"
+msgstr "датотека са подешавањима је:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -506,37 +486,3 @@ msgstr "Прикажи директоријуме у датотеци са по�
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Прикажи путању до датотеке са подешавањима"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "Бонобо није могао бити покренут"
-
-#~ msgid ""
-#~ "Register as the users' activation server without locking [!] for debugging"
-#~ msgstr ""
-#~ "Регистрован као кориснички сервер за активирање без закључавања [!] за "
-#~ "отклањање грешака"
-
-#~ msgid "MateComponent Activation"
-#~ msgstr "Бонобо покретање"
-
-# „Race“ је појава када два процеса покушају истовремено да користе један ресурс, с тим што један процес држи оно што је потребно да би други наставио — односно, ниједан не може да настави
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "Утркивање при активирању сервера „%s“"
-
-#~ msgid "directory path"
-#~ msgstr "путања директоријума"
-
-#~ msgid "Child received signal %u (%s)"
-#~ msgstr "Подпроцес је примио сигнал %u (%s)"
-
-#~ msgid "Unknown non-exit error (status is %u)"
-#~ msgstr "Непозната не-излазна грешка (status is %u)"
-
-#~ msgid "matecomponent-activation failed to set process group of %s: %s\n"
-#~ msgstr "бонобо активација није успела да постави групу процеса %s: %s\n"
-
-#~ msgid "Failed to execute %s: %d (%s)\n"
-#~ msgstr "Нисам успео да извршим %s: %d (%s)\n"
-
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr "Превише нивоа надимака за локалитет — може указивати на петљу"

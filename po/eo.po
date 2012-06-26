@@ -1,22 +1,23 @@
-# Esperanto translation of libmatecomponent.
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# This file is distributed under the same license as the matecomponent-activation package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Charles Voelger <cvoelger@dweasel.com>, 2003.
 # Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent 2.3.4\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=matecomponent&component=libmatecomponent\n"
-"POT-Creation-Date: 2010-05-30 19:35+0000\n"
-"PO-Revision-Date: 2010-06-04 20:21+0100\n"
-"Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
-"Language-Team: Esperanto <ubuntu-l10n-eo@lists.launchpad.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Esperanto (http://www.transifex.net/projects/p/MATE/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-06-04 18:16+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"Language: eo\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -49,7 +50,10 @@ msgid "FD"
 msgstr "FD"
 
 #: ../activation-server/activation-server-main.c:184
-msgid "Register as the user's activation server without locking.  Warning: this option can have dangerous side effects on the stability of the user's running session, and should only be used for debugging purposes"
+msgid ""
+"Register as the user's activation server without locking.  Warning: this "
+"option can have dangerous side effects on the stability of the user's "
+"running session, and should only be used for debugging purposes"
 msgstr "Registri kiel la aktiviga servilo de la uzanto sen ŝlosado. Averto: ĉi tiu opcio povas malutili la stabilecon de la nune rulante seanco, kaj estas sole por sencimigi"
 
 #: ../activation-server/activation-server-main.c:192
@@ -88,7 +92,9 @@ msgstr "Ni ankoraŭ ne traktas aktivigojn de shlib-a objektojn en fora procezo"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
-msgid "The MateComponent Activation configuration file was not read successfully. Please, check it is valid in: %s"
+msgid ""
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
 msgstr "La MateComponent-Activation-a agordodosiero legis malsukcese. Bonvolu, kontroli ke ĝi estas valida en : %s"
 
 #: ../activation-server/object-directory-load.c:102
@@ -395,20 +401,20 @@ msgid "stream MonikerExtender"
 msgstr "MonikerExtender de datumfluo"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Fabrikejo de MateComponent-Echo-servilo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Ekzemplo-programo de MateComponent-Echo-servilo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Echo-a komponanto"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Fabrikejo de Echo-a komponanto"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Fabrikejo de MateComponent-Echo-servilo"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Ekzemplo-programo de MateComponent-Echo-servilo"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -443,9 +449,7 @@ msgstr "Agordodosiero sukcese skribis.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"agordodosiero estas :\n"
-"    %s\n"
+msgstr "agordodosiero estas :\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -482,4 +486,3 @@ msgstr "Montri dosierujojn en agordodosiero"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Montri vojon al la agordodosiero"
-

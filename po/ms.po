@@ -1,66 +1,70 @@
-# libmatecomponent Bahasa Melayu.
-# Copyright (C) 2002 Free Software Foundation, Inc., Projek Gabai.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # 1. Mohamad Afifi Omar (App) <mr_mohd_afifi@yahoo.com>, 2002.
-# 2. Hasbullah Bin Pit <sebol@ikhlas.com>, 2002-2004.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-10-22 16:55+0200\n"
-"PO-Revision-Date: 2003-01-01 21:24+0800\n"
-"Last-Translator: Hasbullah Bin Pit <sebol@my-penguin.org>\n"
-"Language-Team: Bahasa Melayu <gabai-penyumbang@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ms\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
-#: ../activation-server/activation-context-corba.c:523
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "Tak dapat mencari anak yang mana yang pelayan disenaraikan"
 
-#: ../activation-server/activation-context-corba.c:815
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "BUkan satu ID pengaktifan"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Direktori untuk dibaca oleh fail .server"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIREKTORI"
 
-#: ../activation-server/activation-server-main.c:165
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Dilayan sebagai ActivationContext (default ialah ObjectDirectory sahaja)"
+msgstr "Dilayan sebagai ActivationContext (default ialah ObjectDirectory sahaja)"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Keterangan fail untuk ditulis oleh IOR"
 
-#: ../activation-server/activation-server-main.c:169
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../activation-server/activation-server-main.c:181
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:172
+#: ../activation-server/activation-server-main.c:184
 msgid ""
-"Register as the users' activation server without locking [!] for debugging"
+"Register as the user's activation server without locking.  Warning: this "
+"option can have dangerous side effects on the stability of the user's "
+"running session, and should only be used for debugging purposes"
 msgstr ""
 
-#: ../activation-server/activation-server-main.c:177
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Kueri penyataan untuk dinilai"
 
-#: ../activation-server/activation-server-main.c:177
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "UNGKAPAN"
 
-#: ../activation-server/activation-server-main.c:426
-#: ../utils/matecomponent-activation-sysconf.c:304
+#: ../activation-server/activation-server-main.c:541
+#: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
@@ -88,50 +92,47 @@ msgstr "Kami tidak mengendali pengaktifan objek shlib pada proses remote lagi"
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"Fail konfigurasi Pengaktifan MateComponent tidak dapat dibaca dengan jayanya. Sila "
-"periksa samada ianya sah pada : %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "Fail konfigurasi Pengaktifan MateComponent tidak dapat dibaca dengan jayanya. Sila periksa samada ianya sah pada : %s"
 
-#: ../activation-server/object-directory-load.c:101
+#: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr "iid NULL adalah tidak sah"
 
-#: ../activation-server/object-directory-load.c:105
+#: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr "iid %s mempunyai jenis NULL"
 
-#: ../activation-server/object-directory-load.c:109
+#: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr "iid %s mempunyai lokasi NULL"
 
-#: ../activation-server/object-directory-load.c:118
+#: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "Aksara tidak sah '%c' pada iid '%s'"
 
-#: ../activation-server/object-directory-load.c:348
+#: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
 msgstr "Ciri-ciri '%s' tidak mempunyai nilai"
 
-#: ../activation-server/object-directory-load.c:580
+#: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
 msgstr "Tak dapat menghantar dokumen XML bentuk teruk %s"
 
-#: ../activation-server/object-directory-load.c:627
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr "Mencuba dir %s"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr ""
-"Proses anak tidak memberikan mesej rakat, kegagalan tidak diketahui berlaku"
+msgstr "Proses anak tidak memberikan mesej rakat, kegagalan tidak diketahui berlaku"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
@@ -139,41 +140,38 @@ msgid "Failed to read from child process: %s\n"
 msgstr "Gagal membaca daripada proses anak: %s\n"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
-#, fuzzy
+#, c-format
 msgid "EOF from child process\n"
-msgstr "Gagal membaca daripada proses anak: %s\n"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-fork-server.c:435
-#, fuzzy
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
-msgstr "Tak dapat sepit proses baru"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
 msgstr "Keterangan fail untuk pencetak IOR pada"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:357
-#: ../matecomponent-activation/matecomponent-activation-init.c:367
+#: ../matecomponent-activation/matecomponent-activation-init.c:354
+#: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
 msgstr "IID untuk diaktifkan"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:359
-#: ../matecomponent-activation/matecomponent-activation-init.c:369
+#: ../matecomponent-activation/matecomponent-activation-init.c:356
+#: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
 msgstr "Elak mendaftar pelayan denga OAF"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:403
-#, fuzzy
-msgid "MateComponent Activation"
-msgstr "Opsyen pengaktifan MateComponent"
+#: ../matecomponent-activation/matecomponent-activation-init.c:409
+msgid "MateComponent Activation options:"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:404
-#, fuzzy
+#: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
-msgstr "Opsyen pengaktifan MateComponent"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:512
+#: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
 msgstr "Opsyen pengaktifan MateComponent"
 
@@ -206,11 +204,11 @@ msgstr "Nama"
 msgid "Application unique name"
 msgstr "Nama unik aplikasi"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "POA CORBA tersendiri"
 
@@ -350,16 +348,12 @@ msgstr "Ralat memeriksa rakat; tiada penyecualian"
 msgid "General activation error with no description"
 msgstr "Ralat umum penjanaan tanpa keterangan"
 
-#: ../matecomponent/matecomponent-generic-factory.h:79 ../matecomponent/matecomponent-generic-factory.h:83
-msgid "Could not initialize MateComponent"
-msgstr "Gagal menjanakan MateComponent"
-
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "Gagal resolv atau menlanjutkan '%s'"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
-#: ../matecomponent/matecomponent-moniker-util.c:246
+#: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
 msgstr "Harap maaf tuan, gagal menghidupkan objek dari kilang"
 
@@ -406,109 +400,88 @@ msgid "stream MonikerExtender"
 msgstr "MonikerExtender aliran"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Kilang pelayan Echo MateComponent"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Contoh program pelayan Echo MateComponent"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Komponen Echo"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Kilang komponen Echo"
 
-#: ../samples/echo/echo-client.c:22
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Kilang pelayan Echo MateComponent"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Contoh program pelayan Echo MateComponent"
+
+#: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
 msgstr "Tak dpaat menginitialisasikan MateComponent"
 
-#: ../samples/echo/echo-client.c:33
+#: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
 msgstr "Tak dapat mencipta instance bagi contoh komponen Echo"
 
-#: ../samples/echo/echo-client.c:45
+#: ../samples/echo/echo-client.c:47
 #, c-format
 msgid "An exception occurred '%s'"
 msgstr "Pengecualian berlaki '%s'"
 
-#: ../utils/matecomponent-activation-sysconf.c:82
+#: ../utils/matecomponent-activation-sysconf.c:83
+#, c-format
 msgid "Could not save configuration file.\n"
 msgstr "Tak dapat menyimpan fail konfigurasi.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:83
+#: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "Sila pastikan anda mempunyai keizinan untuk penulis pada '%s'.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:86
+#: ../utils/matecomponent-activation-sysconf.c:87
+#, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "Berjaya menulis fail konfigurasi.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:103
+#: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"Fail konfigurasi adalah:\n"
-"    %s\n"
+msgstr "Fail konfigurasi adalah:\n    %s\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:145
+#: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "%s tersedia ada pada fail konfigurasi\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:165
+#: ../utils/matecomponent-activation-sysconf.c:166
+#, c-format
 msgid "there is not a properly structured configuration file\n"
 msgstr "Terdapat fail konfigurasi yang tidak mempunyai struktur yang betul\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:236
+#: ../utils/matecomponent-activation-sysconf.c:237
+#, c-format
 msgid "MateComponent-activation configuration file contains:\n"
 msgstr "Fail konfigurasi MateComponent-activation mengandungi:\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
+#: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
 msgstr "Direktori untuk dibuang daripada fail konfigurasi"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:267
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
 msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
 msgstr "Direktori untuk ditambah pada fail konfigurasi"
 
-#: ../utils/matecomponent-activation-sysconf.c:270
+#: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
 msgstr "Papar direktori pada fail konfigurasi"
 
-#: ../utils/matecomponent-activation-sysconf.c:272
+#: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Papar laluan ke fail konfigurasi"
-
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "Keadaan race mengaktifkan pelaran '%s'"
-
-#~ msgid "Child received signal %u (%s)"
-#~ msgstr "Anak menerima isyarat %u (%s)"
-
-#~ msgid "Unknown non-exit error (status is %u)"
-#~ msgstr "Rakat non-exit tidak diketahu (status  ialah %u)"
-
-#~ msgid "matecomponent-activation failed to set process group of %s: %s\n"
-#~ msgstr "matecomponent-activation gagal menetapkan kumpulan proses bagi %s: %s\n"
-
-#~ msgid "Failed to execute %s: %d (%s)\n"
-#~ msgstr "Gagal melaksanakan %s: %d (%s)\n"
-
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr ""
-#~ "Terlalu banyak aras alias untuk satu lokaliti, mungkin ia menunjukkan "
-#~ "gelung"
-
-#~ msgid "directory path"
-#~ msgstr "laluan direktori"

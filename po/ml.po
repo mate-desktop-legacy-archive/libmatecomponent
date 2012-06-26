@@ -1,23 +1,23 @@
-# translation of libmatecomponent.HEAD.ml.po to
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
-# FSF-India <locale@gnu.org.in>, 2003.
+# 
+# Translators:
 # Ani Peter <apeter@redhat.com>, 2006, 2007.
+# FSF-India <locale@gnu.org.in>, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent.HEAD.ml\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-11-07 14:28+0100\n"
-"PO-Revision-Date: 2009-03-11 19:09+0530\n"
-"Last-Translator: \n"
-"Language-Team:  <en@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"\n"
+"Language: ml\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -27,47 +27,44 @@ msgstr "ചൈള്‍ഡ് ഏത് സര്‍വറില്‍ എന്
 msgid "Not a valid Activation ID"
 msgstr "തെറ്റായ ആക്ടിവേഷന്‍ ID ആണ്"
 
-#: ../activation-server/activation-server-main.c:166
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr ".server ഫയലുകള്‍ ലഭ്യമാകുന്ന ഡയറക്ടറികള്‍"
 
-#: ../activation-server/activation-server-main.c:166
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIRECTORY"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "ActivationContext ആയി പ്രവര്‍ത്തിക്കുക (ഡീഫോള്‍ട്ടായി ObjectDirectory മാത്രമാണ്)"
 
-#: ../activation-server/activation-server-main.c:173
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "IOR എഴുതേണ്ട ഫയല്‍ ഡിസ്ക്രിപ്റ്റര്‍"
 
-#: ../activation-server/activation-server-main.c:173
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"ഉപയോക്താവിന്റെ ആക്ടിവേഷന്‍ സര്‍വറില്‍ ലോക്കിങില്ലാതെ രജിസ്ടറര്‍ ചെയ്യുക. "
-"മുന്നറിയിപ്പ്:  ഉപയോക്താവിന്റെ പ്രവര്‍ത്തനത്തിലുള്ള സെഷനുകള്‍ക്ക് ഇതു് തകരാറുണ്ടാക്കുവാന്‍ "
-"സാധ്യതയുള്ളതിനാല്‍, ഇതു് ഡീബഗ്ഗിങ് പ്രക്രിയകള്‍ക്കു് മാത്രമേ ഉപയോഗിക്കാന്‍ പാടുള്ളൂ"
+msgstr "ഉപയോക്താവിന്റെ ആക്ടിവേഷന്‍ സര്‍വറില്‍ ലോക്കിങില്ലാതെ രജിസ്ടറര്‍ ചെയ്യുക. മുന്നറിയിപ്പ്:  ഉപയോക്താവിന്റെ പ്രവര്‍ത്തനത്തിലുള്ള സെഷനുകള്‍ക്ക് ഇതു് തകരാറുണ്ടാക്കുവാന്‍ സാധ്യതയുള്ളതിനാല്‍, ഇതു് ഡീബഗ്ഗിങ് പ്രക്രിയകള്‍ക്കു് മാത്രമേ ഉപയോഗിക്കാന്‍ പാടുള്ളൂ"
 
-#: ../activation-server/activation-server-main.c:184
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "ഉത്തരം കണ്ടുപിടിക്കുന്നതിനുളള ചോദ്യം"
 
-#: ../activation-server/activation-server-main.c:184
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "EXPRESSION"
 
-#: ../activation-server/activation-server-main.c:472
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
@@ -96,11 +93,9 @@ msgstr "വിദൂര കംപ്യൂട്ടറിലുളള പ്ര�
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"MateComponent പ്രവര്‍ത്തന സജ്ജീകരണ ഫയല്‍ വിജയകരമായി വായിച്ചില്ല. ദയവായി, ഈ ഫയല്‍ഇതില്‍ ശരിയായ "
-"രീതിയില്‍ ഉണ്ടോ എന്ന് പരിശോധിക്കുക: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "MateComponent പ്രവര്‍ത്തന സജ്ജീകരണ ഫയല്‍ വിജയകരമായി വായിച്ചില്ല. ദയവായി, ഈ ഫയല്‍ഇതില്‍ ശരിയായ രീതിയില്‍ ഉണ്ടോ എന്ന് പരിശോധിക്കുക: %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -356,8 +351,8 @@ msgstr "വിവരണമില്ലാത്ത സാധാരണ പ്ര�
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "'%s കണ്ടുപിടിക്കുന്നതിനോ വികസിപ്പിക്കുന്നതിനോ പരാജയപ്പെട്ടു"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -406,20 +401,20 @@ msgid "stream MonikerExtender"
 msgstr "സ്ട്രീം MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent Echo സര്‍വര്‍ ശാല"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "MateComponent Echo സര്‍വര്‍ ഉദാഹരണ പ്രോഗ്രാം"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Echo ഘടകം"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Echo ഘടകം ശാല"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent Echo സര്‍വര്‍ ശാല"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "MateComponent Echo സര്‍വര്‍ ഉദാഹരണ പ്രോഗ്രാം"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -454,9 +449,7 @@ msgstr "കോണ്‍ഫിഗറേഷന്‍ ഫയല്‍ വിജയ�
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"സജ്ജീകരണ ഫയല്‍ ഇതാണ്:\n"
-"    %s\n"
+msgstr "സജ്ജീകരണ ഫയല്‍ ഇതാണ്:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -493,4 +486,3 @@ msgstr "കോണ്‍ഫിഗറേഷന്‍ ഫയലിലുളള ഡ�
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "കോണ്‍ഫിഗറേഷന്‍ ഫയലിലേക്കുളള വഴഇ കാണിക്കുക"
-

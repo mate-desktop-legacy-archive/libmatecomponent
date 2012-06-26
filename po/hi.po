@@ -1,25 +1,24 @@
-# translation of hi.po to Hindi
-# Copyright (C) 2003, 2004, 2005, 2006, 2009 Free Software Foundation, Inc.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # G Karunakar <karunakar@freedomink.org>, 2003.
-# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004.
 # Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006, 2009.
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: hi\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-11-07 14:28+0100\n"
-"PO-Revision-Date: 2009-03-06 14:09+0530\n"
-"Last-Translator: Rajesh Ranjan <rranjan@redhat.com>\n"
-"Language-Team: Hindi <hindi.sf.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Hindi (http://www.transifex.net/projects/p/MATE/language/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
-"\n"
-"\n"
-"\n"
+"Language: hi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -29,44 +28,44 @@ msgstr "ढूंढ नहीं पाया कि कौन सा शिश
 msgid "Not a valid Activation ID"
 msgstr "वैध सक्रियण आईडी नहीं"
 
-#: ../activation-server/activation-server-main.c:166
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "डिरेक्ट्री जहाँ से .server फ़ाइलें पढ़नी हैं"
 
-#: ../activation-server/activation-server-main.c:166
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "डिरेक्ट्री"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "सक्रियण-कॉन्टेक्स्ट की तरह सेवारत है (डिफ़ॉल्ट सिर्फ एक ऑब्जेक्ट-डिरेक्ट्री है)"
 
-#: ../activation-server/activation-server-main.c:173
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "आईओआर में लिखने हेतु फ़ाइल डिस्क्रिप्टर"
 
-#: ../activation-server/activation-server-main.c:173
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "एफ़डी"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
 msgstr "बतौर उपयोक्ता सक्रियण बिना लॉकिंग के पंजीकृत करें. चेतावनी: यह विकल्प उपयोक्ता कार्यशील सत्र की स्थिरता पर गंभीर प्रभाव प्रकारांतर से डालता है, और इसे केवल डिबगिंग प्रक्रिया के लिए प्रयोग किया जाना चाहिए."
 
-#: ../activation-server/activation-server-main.c:184
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "मूल्यांकन हेतु क्वैरी एक्सप्रेशन"
 
-#: ../activation-server/activation-server-main.c:184
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "एक्सप्रेशन"
 
-#: ../activation-server/activation-server-main.c:472
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
@@ -95,11 +94,9 @@ msgstr "हम एसएचलिब ऑब्जैक्ट्स को अ�
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"बोनबो सक्रियण कॉन्फ़िगरेशन फ़ाइल को सफलतापूर्वक नहीं पढ़ा जा सका. कृपया यह जांच कर लें कि "
-"यह %s में वैध है"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "बोनबो सक्रियण कॉन्फ़िगरेशन फ़ाइल को सफलतापूर्वक नहीं पढ़ा जा सका. कृपया यह जांच कर लें कि यह %s में वैध है"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -355,8 +352,8 @@ msgstr "बिना वर्णन के साथ सामान्य स�
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "'%s का समाधान या विस्तार करने में असफल"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -380,7 +377,6 @@ msgstr "एचटीटीपी मॉनिकर"
 msgid "ORB IOR handling moniker"
 msgstr "ओआरबी आईओआर हैंडलिंग मॉनिकर"
 
-# monikers/MATE_VFS_Moniker_std.server.in.in.h:1
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:3
 msgid "Standard Moniker factory"
 msgstr "मानक मॉनीकर फैक्ट्री"
@@ -406,20 +402,20 @@ msgid "stream MonikerExtender"
 msgstr "स्ट्रीम मॉनिकर-एक्सटेंडर"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "बोनोबो इको सर्वर फैक्ट्री"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "बोनोबो इको सर्वर नमूना प्रोग्राम"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "इको अवयव"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "इको अवयव फैक्ट्री"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "बोनोबो इको सर्वर फैक्ट्री"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "बोनोबो इको सर्वर नमूना प्रोग्राम"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -454,9 +450,7 @@ msgstr "कॉन्फ़िगरेशन फ़ाइल सफलताप�
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"कॉन्फ़िगरेशन फ़ाइल है:\n"
-"    %s\n"
+msgstr "कॉन्फ़िगरेशन फ़ाइल है:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -493,4 +487,3 @@ msgstr "कॉन्फ़िगरेशन फ़ाइल में डिर
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "कॉन्फ़िगरेशन फ़ाइल का पथ दर्शाएँ"
-

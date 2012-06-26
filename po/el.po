@@ -1,87 +1,76 @@
-# Greek translation of libmatecomponent.
-# Copyright (C) 2002,2003 Simos Xenitellis.
-#
-# kostas: 28Jan2003, updated translation
-#
-# simos: 52 messages, 16Aug2002, initial translation.
-# simos: 54 messages, 04Nov2002, completed translation.
-# kostas: 03Sep2003, 103 messages, updated translation.
-# Simos Xenitellis <simos@hellug.gr>, 2002,2003.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Kostas Papadimas <pkst@gmx.net>, 2003.
 # Kostas Papadimas <pkst@gnome.org>, 2004, 2006.
 # Simos Xenitellis <simos@gnome.org>, 2005.
+# Simos Xenitellis <simos@hellug.gr>, 2002, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: el\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-12 23:43+0300\n"
-"PO-Revision-Date: 2007-03-07 13:11+0800\n"
-"Last-Translator: Simos Xenitellis <simos@gnome.org>\n"
-"Language-Team: Greek <team@mate.gr>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Greek (http://www.transifex.net/projects/p/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
-msgstr ""
-"Αδυνατή η εύρεση για πια θυγατρική διεργασία ο εξυπηρετητής ήταν "
-"καταχωρημένος"
+msgstr "Αδυνατή η εύρεση για πια θυγατρική διεργασία ο εξυπηρετητής ήταν καταχωρημένος"
 
 #: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "Μή έγκυτη ταυτότητα ενεργοποίησης"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Ο κατάλογος από τον οποίο να αναγνωστούν τα αρχεία .server"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "ΚΑΤΑΛΟΓΟΣ"
 
-#: ../activation-server/activation-server-main.c:179
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Εργασία ως ActivationContext (η προεπιλογή είναι μόνο ως ObjectDirectory)"
+msgstr "Εργασία ως ActivationContext (η προεπιλογή είναι μόνο ως ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Περιγραφέας αρχείου στο οποίο να εγγραφεί το IOR"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "Περιγραφέας Αρχείου"
 
-#: ../activation-server/activation-server-main.c:186
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Καταχώρηση ως εξυπηρετητής ενεργοποίησης του χρήστη χωρίς κλείδωμα πολλαπλών "
-"προσβάσεων. Προειδοποίηση: αυτή η επιλογή μπορεί να έχει επικίνδυνες "
-"παρενέργειες στη σταθερότητα της τρέχουσας συνεδρίας του χρήστη, και η χρήση "
-"συνίσταται μόνο για λόγους εκσφαλμάτωσης"
+msgstr "Καταχώρηση ως εξυπηρετητής ενεργοποίησης του χρήστη χωρίς κλείδωμα πολλαπλών προσβάσεων. Προειδοποίηση: αυτή η επιλογή μπορεί να έχει επικίνδυνες παρενέργειες στη σταθερότητα της τρέχουσας συνεδρίας του χρήστη, και η χρήση συνίσταται μόνο για λόγους εκσφαλμάτωσης"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Έκφραση επερώτησης για αποτίμηση"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "ΕΚΦΡΑΣΗ"
 
-#: ../activation-server/activation-server-main.c:547
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Εκτελέστε '%s --help' για να δείτε μια πλήρη λίστα των διαθέσιμων επιλογών "
-"της γραμμής εντολών\n"
+msgstr "Εκτελέστε '%s --help' για να δείτε μια πλήρη λίστα των διαθέσιμων επιλογών της γραμμής εντολών\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -101,18 +90,14 @@ msgstr "Υπηρεσία ειδοποίησης για ενεργοποίηση"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr ""
-"Δεν υποστηρίζεται ακόμα η ενεργοποίηση αντικειμένων shlib σε απομακρυσμένη "
-"διεργασία"
+msgstr "Δεν υποστηρίζεται ακόμα η ενεργοποίηση αντικειμένων shlib σε απομακρυσμένη διεργασία"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"το αρχείο ρυθμίσεων της Ενεργοποίησης Μπονόμπο δεν αναγνώστηκε επιτυχώς. "
-"Παρακαλώ ελέγξτε ότι είναι έγκυρο στο: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "το αρχείο ρυθμίσεων της Ενεργοποίησης Μπονόμπο δεν αναγνώστηκε επιτυχώς. Παρακαλώ ελέγξτε ότι είναι έγκυρο στο: %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -150,8 +135,7 @@ msgstr "Προσπάθεια του καταλόγου %s"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr ""
-"Συνέβει άγνωστο σφάλμα, η θυγατρική διεργασία δεν έδωσε μήνυμα σφάλματος"
+msgstr "Συνέβει άγνωστο σφάλμα, η θυγατρική διεργασία δεν έδωσε μήνυμα σφάλματος"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
@@ -367,13 +351,11 @@ msgstr "Σφάλμα ελέγχου λαθών, χωρίς εξαίρεση"
 msgid "General activation error with no description"
 msgstr "Γενικό σφάλμα ενεργοποίησης χωρίς περιγραφή"
 
-# mateconf/mateconf-internals.c:2416
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
 msgid "Failed to resolve, or extend '%s'"
 msgstr "Αποτυχία ανάλυσης (resolve) ή επέκτασης του '%s"
 
-# mateconf/mateconfd.c:1194
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
 msgstr "Αποτυχία ενεργοποίησης αντικειμένου"
@@ -383,7 +365,6 @@ msgstr "Αποτυχία ενεργοποίησης αντικειμένου"
 msgid "Exception activating '%s'"
 msgstr "Εξαίρεση κατά την ενεργοποίηση του '%s"
 
-# mateconf/mateconf-internals.c:2416
 #: ../monikers/matecomponent-moniker-oaf.c:62
 #, c-format
 msgid "Failed to activate '%s'"
@@ -422,20 +403,20 @@ msgid "stream MonikerExtender"
 msgstr "ροή MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Εργοστάσιο εξυπηρετητή Ηχούς MateComponent"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Πρόγραμμα-δείγμα εξυπηρετητή Ηχούς MateComponent"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Συστατικό Ηχούς"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Εργοστάσιο συστατικού ηχούς"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Εργοστάσιο εξυπηρετητή Ηχούς MateComponent"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Πρόγραμμα-δείγμα εξυπηρετητή Ηχούς MateComponent"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -458,9 +439,7 @@ msgstr "Ανεπιτυχής προσπάθεια αποθήκευσης του 
 #: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
-msgstr ""
-"Παρακαλώ επιβεβαιώστε ότι έχετε τα δικαιώματα για να γράψετε \n"
-"στο '%s'.\n"
+msgstr "Παρακαλώ επιβεβαιώστε ότι έχετε τα δικαιώματα για να γράψετε \nστο '%s'.\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:87
 #, c-format
@@ -472,9 +451,7 @@ msgstr "Επιτυχία στην εγγραφή του αρχείου ρυθμ�
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"το αρχείο ρυθμίσεων είναι:\n"
-"    %s\n"
+msgstr "το αρχείο ρυθμίσεων είναι:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -511,20 +488,3 @@ msgstr "Εμφάνιση καταλόγων στο αρχείο ρυθμίσεω
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Εμφάνιση διαδρομής στο αρχείο ρυθμίσεων"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "Αδύνατη η αρχικοποίηση του MateComponent"
-
-#~ msgid ""
-#~ "Register as the users' activation server without locking [!] for debugging"
-#~ msgstr ""
-#~ "Register as the users' activation server without locking [!] for debugging"
-
-#~ msgid "MateComponent Activation"
-#~ msgstr "Ενεργοποίηση MateComponent"
-
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "Συνθήκη αποκλεισμού στην ενεργοποίηση του εξυπηρετητή '%s'"
-
-#~ msgid "directory path"
-#~ msgstr "μονοπάτι καταλόγου"

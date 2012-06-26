@@ -1,33 +1,31 @@
-# French translation of libmatecomponent.
-# Copyright (C) 2001-2006 Free Software Foundation, Inc.
-# This file is distributed under the same license as the libmatecomponent package.
-#
-# Christophe Merlet (RedFox) <redfox@redfoxcenter.org>, 2001-2005.
-# Christophe Fergeau <teuf@users.sourceforge.net> 2002.
-# Sun G11n <mate_int_l10n@ireland.sun.com>, 2002.
-# Gianni Moschini <gianni@cmsoft.net>, 2006.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Benoît Dejean <benoit@placenet.org>, 2006.
+# Gianni Moschini <gianni@cmsoft.net>, 2006.
 # Jonathan Ernst <jonathan@ernstfamily.ch>, 2006.
 # Robert-André Mauchin <zebob.m@pengzone.org>, 2007.
-# Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007
-#
+# Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007.
+# Sun G11n <mate_int_l10n@ireland.sun.com>, 2002.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=matecomponent&component=libmatecomponent\n"
-"POT-Creation-Date: 2010-06-21 20:31+0000\n"
-"PO-Revision-Date: 2010-08-06 22:57+0200\n"
-"Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
-"Language-Team: MATE French Team <matefr@traduc.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:37+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: French (http://www.transifex.net/projects/p/MATE/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
-msgstr ""
-"Impossible de déterminer dans quel processus fils était listé le serveur"
+msgstr "Impossible de déterminer dans quel processus fils était listé le serveur"
 
 #: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
@@ -43,8 +41,7 @@ msgstr "RÉPERTOIRE"
 
 #: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Sert comme ActivationContext (par défaut, uniquement comme ObjectDirectory)"
+msgstr "Sert comme ActivationContext (par défaut, uniquement comme ObjectDirectory)"
 
 #: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
@@ -61,11 +58,7 @@ msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"S'enregistrer en tant que serveur d'activation de l'utilisateur sans "
-"verrouillage. Attention : cette option peut avoir des effets secondaires sur "
-"la stabilité des sessions des utilisateurs et devrait être utilisée "
-"uniquement pour des besoins de débogage"
+msgstr "S'enregistrer en tant que serveur d'activation de l'utilisateur sans verrouillage. Attention : cette option peut avoir des effets secondaires sur la stabilité des sessions des utilisateurs et devrait être utilisée uniquement pour des besoins de débogage"
 
 #: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
@@ -79,9 +72,7 @@ msgstr "EXPRESSION"
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Exécutez « %s --help » pour voir la liste complète des options en ligne de "
-"commande.\n"
+msgstr "Exécutez « %s --help » pour voir la liste complète des options en ligne de commande.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -101,18 +92,14 @@ msgstr "Service de notification pour l'activation"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr ""
-"L'activation d'objets shlib dans un processus distant n'est pas prise en "
-"charge pour le moment"
+msgstr "L'activation d'objets shlib dans un processus distant n'est pas prise en charge pour le moment"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"Impossible de lire le fichier de configuration d'activation de MateComponent. "
-"Vérifiez qu'il est valide dans : %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "Impossible de lire le fichier de configuration d'activation de MateComponent. Vérifiez qu'il est valide dans : %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -150,9 +137,7 @@ msgstr "Tente le répertoire %s"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr ""
-"Le processus fils n'a pas renvoyé de message d'erreur, une erreur inconnue "
-"s'est produite"
+msgstr "Le processus fils n'a pas renvoyé de message d'erreur, une erreur inconnue s'est produite"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
@@ -420,20 +405,20 @@ msgid "stream MonikerExtender"
 msgstr "MonikerExtender de flux"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Fabrique de serveur MateComponent Echo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Programme d'exemple du serveur MateComponent Echo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Composant Echo"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Fabrique de composant Echo"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Fabrique de serveur MateComponent Echo"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Programme d'exemple du serveur MateComponent Echo"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -456,8 +441,7 @@ msgstr "Impossible d'enregistrer le fichier de configuration.\n"
 #: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
-msgstr ""
-"Veuillez vous assurez que vous disposez des droits pour écrire sur « %s ».\n"
+msgstr "Veuillez vous assurez que vous disposez des droits pour écrire sur « %s ».\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:87
 #, c-format
@@ -469,9 +453,7 @@ msgstr "Fichier de configuration écrit avec succès.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"fichier de configuration :\n"
-"    %s\n"
+msgstr "fichier de configuration :\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -508,6 +490,3 @@ msgstr "Affiche les répertoires du fichier de configuration"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Affiche le chemin du fichier de configuration"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "Impossible d'initialiser MateComponent"

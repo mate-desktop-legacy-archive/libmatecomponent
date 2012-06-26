@@ -1,85 +1,72 @@
-# translation of libmatecomponent.HEAD.ta.po to Tamil
-# libmatecomponent translation in Tamil
-# Copyright (C) 2001, 2004, 2006, 2008 Free Software Foundation, Inc.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Dinesh Nadarajah <n_dinesh@yahoo.com>, 2001.
-# Jayaradha N <jaya@pune.redhat.com>, 2004.
 # Felix <ifelix@redhat.com>, 2006.
 # I. Felix <ifelix@redhat.com>, 2008.
+# Jayaradha N <jaya@pune.redhat.com>, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent.HEAD.ta\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-03-24 03:48+0000\n"
-"PO-Revision-Date: 2008-09-18 22:31+0530\n"
-"Last-Translator: I. Felix <ifelix@redhat.com>\n"
-"Language-Team: Tamil <fedora-trans-ta@redhat.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:35+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\\n\n"
-"\n"
-"\n"
+"Language: ta\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-# server/activation-context-corba.c:513
-#: ../activation-server/activation-context-corba.c:525
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "எந்த சேய் சேவையகத்தில் பட்டியலிடப்பட்டது என கண்டுபிடிக்க முடியவில்லை"
 
-#: ../activation-server/activation-context-corba.c:817
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "தூண்டு செய்யும் எண் செல்லாது"
 
-# server/activation-server-main.c:64
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr ".server கோப்புகளை வாசிக்க வேண்டிய அடைவு"
 
-# server/activation-server-main.c:64
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "அடைவு"
 
-# server/activation-server-main.c:69
-#: ../activation-server/activation-server-main.c:165
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "ActivationContext'ஆக சேவையிடு (கொடா நிலை ObjectDirectory மட்டும்)"
 
-# server/activation-server-main.c:74
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "IOR எழுத வேண்டிய கோப்பு விவரிப்பு"
 
-# matecomponent-activation/matecomponent-activation-init.c:224
-# server/activation-server-main.c:74
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:172
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Register as the user's activation server without locking.  Warning: this "
-"option can have dangerous side effects on the stability of the user's "
-"running session, and should only be used for debugging purposes"
+msgstr "Register as the user's activation server without locking.  Warning: this option can have dangerous side effects on the stability of the user's running session, and should only be used for debugging purposes"
 
-# server/activation-server-main.c:79
-#: ../activation-server/activation-server-main.c:180
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "மதிப்பிட வேண்டிய வினா கோவை"
 
-# server/activation-server-main.c:79
-#: ../activation-server/activation-server-main.c:180
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "EXPRESSION"
 
-#: ../activation-server/activation-server-main.c:429
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
@@ -101,133 +88,112 @@ msgstr "அறிவித்தல் சேவை"
 msgid "Notification service for activation"
 msgstr "தூண்டு செய்வதட்கான அறிவித்தல் சேவை"
 
-# server/object-directory-activate.c:62
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
 msgstr "தற்போது தொலை செயலகத்தினால் shlib இலக்குகளை இயக்க முடியாது"
 
-# server/object-directory-config-file.c:47
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
 msgstr "போனபோ தூண்டு செய்யும் அமைப்பு கோப்பு சரியாக வாசிக்க வில்லை. இதனில் சரிபார்க்கவும்: %s"
 
-# server/object-directory-load.c:170
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr "NULL எனும் iid செல்லுபடியாகாதது"
 
-# server/object-directory-load.c:174
 #: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr "%s iid இல் ஓர் NULL வகை"
 
-# server/object-directory-load.c:178
 #: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr "%s iid இல் ஓர் NULL இருப்பிடம்"
 
-# server/object-directory-load.c:187
 #: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "பிழையான வரியுரு '%c' iid '%s' இல்"
 
-# server/object-directory-load.c:120 server/object-directory-load.c:150
 #: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
 msgstr "'%s' பண்புக்கு மதிப்பு கிடையாது"
 
-#: ../activation-server/object-directory-load.c:581
+#: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
 msgstr "தவருதலாக உருவாக்கப்பட்ட %s XML ஆவணத்தை அலகிட முடியவில்லை"
 
-#: ../activation-server/object-directory-load.c:627
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr "%s அடைவு முயற்சிக்கின்றது"
 
-# matecomponent-activation/matecomponent-activation-fork-server.c:263
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
 msgstr "சேய் செயல் பிழை செய்தி ஒன்றைக் தரவில்லை, தெரியாத நொடிப்பு நடைபெற்றது"
 
-# matecomponent-activation/matecomponent-activation-fork-server.c:82
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
 msgid "Failed to read from child process: %s\n"
 msgstr "சேய் செயலியிலிருந்து வாசிக்கமுடியவில்லை: %s\n"
 
-# matecomponent-activation/matecomponent-activation-fork-server.c:82
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
+#, c-format
 msgid "EOF from child process\n"
 msgstr "குழந்தை செயலிலிருந்து EOF\n"
 
-# matecomponent-activation/matecomponent-activation-fork-server.c:181
-#: ../matecomponent-activation/matecomponent-activation-fork-server.c:434
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
 msgstr "புதிய செயலை தொடங்க முடியவில்லை"
 
-# matecomponent-activation/matecomponent-activation-init.c:224
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
 msgstr "IOR அச்சிட வேண்டிய கோப்பு விவரிப்பு"
 
-# matecomponent-activation/matecomponent-activation-init.c:226
 #: ../matecomponent-activation/matecomponent-activation-init.c:354
 #: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
 msgstr "தூண்டு செய்ய வேண்டிய IID"
 
-# matecomponent-activation/matecomponent-activation-init.c:228
 #: ../matecomponent-activation/matecomponent-activation-init.c:356
 #: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
 msgstr "OAFஇல் சேவையகத்தை பதிவுசெய்வதை தடுக்கவும்"
 
-# matecomponent-activation/matecomponent-activation-init.c:426
 #: ../matecomponent-activation/matecomponent-activation-init.c:409
 msgid "MateComponent Activation options:"
 msgstr "MateComponent செயல்படுத்தல் விருப்பங்கள்:"
 
-# matecomponent-activation/matecomponent-activation-init.c:426
 #: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
 msgstr "MateComponent செயல்படுத்தல் விருப்பங்களை காட்டு"
 
-# matecomponent-activation/matecomponent-activation-init.c:426
 #: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
 msgstr "MateComponent தொடக்க விருப்பங்கள்"
 
-# matecomponent-activation/matecomponent-activation-shlib.c:102
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:107
 #, c-format
 msgid "g_module_open of `%s' failed with `%s'"
 msgstr "'%s' இன் ('%s' உடன்) g_module_open நொடிப்படைந்தது"
 
-# matecomponent-activation/matecomponent-activation-shlib.c:120
-# matecomponent-activation/matecomponent-activation-shlib.c:156
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:126
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:163
 #, c-format
 msgid "Can't find symbol MateComponent_Plugin_info in `%s'"
 msgstr "'%s' இல் MateComponent_Plugin_info குறியீடைக் கண்டுபிடிக்க முடியவில்லை"
 
-# matecomponent-activation/matecomponent-activation-shlib.c:204
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:212
 #, c-format
 msgid "Factory `%s' returned NIL for `%s'"
 msgstr "'%s' தொழிற்சாலை, '%s' இக்கு NIL மீண்டது"
 
-# matecomponent-activation/matecomponent-activation-shlib.c:221
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:229
 #, c-format
 msgid "Shlib `%s' didn't contain `%s'"
@@ -241,11 +207,11 @@ msgstr "¦ÀÂ÷"
 msgid "Application unique name"
 msgstr "செயல்பாடு தனிப்பட்ட பெயர்"
 
-#: ../matecomponent/matecomponent-object.c:926
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
-#: ../matecomponent/matecomponent-object.c:926
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "தனிப்பயன் CORBA POA"
 
@@ -387,8 +353,8 @@ msgstr "விவரணம் இல்லாமல் பொதுத் தொ
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "'%s சரிபடுத்த அல்லது நீட்டிக்க முடியவில்லை"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -437,20 +403,20 @@ msgid "stream MonikerExtender"
 msgstr "ஓடை MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent Echo சேவையக தொழிற்சாலை"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "MateComponent Echo சேவையகத்தின் மாதிரி நிரல்"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "எதிரளிப்பு கூறு"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "எதிரளிப்பு கூறு தொழிற்சாலை"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent Echo சேவையக தொழிற்சாலை"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "MateComponent Echo சேவையகத்தின் மாதிரி நிரல்"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -465,49 +431,43 @@ msgstr "மாதிரி எதிரளிப்பு கூறு உரு
 msgid "An exception occurred '%s'"
 msgstr "ஓர் விதிவிலக்கு நடைபெற்றது '%s'"
 
-# utils/matecomponent-activation-sysconf.c:62
 #: ../utils/matecomponent-activation-sysconf.c:83
+#, c-format
 msgid "Could not save configuration file.\n"
 msgstr "அமை வடிவக கோப்பை சேமிக்க முடியவில்லை.\n"
 
-# utils/matecomponent-activation-sysconf.c:63
 #: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "தயவுசெய்து '%s' க்கு எழுதுவதற்கு அனுமதி உண்டா என சரிபார்க்கவும்.\n"
 
-# utils/matecomponent-activation-sysconf.c:66
 #: ../utils/matecomponent-activation-sysconf.c:87
+#, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "அமை வடிவக கோப்பு நல்லபடியாக சேமிக்கப்பட்டது.\n"
 
-# utils/matecomponent-activation-sysconf.c:80
 #: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"அமை வடிவக கோப்பு:\n"
-"    %s\n"
+msgstr "அமை வடிவக கோப்பு:\n    %s\n"
 
-# utils/matecomponent-activation-sysconf.c:118
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "%s ஏற்கெனவே அமை வடிவக கோப்பில் உள்ளது\n"
 
-# utils/matecomponent-activation-sysconf.c:138
 #: ../utils/matecomponent-activation-sysconf.c:166
+#, c-format
 msgid "there is not a properly structured configuration file\n"
 msgstr "சரியாக கட்டமைக்கப்பட்ட அமை வடிவ கோப்பு கிடையாது\n"
 
-# utils/matecomponent-activation-sysconf.c:201
 #: ../utils/matecomponent-activation-sysconf.c:237
+#, c-format
 msgid "MateComponent-activation configuration file contains:\n"
 msgstr "MateComponent-activation அமை வடிவக கோப்பினுள்:\n"
 
-# utils/matecomponent-activation-sysconf.c:233
 #: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
 msgstr "அமை வடிவக கோப்பில் இருந்து நீக்க வேண்டிய அடைவு"
@@ -517,18 +477,14 @@ msgstr "அமை வடிவக கோப்பில் இருந்து
 msgid "PATH"
 msgstr "PATH"
 
-# utils/matecomponent-activation-sysconf.c:236
 #: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
 msgstr "அமை வடிவக கோப்பில் சேர்க்க வேண்டிய அடைவு"
 
-# utils/matecomponent-activation-sysconf.c:239
 #: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
 msgstr "அமை வடிவக கோப்பில் உல்ல அடைவுகளைக் காண்பி"
 
-# utils/matecomponent-activation-sysconf.c:242
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "அமை வடிவக கோப்பின் பாதையைக் காண்பி"
-

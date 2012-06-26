@@ -1,20 +1,23 @@
-# Romanian translation for libmatecomponent
-# Copyright (C) 2001 - 2009 Free Software Foundation, Inc.
-# Marius Andreiana <mandreiana@yahoo.com>, 2001.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Dan Damian <dand@mate.ro>, 2001.
-# Mișu Moldovan <dumol@mate.ro>, 2003 - 2009.
-#
+# Marius Andreiana <mandreiana@yahoo.com>, 2001.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-07 23:44+0200\n"
-"PO-Revision-Date: 2009-03-07 23:50+0200\n"
-"Last-Translator: Mișu Moldovan <dumol@mate.ro>\n"
-"Language-Team: Romanian <matero-list@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:37+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1))\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -24,53 +27,48 @@ msgstr "Nu s-a putut găsi în care copil era listat serverul"
 msgid "Not a valid Activation ID"
 msgstr "Nu e un ID de activare valid"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Directorul de unde se vor citi fișiere .server"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIRECTOR"
 
-#: ../activation-server/activation-server-main.c:179
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "Servește ca ActivationContext (implicit este numai ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Descriptor fișier pentru scrierea IOR"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:186
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Înregistrare ca server de activare pentru utilizator, dar fără blocare "
-"(lock). Atenție: această opțiune poate dăuna stabilității sesiunii pornite "
-"și ar trebui utilizată doar pentru depanare."
+msgstr "Înregistrare ca server de activare pentru utilizator, dar fără blocare (lock). Atenție: această opțiune poate dăuna stabilității sesiunii pornite și ar trebui utilizată doar pentru depanare."
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Interoghează expresia pentru evaluare"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "EXPRESIE"
 
-#: ../activation-server/activation-server-main.c:547
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Utilizați „%s --help” pentru a consulta lista completă a opțiunilor "
-"disponibile în linia de comandă.\n"
+msgstr "Utilizați „%s --help” pentru a consulta lista completă a opțiunilor disponibile în linia de comandă.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -90,17 +88,14 @@ msgstr "Serviciu de notificare pentru activare"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr "Nu se gestionează deocamdată obiecte shlib activante într-un proces "
-"la distanță"
+msgstr "Nu se gestionează deocamdată obiecte shlib activante într-un proces la distanță"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"Fișierul de configurare matecomponent-activation nu a fost citit cu succes. "
-"Verificați dacă este valid la: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "Fișierul de configurare matecomponent-activation nu a fost citit cu succes. Verificați dacă este valid la: %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -356,8 +351,8 @@ msgstr "Eroare generală de activare fără descriere"
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "Nu s-a putut rezolva ori extinde „%s”"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -406,20 +401,20 @@ msgid "stream MonikerExtender"
 msgstr "flux de date MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Fabrică server MateComponent Echo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Program-exemplu server MateComponent Echo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Componentă Echo"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Fabrica componentei Echo"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Fabrică server MateComponent Echo"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Program-exemplu server MateComponent Echo"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -454,9 +449,7 @@ msgstr "S-a scris cu succes fișierul de configurare.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"fișierul de configurare este:\n"
-"    %s\n"
+msgstr "fișierul de configurare este:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -493,4 +486,3 @@ msgstr "Arată directoarele în fișierul de configurare"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Arată calea către fișierul de configurare"
-

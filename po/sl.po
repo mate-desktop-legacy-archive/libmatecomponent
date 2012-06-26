@@ -1,26 +1,23 @@
-# Slovenian translation of libmatecomponent.
-# Copyright (C) 1999-2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the libmatecomponent package.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Andraz Tori <andraz.tori1@guest.arnes.si>, 2002.
 # Matjaž Horvat <m@owca.info>, 2006.
-# Matej Urbančič <mateju@svn.gnome.org>, 2007 - 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libmatecomponent&component=general\n"
-"POT-Creation-Date: 2010-04-21 16:26+0000\n"
-"PO-Revision-Date: 2010-04-22 15:08+0100\n"
-"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
-"Language-Team: Slovenian MATE Translation Team <mate-si@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:38+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Slovenian (http://www.transifex.net/projects/p/MATE/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
-"X-Poedit-Country: SLOVENIA\n"
-"X-Poedit-Language: Slovenian\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -30,41 +27,44 @@ msgstr "Ni mogoče ugotoviti v seznamu katerega podrejenega predmeta je bil stre
 msgid "Not a valid Activation ID"
 msgstr "Ni veljaven ID prijave"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Mapa z datotekami .server"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "MAPA"
 
-#: ../activation-server/activation-server-main.c:179
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "Služi kot ActivationContext (privzeto le kot ImenikPredmetov)"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Datotečni opisnik za vpis IOR"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:186
-msgid "Register as the user's activation server without locking.  Warning: this option can have dangerous side effects on the stability of the user's running session, and should only be used for debugging purposes"
+#: ../activation-server/activation-server-main.c:184
+msgid ""
+"Register as the user's activation server without locking.  Warning: this "
+"option can have dangerous side effects on the stability of the user's "
+"running session, and should only be used for debugging purposes"
 msgstr "Prijava v uporabniški prijavni strežnik brez zaklepanja. Opozorilo: izbrana možnost lahko vpliva na stabilnost uporabniške seje in je namenjena izključno razhroščevanju."
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Izraz poizvedbe za ovrednotenje"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "IZRAZ"
 
-#: ../activation-server/activation-server-main.c:547
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
@@ -92,7 +92,9 @@ msgstr "Ni mogoče upravljati s predmetom shlib v oddaljenem opravilu"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
-msgid "The MateComponent Activation configuration file was not read successfully. Please, check it is valid in: %s"
+msgid ""
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
 msgstr "Nastavitvene datoteke MateComponent-activation ni mogoče prebrati. Preverite ali je veljavna datoteka v: %s"
 
 #: ../activation-server/object-directory-load.c:102
@@ -399,20 +401,20 @@ msgid "stream MonikerExtender"
 msgstr "MonikerExtender pretoka"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Tovarna strežnika matecomponent odmevov"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Preizkusni program matecomponent strežnika odmevov"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Sestavina odmeva"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Tovarna sestavine odmevov"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Tovarna strežnika matecomponent odmevov"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Preizkusni program matecomponent strežnika odmevov"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -447,9 +449,7 @@ msgstr "Uspešno zapisana nastavitvena datoteka.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"nastavitvena datoteka je:\n"
-"    %s\n"
+msgstr "nastavitvena datoteka je:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -486,47 +486,3 @@ msgstr "Pokaži mape v nastavitveni datoteki"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Pokaži pot do nastavitvene datoteke"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "Ni mogoče inicializirati Bonoba"
-#~ msgid ""
-#~ "Register as the users' activation server without locking [!] for debugging"
-#~ msgstr ""
-#~ "Registriraj kot strežnik za aktivacijo uporabnikov brez zaklepanja [!] za "
-#~ "razhroščevanje"
-#~ msgid "MateComponent Activation"
-#~ msgstr "Aktivacija MateComponent"
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "Tekemski pogoj ob aktiviranju strežnika '%s'"
-#~ msgid "Child received signal %u (%s)"
-#~ msgstr "Podrejeni predmet je dobil signal %u (%s)"
-#~ msgid "Unknown non-exit error (status is %u)"
-#~ msgstr "Neznana ne-izhodna napaka (stanje je %u)"
-#~ msgid "matecomponent-activation failed to set process group of %s: %s\n"
-#~ msgstr "matecomponent-activation ni uspel nastaviti opravilne skupine %s: %s\n"
-#~ msgid "Failed to execute %s: %d (%s)\n"
-#~ msgstr "Izvedba %s ni uspela: %d (%s)\n"
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr ""
-#~ "Preveč ravni vzdevkov za jezikovne nastavitve; napaka lahko pomeni zanko"
-#~ msgid "directory path"
-#~ msgstr "pot imenika"
-#~ msgid "No server corresponding to your query"
-#~ msgstr "Ni strežnikov, ki bi ustrezali poizvedbi"
-#~ msgid "Object directory to use when registering servers"
-#~ msgstr "Predmetni imenik, ki naj se uporabi ob zagonu strežnikov"
-#~ msgid "Query failed: "
-#~ msgstr "Poizvedba ni uspela: "
-#~ msgid "Activation failed: "
-#~ msgstr "Zagon ni uspela: "
-#~ msgid "Could not parse AID"
-#~ msgstr "Ni mogoče razčleniti AID"
-#~ msgid "Could not parse context: "
-#~ msgstr "Ni mogoče razčleniti vsebine: "
-#~ msgid "Could not activate server: "
-#~ msgstr "Ni mogoče aktivirati strežnika: "
-#~ msgid "Domain of ObjectDirectory"
-#~ msgstr "Domena ImenikaPredmetov"
-#~ msgid "DOMAIN"
-#~ msgstr "DOMENA"
-

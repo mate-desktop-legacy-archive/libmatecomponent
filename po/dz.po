@@ -1,73 +1,69 @@
-# Dzongkha translation of libmatecomponent.
-# Copyright @ 2006 Free software foundation,Inc.
-# Mindu Dorji.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent.HEAD.dz\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-03-04 13:02+0600\n"
-"PO-Revision-Date: 2007-03-01 16:17+0530\n"
-"Last-Translator: norbu <nor_den@hotmail.com>\n"
-"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2;plural=(n!=1);\n"
-"X-Poedit-Language: Dzongkha\n"
-"X-Poedit-Country: BHUTAN\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: dz\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
-#: ../activation-server/activation-context-corba.c:524
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "སར་བར་དེ་ ཆ་ལག་ག་ཅིའི་ནང་ ཐོ་བཀོད་འབད་འབདཝ་ཨིན་ན་ འཚོལ་མ་ཐོབ།"
 
-#: ../activation-server/activation-context-corba.c:816
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "ཤུགས་བཟོ་ནིའི་ཨའི་ཌི་ ནུས་ཅན་ཅིག་མེན་པས།"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr ".སར་བར་ཡིག་སྣོད་ཚུ་ ལྷག་ནིའི་སྣོད་ཐོ།"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "སྣོད་ཐོ།"
 
-#: ../activation-server/activation-server-main.c:165
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "ཤུགས་བཟོའི་སྐབས་འབབ་བཟུམ་ཅིག་སྦེ་ ལཱ་འབདཝ་ཨིན། (སྔོན་སྒྲིག་དེ་ དངོས་པའི་སྣོད་ཐོ་ཙམ་ཅིག་ཨིན)"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "ཨའི་ཨོ་ཨར་འབྲི་སའི་ ཡིག་སྣོད་འགྲེལ་བཤདཔ།"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
-#: ../matecomponent-activation/matecomponent-activation-init.c:388
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "ཡིག་སྣོད་འགྲེལ་བཤདཔ།"
 
-#: ../activation-server/activation-server-main.c:172
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"ལྡེ་མིག་མ་རྐྱབས་པར་ ལག་ལེན་པ་གི་ནུས་ལྡན་བཟོ་ནིའི་སར་བར་སྦེ་ཐོའགོད་འབད། ཉེན་བརྡ་: འ་ནི་གདམ་ཁ་འདི་"
-"གིས་ ལག་ལེན་པ་གི་གཡོག་བའི་ལཱ་ཡུན་འདི་གི་ རྩ་བརྟན་ལུ་ ཉེན་ཁ་ཅན་གྱི་གནོད་པ་ཚུ་འོང་ དེ་ལས་དེ་རྐྱེན་སེལ་"
-"འབད་ནིའི་དོན་ལུ་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་དགོ"
+msgstr "ལྡེ་མིག་མ་རྐྱབས་པར་ ལག་ལེན་པ་གི་ནུས་ལྡན་བཟོ་ནིའི་སར་བར་སྦེ་ཐོའགོད་འབད། ཉེན་བརྡ་: འ་ནི་གདམ་ཁ་འདི་གིས་ ལག་ལེན་པ་གི་གཡོག་བའི་ལཱ་ཡུན་འདི་གི་ རྩ་བརྟན་ལུ་ ཉེན་ཁ་ཅན་གྱི་གནོད་པ་ཚུ་འོང་ དེ་ལས་དེ་རྐྱེན་སེལ་འབད་ནིའི་དོན་ལུ་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་དགོ"
 
-#: ../activation-server/activation-server-main.c:180
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "བརྟག་ཞིབ་ཀྱི་དོན་ལུ་ འདྲི་དཔྱད་ཀྱི་གསལ་བརྗོད།"
 
-#: ../activation-server/activation-server-main.c:180
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "གསལ་བརྗོད།"
 
-#: ../activation-server/activation-server-main.c:429
-#: ../utils/matecomponent-activation-sysconf.c:304
+#: ../activation-server/activation-server-main.c:541
+#: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
 msgstr "འཐོབ་ཚུགས་པའི་བཀོད་ལམ་གདམ་ཁའི་ཐོ་ཡིག་ཆ་ཚང་ཅིག་བལྟ་ནི་ལུ་ '%s --help' གཡོག་བཀོལ།\n"
@@ -90,49 +86,45 @@ msgstr "ཤུགས་བཟོའི་བརྡ་བསྐུལ་ཞབས
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr ""
-"ང་བཅས་ཀྱིས་ ད་ཚུན་གྱི་བར་ན་ ཐག་རིང་ལས་སྦྱོར་ནང་ལུ་ shlib དངོས་པོ་ཤུགས་ལྡན་བཟོ་ནིའི་ ལེགས་སྐྱོང་"
-"འཐབ་ནི་མེད།"
+msgstr "ང་བཅས་ཀྱིས་ ད་ཚུན་གྱི་བར་ན་ ཐག་རིང་ལས་སྦྱོར་ནང་ལུ་ shlib དངོས་པོ་ཤུགས་ལྡན་བཟོ་ནིའི་ ལེགས་སྐྱོང་འཐབ་ནི་མེད།"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"བཱོ་ནོ་བཱོ་ ཤུགས་བཟོའི་རིམ་སྒྲིག་ཡིག་སྣོད་དེ་ མཐར་འཁྱོལ་སྦེ་ལྷག་མ་ཚུགས།  %s ནང་ལུ་ ནུས་ཅན་ཨིནམ་མེནམ་ "
-"ཞིབ་དཔྱད་འབད།"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "བཱོ་ནོ་བཱོ་ ཤུགས་བཟོའི་རིམ་སྒྲིག་ཡིག་སྣོད་དེ་ མཐར་འཁྱོལ་སྦེ་ལྷག་མ་ཚུགས།  %s ནང་ལུ་ ནུས་ཅན་ཨིནམ་མེནམ་ ཞིབ་དཔྱད་འབད།"
 
-#: ../activation-server/object-directory-load.c:101
+#: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr "སྟོང་པའི་ ཨའི་ཨའི་ཌི་དེ་ ནུས་མེད་ཨིན་པས།"
 
-#: ../activation-server/object-directory-load.c:105
+#: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr "ཨའི་ཨའི་ཌི་ %s ལུ་ སྟོང་པའི་དབྱེ་བ་ཅིག་འདུ་ག"
 
-#: ../activation-server/object-directory-load.c:109
+#: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr "ཨའི་ཨའི་ཌི་ %s ལུ་ སྟོང་པའི་གནས་ཁོངས་ཅིག་འདུ་ག"
 
-#: ../activation-server/object-directory-load.c:118
+#: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "ནུས་མེད་ཡིག་འབྲུ་ '%c' འདུག ཨའི་ཨའི་ཌི་ '%s' ནང་།"
 
-#: ../activation-server/object-directory-load.c:348
+#: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
 msgstr "རྒྱུ་དངོས་ ’%s’ དེ་ལུ་ བེ་ལུ་མིན་འདུ་ག"
 
-#: ../activation-server/object-directory-load.c:580
+#: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
 msgstr "བྱང་ཉེས་སྦེ་ གཞི་བསྒྲུབས་འབད་མི་ ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་ %s དེ་ལུ་ མིང་དཔྱད་འབད་མ་ཚུགས།"
 
-#: ../activation-server/object-directory-load.c:626
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr "སྣོད་ཐོ་ %s ལུ་ འབད་རྩོལ་བསྐྱེད་དོ།"
@@ -147,37 +139,38 @@ msgid "Failed to read from child process: %s\n"
 msgstr "ཆ་ལག་ལས་སྦྱོར་ %s ནང་ལས་ ལྷག་མ་ཚུགས། \n"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
+#, c-format
 msgid "EOF from child process\n"
 msgstr "ཆ་ལག་ལས་སྦྱོར་ནང་ལས་ ཨི་ཨོ་ཨེཕ། \n"
 
-#: ../matecomponent-activation/matecomponent-activation-fork-server.c:434
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
 msgstr "ལས་སྦྱོར་གསརཔ་ཅིག་ དར་ཁྱབ་འབྱུང་མ་ཚུགས།"
 
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
-#: ../matecomponent-activation/matecomponent-activation-init.c:388
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
 msgstr "ཨའི་ཨོ་ཨར་ དཔར་བསྐྲུན་འབད་སའི་ ཡིག་སྣོད་འགྲེལ་བཤདཔ།"
 
 #: ../matecomponent-activation/matecomponent-activation-init.c:354
-#: ../matecomponent-activation/matecomponent-activation-init.c:390
+#: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
 msgstr "ནུས་ལྡན་བཟོ་དགོ་པའི་ཨའི་ཨའི་ཌི།"
 
 #: ../matecomponent-activation/matecomponent-activation-init.c:356
-#: ../matecomponent-activation/matecomponent-activation-init.c:392
+#: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
 msgstr "སར་བར་དེ་ ཨོ་ཨེ་ཨེཕ་དང་གཅིག་ཁར་ ཐོ་བཀོད་འབད་ནི་ལུ་ སྔོན་བཀག་འབད།"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:400
+#: ../matecomponent-activation/matecomponent-activation-init.c:409
 msgid "MateComponent Activation options:"
 msgstr "བཱོ་ནོ་བཱོ་ ཤུགས་བཟོའི་གདམ་ཁ་:"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:401
+#: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
 msgstr "བཱོ་ནོ་བཱོ་ཤུགས་བཟོའི་གདམ་ཁ་སྟོན།"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:509
+#: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
 msgstr "བཱོ་ནོ་བཱོ་ ཤུགས་བཟོའི་གདམ་ཁ།"
 
@@ -202,19 +195,19 @@ msgstr "འཕྲུལ་ཁང་ ‘%s’ གིས་ ‘%s’ གི་ད�
 msgid "Shlib `%s' didn't contain `%s'"
 msgstr "Shlib ‘%s’ གི་ནང་ན་ ‘%s’ མིན་འདུ་ག"
 
-#: ../matecomponent/matecomponent-application.c:350
+#: ../matecomponent/matecomponent-application.c:352
 msgid "Name"
 msgstr "མིང༌།"
 
-#: ../matecomponent/matecomponent-application.c:350
+#: ../matecomponent/matecomponent-application.c:352
 msgid "Application unique name"
 msgstr "གློག་རིམ་གྱི་ མཐུན་མོང་མ་ཡིན་པའི་མིང༌།"
 
-#: ../matecomponent/matecomponent-object.c:924
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "པི་ཨོ་ཨེ།"
 
-#: ../matecomponent/matecomponent-object.c:924
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "སྲོལ་སྒྲིག་ ཀོར་བཱ་ པི་ཨོ་ཨེ།"
 
@@ -354,16 +347,12 @@ msgstr "འཛོལ་བ་ཞིབ་དཔྱད་ལུ་འཛོལ་
 msgid "General activation error with no description"
 msgstr "འགྲེལ་བཤད་མེད་པར་ ཡོངས་ཁྱབ་ཤུགས་བཟོ་ལུ་འཛོལ་བ།"
 
-#: ../matecomponent/matecomponent-generic-factory.h:79 ../matecomponent/matecomponent-generic-factory.h:83
-msgid "Could not initialize MateComponent"
-msgstr "བཱོ་ནོ་བཱོ་ འགོ་འབྱེད་འབད་མ་ཚུགས།"
-
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "’%s’ དེ་ མོས་མཐུན་འབད་མ་ཚུགས་ ཡང་ཅིན་ རྒྱ་བསྐྱེད་འབད་མ་ཚུགས།"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
-#: ../matecomponent/matecomponent-moniker-util.c:246
+#: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
 msgstr "དངོས་པོ་ཤུགས་ལྡན་བཟོ་མ་ཚུགས།"
 
@@ -410,116 +399,88 @@ msgid "stream MonikerExtender"
 msgstr "རྒྱུན་རིམ་གྱི་ མོ་ནི་ཀར་རྒྱ་བསྐྱེདཔ།"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "བཱོ་ནོ་བཱོ་ བྲག་ཅའི་སར་བར་འཕྲུལ་ཁང༌།"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "བཱོ་ནོ་བཱོ་ བྲག་ཅ་སར་བར་གྱི་ དཔེ་ཚད་ལས་རིམ།"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "བྲག་ཅའི་ཆ་ཤས།"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "བྲག་ཆའི་ཆ་ཤས་འཕྲུལ་ཁང༌།"
 
-#: ../samples/echo/echo-client.c:23
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "བཱོ་ནོ་བཱོ་ བྲག་ཅའི་སར་བར་འཕྲུལ་ཁང༌།"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "བཱོ་ནོ་བཱོ་ བྲག་ཅ་སར་བར་གྱི་ དཔེ་ཚད་ལས་རིམ།"
+
+#: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
 msgstr "ང་གིས་ བཱོ་ནོ་བཱོ་ འག་ོའབྱེད་འབད་མ་ཚུགས།"
 
-#: ../samples/echo/echo-client.c:34
+#: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
 msgstr "བྲག་ཅའི་ཆ་ཤས་དཔེ་ཚད་ཀྱི་ དུས་སྐབས་ཅིག་ བཟོ་མ་ཚུགས།"
 
-#: ../samples/echo/echo-client.c:46
+#: ../samples/echo/echo-client.c:47
 #, c-format
 msgid "An exception occurred '%s'"
 msgstr "དམིགས་བསལ་ '%s' ཅིག་བྱུང་ནུག"
 
-#: ../utils/matecomponent-activation-sysconf.c:82
+#: ../utils/matecomponent-activation-sysconf.c:83
+#, c-format
 msgid "Could not save configuration file.\n"
 msgstr "རིམ་སྒྲིག་ཡིག་སྣོད་དེ་ སྲུང་བཞག་འབད་མ་ཚུགས། \n"
 
-#: ../utils/matecomponent-activation-sysconf.c:83
+#: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "ཁྱོད་ཀྱིས་ ’%s’ ལུ་ འབྲི་ནིའི་གནང་བ་ཡོདཔ་ ངེས་གཏན་བཟོ། \n"
 
-#: ../utils/matecomponent-activation-sysconf.c:86
+#: ../utils/matecomponent-activation-sysconf.c:87
+#, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "རིམ་སྒྲིག་ཡིག་སྣོད་ མཐར་འཁྱོལ་འབད་བྲིས་ནུག\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:103
+#: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"རིམ་སྒྲིག་ཡིག་སྣོད་ :\n"
-" %s ཨིན། \n"
+msgstr "རིམ་སྒྲིག་ཡིག་སྣོད་ :\n %s ཨིན། \n"
 
-#: ../utils/matecomponent-activation-sysconf.c:145
+#: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "%s དེ་ ཧེན་མ་ལས་རང་ རིམ་སྒྲིག་ཡིག་སྣོད་ནང་འདུ་ག\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:165
+#: ../utils/matecomponent-activation-sysconf.c:166
+#, c-format
 msgid "there is not a properly structured configuration file\n"
 msgstr "ཚུལ་ལྡན་སྦེ་ གཞི་བཀོད་འབད་མི་ རིམ་སྒྲིག་ཡིག་སྣོད་ཅིག་མིན་འདུ་ག\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:236
+#: ../utils/matecomponent-activation-sysconf.c:237
+#, c-format
 msgid "MateComponent-activation configuration file contains:\n"
 msgstr "བཱོ་ནོ་བཱོ་ ཤུགས་བཟོའི་རིམ་སྒྲིག་ཡིག་སྣོད་ནང་འདུག་:\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
+#: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
 msgstr "རིམ་སྒྲིག་ཡིག་སྣོད་ནང་ལས་ རྩ་བསྐྲད་གཏང་ནིའི་སྣོད་ཐོ།"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:267
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
 msgstr "འགྲུལ་ལམ།"
 
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
 msgstr "རིམ་སྒྲིག་ཡིག་སྣོད་ལུ་ ཁ་སྐོང་བརྐྱབ་ནིའི་སྣོད་ཐོ།"
 
-#: ../utils/matecomponent-activation-sysconf.c:270
+#: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
 msgstr "རིམ་སྒྲིག་ཡིག་སྣོད་ནང་ སྣོད་ཐོ་ཚུ་ བཀྲམ་སྟོན་འབད།"
 
-#: ../utils/matecomponent-activation-sysconf.c:272
+#: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "རིམ་སྒྲིག་ཡིག་སྣོད་ལུ་ འགྲུལ་ལམ་བཀྲམ་སྟོན་འབད།"
-
-#~ msgid ""
-#~ "Register as the users' activation server without locking [!] for debugging"
-#~ msgstr ""
-#~ "རྐྱེན་སེལ་གྱི་དོན་ལུ་ [!] ལྡེ་མིག་མ་བརྐྱབས་པར་ ལག་ལེན་པའི་ཤུགས་བཟོ་སར་བར་སྦེ་ ཐོ་འགོད་འབད།"
-
-#~ msgid "MateComponent Activation"
-#~ msgstr "བཱོ་ནོ་བཱོ་ཤུགས་བཟོ།"
-
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "རྒྱུག་འགྲན་གནས་སྟངས་ ཤུགས་བཟོའི་ཡིག་སྣོད་ ’%s’ །"
-
-#~ msgid "Child received signal %u (%s)"
-#~ msgstr "ཆ་ལག་གིས་ བརྡ་རྟགས་ %u (%s) ཐོབ་ཅི།"
-
-#~ msgid "Unknown non-exit error (status is %u)"
-#~ msgstr "ཤེས་མ་ཚུགས་པའི་ ཕྱིར་འཐོན་མེན་པའི་འཛོལ་བ། (གནས་ཚད་དེ་ %u ཨིན)"
-
-#~ msgid "matecomponent-activation failed to set process group of %s: %s\n"
-#~ msgstr "ལས་སྦྱོར་སྡེ་ཚན་ %s: %s གཞི་སྒྲིག་འབད་ནི་ལུ་ བཱོ་ནོ་བཱོ་-ཤུགས་ལྡན་བཟོ་མ་ཚུགས། \n"
-
-#~ msgid "Failed to execute %s: %d (%s)\n"
-#~ msgstr "%s: %d (%s) དེ་ ལག་ལེན་འཐབ་མ་ཚུགས། \n"
-
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr ""
-#~ "ལོ་ཀེལ་ཅིག་གི་དོན་ལུ་ གནས་རིམ་གྱི་མིང་གཞན་ མང་དྲགསཔ་ལས་ འཕྲལ་བཀོལ་ཅིག་གི་ བརྡ་སྟོན་འོང༌།"
-
-#~ msgid "directory path"
-#~ msgstr "སྣོད་ཐོའི་འགྲུལ་ལམ།"

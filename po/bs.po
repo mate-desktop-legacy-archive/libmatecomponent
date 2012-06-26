@@ -1,66 +1,71 @@
-# translation of libmatecomponent to Bosnian
-# This file is distributed under the same license as the libmatecomponent package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2004.
 # Kenan Hadžiavdić <kenanh@frisurf.no>, 2004.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-10-22 16:55+0200\n"
-"PO-Revision-Date: 2004-03-04 22:12+0000\n"
-"Last-Translator: Kenan Hadžiavdić <kenanh@frisurf.no>\n"
-"Language-Team: Bosnian <lokal@lugbih.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:38+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.2\n"
+"Language: bs\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
-#: ../activation-server/activation-context-corba.c:523
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "Nisam mogao pronaći u koji podređeni proces je uvršten server"
 
-#: ../activation-server/activation-context-corba.c:815
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "Nevažeći aktivacijski ID"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Direktorij iz kojeg će se čitati .server datoteke"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIREKTORIJ"
 
-#: ../activation-server/activation-server-main.c:165
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "Služi kao ActivationContext (uobičajeno je samo kao ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Deskriptor datoteke za upisivanje IOR-a"
 
-#: ../activation-server/activation-server-main.c:169
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../activation-server/activation-server-main.c:181
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:172
+#: ../activation-server/activation-server-main.c:184
 msgid ""
-"Register as the users' activation server without locking [!] for debugging"
+"Register as the user's activation server without locking.  Warning: this "
+"option can have dangerous side effects on the stability of the user's "
+"running session, and should only be used for debugging purposes"
 msgstr ""
 
-#: ../activation-server/activation-server-main.c:177
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Izraz upita za procjenu"
 
-#: ../activation-server/activation-server-main.c:177
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "IZRAZ"
 
-#: ../activation-server/activation-server-main.c:426
-#: ../utils/matecomponent-activation-sysconf.c:304
+#: ../activation-server/activation-server-main.c:541
+#: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
@@ -83,57 +88,52 @@ msgstr "Servis za obavijesti o aktiviranju"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr ""
-"Još uvijek ne možemo rukovati aktiviranjem shlib objekata u udaljenom procesu"
+msgstr "Još uvijek ne možemo rukovati aktiviranjem shlib objekata u udaljenom procesu"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"Datoteka s podešavanjima Bononobo aktiviranja nije uspješno učitana. Molim, "
-"provjerite da je važeća u: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "Datoteka s podešavanjima Bononobo aktiviranja nije uspješno učitana. Molim, provjerite da je važeća u: %s"
 
-#: ../activation-server/object-directory-load.c:101
+#: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr "iid NULL je nevažeći"
 
-#: ../activation-server/object-directory-load.c:105
+#: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr "iid %s je tipa NULL"
 
-#: ../activation-server/object-directory-load.c:109
+#: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr "iid %s ima NULL lokaciju"
 
-#: ../activation-server/object-directory-load.c:118
+#: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "nevažeći znak '%c' u iid '%s'"
 
-#: ../activation-server/object-directory-load.c:348
+#: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
 msgstr "Osobina '%s' nema vrijednost"
 
-#: ../activation-server/object-directory-load.c:580
+#: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
 msgstr "Nisam mogao protumačiti neispravno oblikovani XML dokument %s"
 
-#: ../activation-server/object-directory-load.c:627
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr "Pokušavam direktorij %s"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr ""
-"Podređeni proces nije dao nikakvu poruku o grešci, dogodila se nepoznata "
-"greška"
+msgstr "Podređeni proces nije dao nikakvu poruku o grešci, dogodila se nepoznata greška"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
@@ -141,41 +141,38 @@ msgid "Failed to read from child process: %s\n"
 msgstr "Neuspješno čitanje iz podređenog procesa: %s\n"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
-#, fuzzy
+#, c-format
 msgid "EOF from child process\n"
-msgstr "Neuspješno čitanje iz podređenog procesa: %s\n"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-fork-server.c:435
-#, fuzzy
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
-msgstr "Nisam mogao započeti novi proces"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
 msgstr "Deskriptor datoteke na kojem će se ispisati IOR"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:357
-#: ../matecomponent-activation/matecomponent-activation-init.c:367
+#: ../matecomponent-activation/matecomponent-activation-init.c:354
+#: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
 msgstr "IID koji će se aktivirati"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:359
-#: ../matecomponent-activation/matecomponent-activation-init.c:369
+#: ../matecomponent-activation/matecomponent-activation-init.c:356
+#: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
 msgstr "Spriječi registriranje servera na OAF-u"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:403
-#, fuzzy
-msgid "MateComponent Activation"
-msgstr "Opcije za matecomponent-activation"
+#: ../matecomponent-activation/matecomponent-activation-init.c:409
+msgid "MateComponent Activation options:"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:404
-#, fuzzy
+#: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
-msgstr "Opcije za matecomponent-activation"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:512
+#: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
 msgstr "Opcije za matecomponent-activation"
 
@@ -208,11 +205,11 @@ msgstr "Ime"
 msgid "Application unique name"
 msgstr "Jedinstveno ime aplikacije"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "Prilagođen CORBA POA"
 
@@ -352,16 +349,12 @@ msgstr "Greška tokom provjere greške; bez izuzetka"
 msgid "General activation error with no description"
 msgstr "Neodređena greška bez opisa na aktiviranju"
 
-#: ../matecomponent/matecomponent-generic-factory.h:79 ../matecomponent/matecomponent-generic-factory.h:83
-msgid "Could not initialize MateComponent"
-msgstr "Nisam mogao inicijalizirati MateComponent"
-
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "Nisam uspio razriješiti ili proširiti '%s"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
-#: ../matecomponent/matecomponent-moniker-util.c:246
+#: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
 msgstr "Neuspješno aktiviranje objekta"
 
@@ -408,107 +401,88 @@ msgid "stream MonikerExtender"
 msgstr "stream MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent tvornica Echo servera"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Uzorak programa MateComponent Echo servera"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Echo komponenta"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Tvornica Echo komponenti"
 
-#: ../samples/echo/echo-client.c:22
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent tvornica Echo servera"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Uzorak programa MateComponent Echo servera"
+
+#: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
 msgstr "Nisam mogao inicijalizirati MateComponent"
 
-#: ../samples/echo/echo-client.c:33
+#: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
 msgstr "Nisam mogao napraviti primjerak uzorka echo komponente"
 
-#: ../samples/echo/echo-client.c:45
+#: ../samples/echo/echo-client.c:47
 #, c-format
 msgid "An exception occurred '%s'"
 msgstr "Dogodilo se izuzeće '%s'"
 
-#: ../utils/matecomponent-activation-sysconf.c:82
+#: ../utils/matecomponent-activation-sysconf.c:83
+#, c-format
 msgid "Could not save configuration file.\n"
 msgstr "Nisam mogao snimiti datoteku s podešavanjima.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:83
+#: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "Molim provjerite imate li dozvolu pisati u '%s'.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:86
+#: ../utils/matecomponent-activation-sysconf.c:87
+#, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "Uspješno zapisana datoteka s podešavanjima.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:103
+#: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"datoteka s podešavanjima je:\n"
-"    %s\n"
+msgstr "datoteka s podešavanjima je:\n    %s\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:145
+#: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "%s se već nalazi u datoteci s podešavanjima\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:165
+#: ../utils/matecomponent-activation-sysconf.c:166
+#, c-format
 msgid "there is not a properly structured configuration file\n"
 msgstr "nema pravilno strukturirane datoteke s podešavanjima\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:236
+#: ../utils/matecomponent-activation-sysconf.c:237
+#, c-format
 msgid "MateComponent-activation configuration file contains:\n"
 msgstr "Datoteka s podešavanjima za matecomponent-activation sadrži:\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
+#: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
 msgstr "Direktorij koji će se ukloniti iz datoteke s podešavanjima"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:267
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
 msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
 msgstr "Direktorij koji će se dodati datoteci s podešavanjima"
 
-#: ../utils/matecomponent-activation-sysconf.c:270
+#: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
 msgstr "Prikaži direktorije u datoteci s podešavanjima"
 
-#: ../utils/matecomponent-activation-sysconf.c:272
+#: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Prikaži putanju do datoteke s podešavanjima"
-
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "«Race condition» tokom aktiviranja servera '%s'"
-
-#~ msgid "Child received signal %u (%s)"
-#~ msgstr "Podređeni proces je primio signal %u (%s)"
-
-#~ msgid "Unknown non-exit error (status is %u)"
-#~ msgstr "Nepoznata ne-fatalna greška (status je %u)"
-
-#~ msgid "matecomponent-activation failed to set process group of %s: %s\n"
-#~ msgstr "matecomponent-activation nije uspio postaviti procesnu grupu za %s: %s\n"
-
-#~ msgid "Failed to execute %s: %d (%s)\n"
-#~ msgstr "Neuspješno izvršenje %s: %d (%s)\n"
-
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr "Previše alternativnih nivoa za locale, može ukazivati na petlju"
-
-#~ msgid "directory path"
-#~ msgstr "putanja do direktorija"

@@ -1,64 +1,69 @@
-# MALAGASY TRANSLATION OF LIBMATECOMPONENT.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Thierry Randrianiriana <randriniriana@gmail.com>, YEAR.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: LIBMATECOMPONENT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-12-20 07:54+0100\n"
-"PO-Revision-Date: 2007-01-21 18:28+0300\n"
-"Last-Translator: Fanomezana Rajaonarisoa <fano@isvtec.com>\n"
-"Language-Team: MALAGASY <i18n-malagasy-mate@gna.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: mg\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
-#: ../activation-server/activation-context-corba.c:523
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "Tsy hita ny zanaka nasiana ilay mpizara"
 
-#: ../activation-server/activation-context-corba.c:815
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "ID fandefasana diso"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Ny lahatahiry hamakiana ny rakitra .server"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "LAHATAHIRY"
 
-#: ../activation-server/activation-server-main.c:165
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "Fatao ActivationContext (raha lasitra, ObjectDirectory ihany)"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Ny mpanoritra rakitra anoratana IOR"
 
-#: ../activation-server/activation-server-main.c:169
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../activation-server/activation-server-main.c:181
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:172
-#, fuzzy
-msgid "Register as the users' activation server without locking [!] for debugging"
-msgstr "Manao fanambarana fa mpizara fandefasana  nefa tsy mangeja ny [!] amin'ny debugging"
+#: ../activation-server/activation-server-main.c:184
+msgid ""
+"Register as the user's activation server without locking.  Warning: this "
+"option can have dangerous side effects on the stability of the user's "
+"running session, and should only be used for debugging purposes"
+msgstr ""
 
-#: ../activation-server/activation-server-main.c:177
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Filazana fangatahana holanjalanjaina"
 
-#: ../activation-server/activation-server-main.c:177
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "FILAZANA"
 
-#: ../activation-server/activation-server-main.c:426
-#: ../utils/matecomponent-activation-sysconf.c:304
+#: ../activation-server/activation-server-main.c:541
+#: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
 msgstr "Alefaso ny '%s --help' ahitana ny safidy rehetra misy momba ny lazam-baiko.\n"
@@ -85,39 +90,41 @@ msgstr "Tsy mbola raisinay an-tànana ny fandefasana zavatra shlib anaty fizotra
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
-msgid "The MateComponent Activation configuration file was not read successfully. Please, check it is valid in: %s"
+msgid ""
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
 msgstr "Tsy voavaky tsara ny raki-kirakiran'ny Fandefasana ny MateComponent. Jereo ao amin'ity raha ara-dalàna ilay izy: %s"
 
-#: ../activation-server/object-directory-load.c:101
+#: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr "Tsy mitombina ny iid NULL"
 
-#: ../activation-server/object-directory-load.c:105
+#: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr "NULL ny karazan'ny iid %s"
 
-#: ../activation-server/object-directory-load.c:109
+#: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr "NULL ny toeran'ny iid %s"
 
-#: ../activation-server/object-directory-load.c:118
+#: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "Misy marika tsy mitombina '%c' ao amin'ny iid '%s'"
 
-#: ../activation-server/object-directory-load.c:348
+#: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
 msgstr "Tsy manana sanda ny toetoetra '%s'"
 
-#: ../activation-server/object-directory-load.c:580
+#: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
 msgstr "Tsy voazarazara ny tahirin-kevitra XML ratsy voatra %s"
 
-#: ../activation-server/object-directory-load.c:627
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr "Manandrana ny lahatahiry %s"
@@ -132,37 +139,38 @@ msgid "Failed to read from child process: %s\n"
 msgstr "Tsy nahavaky ny mpiatin'ny fizotra zanaka: %s\n"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
+#, c-format
 msgid "EOF from child process\n"
 msgstr "EOF avy amin'ny fizotra zanaka\n"
 
-#: ../matecomponent-activation/matecomponent-activation-fork-server.c:435
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
 msgstr "Tsy nahaforona fizotra vaovao"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
 msgstr "Mpanori-drakitra anontana ny IOR"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:357
-#: ../matecomponent-activation/matecomponent-activation-init.c:367
+#: ../matecomponent-activation/matecomponent-activation-init.c:354
+#: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
 msgstr "Ny IID halefa"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:359
-#: ../matecomponent-activation/matecomponent-activation-init.c:369
+#: ../matecomponent-activation/matecomponent-activation-init.c:356
+#: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
 msgstr "Manakana ny fanambaranany mpizara amin'ny alalan'ny OAF"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:403
-msgid "MateComponent Activation"
-msgstr "Fandefasana ny MateComponent"
+#: ../matecomponent-activation/matecomponent-activation-init.c:409
+msgid "MateComponent Activation options:"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:404
+#: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
 msgstr "Asehoy ny safidy momba ny fandefasana ny MateComponent"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:512
+#: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
 msgstr "Safidy momba ny fandefasana ny MateComponent"
 
@@ -195,11 +203,11 @@ msgstr "Anarana"
 msgid "Application unique name"
 msgstr "Ny hany anaran'ilay rindranasa"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "CORBA POA safidy"
 
@@ -288,9 +296,8 @@ msgid "Unknown command or verb"
 msgstr "Baiko na matoanteny tsy fantatra"
 
 #: ../matecomponent/matecomponent-exception.c:222
-#, fuzzy
 msgid "Command is insensitive"
-msgstr "Tsy mamaly ilay baiko"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:226
 msgid "incorrect data type"
@@ -340,24 +347,19 @@ msgstr "Nisy olana teo am-pijerena ilay tsy fetezana; tsy misy avaka"
 msgid "General activation error with no description"
 msgstr "Tsy fetezam-pandefasana ankapobeny tsy misy fanoritsoritana"
 
-#: ../matecomponent/matecomponent-generic-factory.h:79
-#: ../matecomponent/matecomponent-generic-factory.h:83
-msgid "Could not initialize MateComponent"
-msgstr "Tsy voatomboka ny MateComponent"
-
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "Tsy voavadika na voavelatra ny '%s'"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
-#: ../matecomponent/matecomponent-moniker-util.c:246
+#: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
 msgstr "Tsy nahavita nandefa ilay zavatra"
 
 #: ../monikers/matecomponent-moniker-oaf.c:53
-#, fuzzy, c-format
+#, c-format
 msgid "Exception activating '%s'"
-msgstr "Nisy avaka teo am-pandefasana ny '%s'"
+msgstr ""
 
 #: ../monikers/matecomponent-moniker-oaf.c:62
 #, c-format
@@ -397,86 +399,88 @@ msgid "stream MonikerExtender"
 msgstr "MonikerExtender an'ny tosaka"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Toerana fanamboarana ny mpizaran'ny MateComponent Echo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Santionan-drindranasan'ny mpizaran'ny MateComponent Echo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Singan'ny Echo"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Toerana fanamboarana ny singan'ny Echo"
 
-#: ../samples/echo/echo-client.c:22
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Toerana fanamboarana ny mpizaran'ny MateComponent Echo"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Santionan-drindranasan'ny mpizaran'ny MateComponent Echo"
+
+#: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
 msgstr "Tsy afaka nanomboka ny MateComponent aho"
 
-#: ../samples/echo/echo-client.c:33
+#: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
 msgstr "Tsy nahavita namorona santionan-tsingan'ako iray"
 
-#: ../samples/echo/echo-client.c:45
+#: ../samples/echo/echo-client.c:47
 #, c-format
 msgid "An exception occurred '%s'"
 msgstr "Nisy avaka nitranga '%s'"
 
-#: ../utils/matecomponent-activation-sysconf.c:82
+#: ../utils/matecomponent-activation-sysconf.c:83
+#, c-format
 msgid "Could not save configuration file.\n"
 msgstr "Tsy voaraikitra ilay raki-kirakira.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:83
+#: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "Amarino tsara hoe manana alalana hanoratra amin'ny '%s' ianao.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:86
+#: ../utils/matecomponent-activation-sysconf.c:87
+#, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "Nahomby ny fanoratana tamin'ilay raki-kirakira.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:103
+#: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"Ilay raki-kirakira:\n"
-"    %s\n"
+msgstr "Ilay raki-kirakira:\n    %s\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:145
+#: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "Efa ao anatin'ilay raki-kirakira ny %s\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:165
+#: ../utils/matecomponent-activation-sysconf.c:166
+#, c-format
 msgid "there is not a properly structured configuration file\n"
 msgstr "tsy misy raki-kirakira voarafitra araka ny tokony ho izy ao\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:236
+#: ../utils/matecomponent-activation-sysconf.c:237
+#, c-format
 msgid "MateComponent-activation configuration file contains:\n"
 msgstr "Ny kirakiran'ny fandefasana ny MateComponent dia misy:\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
+#: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
 msgstr "Ny lahatahiry fafàna tanatin'ilay raki-kirakira"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:267
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
 msgstr "SORI-DALANA"
 
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
 msgstr "Ny lahatahiry ampidirina ao anatin'ilay raki-kirakira"
 
-#: ../utils/matecomponent-activation-sysconf.c:270
+#: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
 msgstr "Asehoy anatin'ilay raki-kirakira ny lahatahiry"
 
-#: ../utils/matecomponent-activation-sysconf.c:272
+#: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Asehoy ao anatin'ilay raki-kirakira ny sori-dàlana"

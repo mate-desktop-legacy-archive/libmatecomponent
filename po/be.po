@@ -1,67 +1,70 @@
-# translation of libmatecomponent.HEAD.be.po to Belarusian
-# translation of libmatecomponent.HEAD.be.po to belarusian
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER
+# 
+# Translators:
 # Vital Khilko <dojlid@mova.org>, 2003, 2005.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent.HEAD.be\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-10-22 16:55+0200\n"
-"PO-Revision-Date: 2005-11-19 19:44+0200\n"
-"Last-Translator: Vital Khilko <dojlid@mova.org>\n"
-"Language-Team: Belarusian <i18n@mova.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: be\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
-#: ../activation-server/activation-context-corba.c:523
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "Немагчыма адшукаць чый нашчадак быў пералічаны"
 
-#: ../activation-server/activation-context-corba.c:815
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "Недапушчальны ID актывацыі"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Каталёг для чытаньня файлаў .server з"
 
-#: ../activation-server/activation-server-main.c:162
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "КАТАЛЁГ"
 
-#: ../activation-server/activation-server-main.c:165
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Абслугоўваць як ActivationContext (прадвызначанае толькі як ObjectDirectory)"
+msgstr "Абслугоўваць як ActivationContext (прадвызначанае толькі як ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Дэскрыптар файла для запісу IOR у"
 
-#: ../activation-server/activation-server-main.c:169
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../activation-server/activation-server-main.c:181
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:172
+#: ../activation-server/activation-server-main.c:184
 msgid ""
-"Register as the users' activation server without locking [!] for debugging"
+"Register as the user's activation server without locking.  Warning: this "
+"option can have dangerous side effects on the stability of the user's "
+"running session, and should only be used for debugging purposes"
 msgstr ""
 
-#: ../activation-server/activation-server-main.c:177
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Выраз запыту для ацэнкі"
 
-#: ../activation-server/activation-server-main.c:177
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "ВЫРАЗ"
 
-#: ../activation-server/activation-server-main.c:426
-#: ../utils/matecomponent-activation-sysconf.c:304
+#: ../activation-server/activation-server-main.c:541
+#: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
@@ -84,57 +87,52 @@ msgstr "Паслуга паведамленьняў для актывацыі"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr ""
-"Мы ўсё яшчэ не падтрымліваем актывацыю аб'ектаў shlib у аддаленых працэсах"
+msgstr "Мы ўсё яшчэ не падтрымліваем актывацыю аб'ектаў shlib у аддаленых працэсах"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"Цяжкасьці з чытаньнем канфігурацыйнага файлу MateComponent Activation. Калі ласка, "
-"праверце наяўнасьць файлу: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "Цяжкасьці з чытаньнем канфігурацыйнага файлу MateComponent Activation. Калі ласка, праверце наяўнасьць файлу: %s"
 
-#: ../activation-server/object-directory-load.c:101
+#: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr "NULL iid не зьяўляецца дапушчальным"
 
-#: ../activation-server/object-directory-load.c:105
+#: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr "iid %s мае тып NULL"
 
-#: ../activation-server/object-directory-load.c:109
+#: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr "iid %s мае NULL разьмяшчэньне"
 
-#: ../activation-server/object-directory-load.c:118
+#: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "несапраўдны сымбаль '%c' у iid '%s'"
 
-#: ../activation-server/object-directory-load.c:348
+#: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
 msgstr "Уласьцівасьць '%s' ня мае значэньня"
 
-#: ../activation-server/object-directory-load.c:580
+#: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
 msgstr "Немагчыма разабраць кепска сфармаваны XML-дакумэнт %s"
 
-#: ../activation-server/object-directory-load.c:627
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr "Спроба каталёгу %s"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr ""
-"Працэс-нашчадак не рабіў паведамленьня аб памылцы; адбылася невядомая "
-"фатальная памылка"
+msgstr "Працэс-нашчадак не рабіў паведамленьня аб памылцы; адбылася невядомая фатальная памылка"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
@@ -142,37 +140,38 @@ msgid "Failed to read from child process: %s\n"
 msgstr "Збой чытаньня з працэсу-нашчадка: %s\n"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
+#, c-format
 msgid "EOF from child process\n"
 msgstr "EOF з працэсу-нашчадка: %s\n"
 
-#: ../matecomponent-activation/matecomponent-activation-fork-server.c:435
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
 msgstr "Немагчыма стварыць новы працэс"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
 msgstr "Файлавы дэскрыптар для друку IOR на"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:357
-#: ../matecomponent-activation/matecomponent-activation-init.c:367
+#: ../matecomponent-activation/matecomponent-activation-init.c:354
+#: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
 msgstr "IID для актывацыі"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:359
-#: ../matecomponent-activation/matecomponent-activation-init.c:369
+#: ../matecomponent-activation/matecomponent-activation-init.c:356
+#: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
 msgstr "Перашкаджаючая рэгістрацыя паслужніку з OAF"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:403
-msgid "MateComponent Activation"
-msgstr "MateComponent Activation"
+#: ../matecomponent-activation/matecomponent-activation-init.c:409
+msgid "MateComponent Activation options:"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:404
+#: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
 msgstr "Паказвае можнасьці MateComponent Activation"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:512
+#: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
 msgstr "Можнасьці matecomponent activation"
 
@@ -205,11 +204,11 @@ msgstr "Назва"
 msgid "Application unique name"
 msgstr "Унікальная назва дастасаваньня"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "Сваё CORBA POA"
 
@@ -349,16 +348,12 @@ msgstr "Памылка праверкі памылкі; няма выключэ�
 msgid "General activation error with no description"
 msgstr "Агульная памылка зьдзяйсьненьня без апісаньня"
 
-#: ../matecomponent/matecomponent-generic-factory.h:79 ../matecomponent/matecomponent-generic-factory.h:83
-msgid "Could not initialize MateComponent"
-msgstr "Немагчыма ініцыялізаваць MateComponent"
-
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "Памылка вырашэньня ці працяг '%s"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
-#: ../matecomponent/matecomponent-moniker-util.c:246
+#: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
 msgstr "Збой актывацыі аб'екту"
 
@@ -405,133 +400,88 @@ msgid "stream MonikerExtender"
 msgstr "плыня MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Вытворчасьць паслужніку MateComponent Echo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Узор праграмы паслужніку MateComponent Echo"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Кампанэнт Echo"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Вытворчасьць кампанэнты Echo"
 
-#: ../samples/echo/echo-client.c:22
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Вытворчасьць паслужніку MateComponent Echo"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Узор праграмы паслужніку MateComponent Echo"
+
+#: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
 msgstr "Немагчыма ініцыялізаваць MateComponent"
 
-#: ../samples/echo/echo-client.c:33
+#: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
 msgstr "Немагчыма стварыць прыклад узору кампанэнты рэха"
 
-#: ../samples/echo/echo-client.c:45
+#: ../samples/echo/echo-client.c:47
 #, c-format
 msgid "An exception occurred '%s'"
 msgstr "Здарылася выключэньне '%s'"
 
-#: ../utils/matecomponent-activation-sysconf.c:82
+#: ../utils/matecomponent-activation-sysconf.c:83
+#, c-format
 msgid "Could not save configuration file.\n"
 msgstr "Немагчыма захаваць файл канфігурацыі.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:83
+#: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "Калі ласка, удакладніце ці маеце вы правы на запіс у '%s'.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:86
+#: ../utils/matecomponent-activation-sysconf.c:87
+#, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "Файл канфігурацыі быў з посьпехам запісаны.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:103
+#: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"файл канфігурацыі:\n"
-"    %s\n"
+msgstr "файл канфігурацыі:\n    %s\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:145
+#: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "%s ўжо ў файле канфігурацыі\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:165
+#: ../utils/matecomponent-activation-sysconf.c:166
+#, c-format
 msgid "there is not a properly structured configuration file\n"
 msgstr "няма пэўным чынам пабудаванага канфігурацыйнага файлу\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:236
+#: ../utils/matecomponent-activation-sysconf.c:237
+#, c-format
 msgid "MateComponent-activation configuration file contains:\n"
 msgstr "Канфігурацыйны файл matecomponent-activation зьмяшчае:\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
+#: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
 msgstr "Каталёг для выдаленьня з канфігурацыйнага файла"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:267
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
 msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
 msgstr "Каталёг для даданьня ў канфігурацыйны файл"
 
-#: ../utils/matecomponent-activation-sysconf.c:270
+#: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
 msgstr "Адлюстраваць каталёгі ў канфігурацыйным файле"
 
-#: ../utils/matecomponent-activation-sysconf.c:272
+#: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Адлюстраваць шлях да канфігурацыйнага файла"
-
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "Актывацыя паслужніку '%s' ў стане гонкі"
-
-#~ msgid "directory path"
-#~ msgstr "шлях да каталёгу"
-
-#~ msgid "Child received signal %u (%s)"
-#~ msgstr "Нашчадак атрымаў сыгнал %u (%s)"
-
-#~ msgid "Unknown non-exit error (status is %u)"
-#~ msgstr "Невядомая, няісная памылка (стан - гэта %u)"
-
-#~ msgid "matecomponent-activation failed to set process group of %s: %s\n"
-#~ msgstr ""
-#~ "matecomponent-activation: невыправімая памылка пры спробе ўсталяваць GID для "
-#~ "працэсу %s: %s\n"
-
-#~ msgid "Failed to execute %s: %d (%s)\n"
-#~ msgstr "Памылка пры спробе выканаць %s: %d (%s)\n"
-
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr "Зашмат узроўняў мянушак для лякалі, магчыма зацыкленьне"
-
-#~ msgid "No server corresponding to your query"
-#~ msgstr "Няма паслужніку, які адпавядаў бы вашаму запыту"
-
-#~ msgid "Query failed: "
-#~ msgstr "Памылка запыту:"
-
-#~ msgid "Activation failed: "
-#~ msgstr "Памылка зьдзяйсьненьня:"
-
-#~ msgid "Could not parse AID"
-#~ msgstr "Немагчыма зразумець AID"
-
-#~ msgid "Could not parse context: "
-#~ msgstr "Немагчыма зразумець кантэкст:"
-
-#~ msgid "Could not activate server: "
-#~ msgstr "Немагчыма задзейнічаць паслужнік:"
-
-#~ msgid "Domain of ObjectDirectory"
-#~ msgstr "Маёнтак ObjectDirectory"
-
-#~ msgid "DOMAIN"
-#~ msgstr "МАЁНТАК"

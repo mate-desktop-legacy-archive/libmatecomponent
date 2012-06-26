@@ -1,75 +1,71 @@
-# translation of libmatecomponent.HEAD.gu.po to Gujarati
-# Copyright (C) 2005, 2006, 2007 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
 # Ankit Patel <ankit@redhat.com>, 2006, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent.HEAD.gu\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-02 05:40+0000\n"
-"PO-Revision-Date: 2007-03-02 12:03+0530\n"
-"Last-Translator: Ankit Patel <ankit@redhat.com>\n"
-"Language-Team: Gujarati <fedora-trans-gu@redhat.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:35+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
-"\n"
-"\n"
-"\n"
-"\n"
+"Language: gu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../activation-server/activation-context-corba.c:523
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "સર્વરે આપેલી યાદીમાંથી ક્યો બાળક હતો તે શોધી શકાતો નથી"
 
-#: ../activation-server/activation-context-corba.c:815
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "યોગ્ય કાર્યશીલ ઓળખ નથી"
 
-#: ../activation-server/activation-server-main.c:163
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr ".સર્વર ફાઈલો માંથી વાંચવા માટેની ડિરેક્ટરી"
 
-#: ../activation-server/activation-server-main.c:163
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "ડિરેક્ટરી"
 
-#: ../activation-server/activation-server-main.c:166
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "સર્વર કાર્યશીલ સંદર્ભ તરીકે (મૂળભૂત રીતે ફક્ત વસ્તુડિરેક્ટરી)"
 
-#: ../activation-server/activation-server-main.c:170
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "IORમાં લખાણ માટેની ફાઈલ વર્ણનકર્તા"
 
-#: ../activation-server/activation-server-main.c:170
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../activation-server/activation-server-main.c:181
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:173
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"વપરાશકર્તાના સર્વર તરીકે તાળું માર્યા વિના રજીસ્ટર કરો.  ચેતવણી: આ વિકલ્પને "
-"વપરાશકર્તાના ચાલી રહેલ સત્રની સુગમતા માટે ભયાનક આડ અસરો હોઈ શકે, અને તે માત્ર ડિબગીંગ "
-"હેતુઓ માટે જ વાપરી શકાશે"
+msgstr "વપરાશકર્તાના સર્વર તરીકે તાળું માર્યા વિના રજીસ્ટર કરો.  ચેતવણી: આ વિકલ્પને વપરાશકર્તાના ચાલી રહેલ સત્રની સુગમતા માટે ભયાનક આડ અસરો હોઈ શકે, અને તે માત્ર ડિબગીંગ હેતુઓ માટે જ વાપરી શકાશે"
 
-#: ../activation-server/activation-server-main.c:181
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "શોધવા માટે પ્રશ્ર્ન વ્યક્ત કરવા"
 
-#: ../activation-server/activation-server-main.c:181
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "સમીકરણ"
 
-#: ../activation-server/activation-server-main.c:430
-#: ../utils/matecomponent-activation-sysconf.c:304
+#: ../activation-server/activation-server-main.c:541
+#: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
 msgstr "ઉપલબ્ધ આદેશ વાક્ય વિકલ્પોની સંપૂર્ણ યાદી જોવા માટે '%s --help' ચલાવો.\n"
@@ -97,42 +93,40 @@ msgstr "દૂરસ્ત પ્રક્રિયા માટે હજુ �
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"બોનોબો રુપરેખાને કાર્યશીલ કરવાની ફાઈલ સફળતાથી વાંચી શકાઈ નહિ. મહેરબાની કરીને તપાસો "
-"કે તે યોગ્ય %sમાં છે"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "બોનોબો રુપરેખાને કાર્યશીલ કરવાની ફાઈલ સફળતાથી વાંચી શકાઈ નહિ. મહેરબાની કરીને તપાસો કે તે યોગ્ય %sમાં છે"
 
-#: ../activation-server/object-directory-load.c:101
+#: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr "એક ખાલી iid યોગ્ય નથી"
 
-#: ../activation-server/object-directory-load.c:105
+#: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr "iid %s નુ મૂલ્ય NULL પ્રકારનું છે"
 
-#: ../activation-server/object-directory-load.c:109
+#: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr "iid %s માં એક NULLનુ સ્થાન છે"
 
-#: ../activation-server/object-directory-load.c:118
+#: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "અયોગ્ય અક્ષર '%c' iid '%s' માં"
 
-#: ../activation-server/object-directory-load.c:348
+#: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
 msgstr "ગુણધર્મ '%s'ની કોઈ કિંમત નથી"
 
-#: ../activation-server/object-directory-load.c:580
+#: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
 msgstr "ખરાબ રીતે બનેલ XML દસ્તાવેજ %sનો પદચ્છેદ કરી શકાતો નથી"
 
-#: ../activation-server/object-directory-load.c:627
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr "ડિરેક્ટરી %sનો પ્રયત્ન કરી રહ્યા છે"
@@ -147,37 +141,38 @@ msgid "Failed to read from child process: %s\n"
 msgstr "બાળ પ્રક્રિયામાંથી વાંચવામાં નિષ્ફળ: %s\n"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
+#, c-format
 msgid "EOF from child process\n"
 msgstr "બાળ પ્રક્રિયામાંથી EOF\n"
 
-#: ../matecomponent-activation/matecomponent-activation-fork-server.c:435
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
 msgstr "નવી પ્રક્રિયા પેદા કરી શક્યા નહિં"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
 msgstr "IOR છાપવા માટેનુ ફાઈલ વર્ણનકર્તા"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:357
-#: ../matecomponent-activation/matecomponent-activation-init.c:367
+#: ../matecomponent-activation/matecomponent-activation-init.c:354
+#: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
 msgstr "કાર્યશીલ કરવાનુ IID"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:359
-#: ../matecomponent-activation/matecomponent-activation-init.c:369
+#: ../matecomponent-activation/matecomponent-activation-init.c:356
+#: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
 msgstr "AOF ની સાથે સર્વર નોંધણી અટકાવે છે"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:403
+#: ../matecomponent-activation/matecomponent-activation-init.c:409
 msgid "MateComponent Activation options:"
 msgstr "બોનોબો સક્રિયકરણ વિકલ્પો:"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:404
+#: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
 msgstr "બોનોબો સક્રિયકરણ વિકલ્પો બતાવો"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:512
+#: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
 msgstr "બોનોબો કાર્યશીલ કરવાના વિકલ્પો"
 
@@ -210,11 +205,11 @@ msgstr "નામ"
 msgid "Application unique name"
 msgstr "કાર્યક્રમનુ અનન્ય નામ"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "કસ્ટમ CORBA POA"
 
@@ -354,16 +349,12 @@ msgstr "ભૂલ ચકાસાઈ રહી છે; કોઈ જ અપવ�
 msgid "General activation error with no description"
 msgstr "વર્ણન વગર સામાન્ય સક્રિયકરણ ભૂલ"
 
-#: ../matecomponent/matecomponent-generic-factory.h:79 ../matecomponent/matecomponent-generic-factory.h:83
-msgid "Could not initialize MateComponent"
-msgstr "બોનોબો શરુ કરી શકાતું નથી"
-
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "'%s'ને ફરીથી ઉકેલવામાં અથવા વિસ્તારવામાં નિષ્ફળતા"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
-#: ../matecomponent/matecomponent-moniker-util.c:246
+#: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
 msgstr "વસ્તુને કાર્યરત કરવામાં નિષ્ફળતા"
 
@@ -385,7 +376,6 @@ msgstr "HTTP મોનિકર"
 msgid "ORB IOR handling moniker"
 msgstr "ORB IOR ને સંભાળતું મોનિકર"
 
-# monikers/MATE_VFS_Moniker_std.server.in.in.h:1
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:3
 msgid "Standard Moniker factory"
 msgstr "પ્રમાણભૂત મોનિકર કારખાનું"
@@ -411,87 +401,88 @@ msgid "stream MonikerExtender"
 msgstr "સ્ટ્રીમ મોનિકરએક્સટેન્ડર"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "બોનાેબો ઈકો સર્વર કારખાનું"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "બોનાેબો ઈકો સર્વર નમૂનો કાર્યક્રમ"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "ઈકોના ભાગો"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "ઈકોના ભાગોનું કારખાનું"
 
-#: ../samples/echo/echo-client.c:22
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "બોનાેબો ઈકો સર્વર કારખાનું"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "બોનાેબો ઈકો સર્વર નમૂનો કાર્યક્રમ"
+
+#: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
 msgstr "હું બોનોબો શરુ કરી શક્યો નહિ"
 
-#: ../samples/echo/echo-client.c:33
+#: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
 msgstr "નમૂનાનાં ઈકોના ભાગો બનાવી શકાયા નહી"
 
-#: ../samples/echo/echo-client.c:45
+#: ../samples/echo/echo-client.c:47
 #, c-format
 msgid "An exception occurred '%s'"
 msgstr "અપવાદ ઉદ્ભવ્યો '%s'"
 
-#: ../utils/matecomponent-activation-sysconf.c:82
+#: ../utils/matecomponent-activation-sysconf.c:83
+#, c-format
 msgid "Could not save configuration file.\n"
 msgstr "રુપરેખા ફાઈલને સંગ્રહિત કરી શકાઈ નહિ.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:83
+#: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "મહેરબાની કરીને, ખાતરી કરો કે તમને '%s' માં લખવાની પરવાનગી છે. \n"
 
-#: ../utils/matecomponent-activation-sysconf.c:86
+#: ../utils/matecomponent-activation-sysconf.c:87
+#, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "રુપરેખા ફાઈલને સફળતાપૂર્વક લખાઈ છે.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:103
+#: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"રુપરેખાની ફાઈલ છે:\n"
-"    %s\n"
+msgstr "રુપરેખાની ફાઈલ છે:\n    %s\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:145
+#: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "રુપરેખા ફાઈલમાં %s પહેલેથી જ હયાત છે\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:165
+#: ../utils/matecomponent-activation-sysconf.c:166
+#, c-format
 msgid "there is not a properly structured configuration file\n"
 msgstr "રુપરેખા ફાઈલનું બંદારણ યોગ્ય નથી\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:236
+#: ../utils/matecomponent-activation-sysconf.c:237
+#, c-format
 msgid "MateComponent-activation configuration file contains:\n"
 msgstr "બોનોબો-સક્રિયતા રુપરેખા ફાઈલનાં સમાવિષ્ટો:\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
+#: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
 msgstr "રુપરેખા ફાઈલમાંથી ડિરેક્ટરી રદ કરો"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:267
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
 msgstr "PATH"
 
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
 msgstr "ડિરેક્ટરી કે જેમાં રુપરેખા ફાઈલ જોડવાની છે"
 
-#: ../utils/matecomponent-activation-sysconf.c:270
+#: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
 msgstr "રુપરેખા ફાઈલમાં દર્શાવાયેલી ડિરેક્ટરી"
 
-#: ../utils/matecomponent-activation-sysconf.c:272
+#: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "રુપરેખા ફાઈલનો દર્શાવાયેલો માર્ગ"
-

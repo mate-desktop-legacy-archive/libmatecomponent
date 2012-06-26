@@ -1,19 +1,23 @@
-# libmatecomponent translation to Catalan.
-# Copyright © 2001-2007 Free Software Foundation, Inc.
-# Softcatalà <info@softcatala.org>, 2001.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006, 2007.
-#
+# Softcatalà <info@softcatala.org>, 2001.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent 2.11.92\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-23 00:00+0200\n"
-"PO-Revision-Date: 2008-01-22 22:31+0100\n"
-"Last-Translator: Jordi Mallach <jordi@sindominio.net>\n"
-"Language-Team: Catalan <tradmate@softcatala.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:35+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ca@valencia\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -23,55 +27,48 @@ msgstr "No s'ha trobat en quin fill estava llistat el servidor"
 msgid "Not a valid Activation ID"
 msgstr "No és un ID d'activació vàlid"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Directori d'on llegir fitxers .server"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIRECTORI"
 
-#: ../activation-server/activation-server-main.c:179
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Serveix com a un «ActivationContext» (per defecte és només un ObjectDirectory)"
+msgstr "Serveix com a un «ActivationContext» (per defecte és només un ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Descriptor de fitxer on escriure l'IOR"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "DF"
 
-#: ../activation-server/activation-server-main.c:186
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Registra com a servidor d'activació de l'usuari sense blocatge. Avís: esta "
-"opció pot tindre efectes laterals perillosos per a l'estabilitat de la "
-"sessió en execució de l'usuari, per tant, només s'hauria d'utilitzar per a "
-"la depuració"
+msgstr "Registra com a servidor d'activació de l'usuari sense blocatge. Avís: esta opció pot tindre efectes laterals perillosos per a l'estabilitat de la sessió en execució de l'usuari, per tant, només s'hauria d'utilitzar per a la depuració"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Expressió de consulta a avaluar"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "EXPRESSIÓ"
 
-#: ../activation-server/activation-server-main.c:547
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Executeu «%s --help» per a veure una llista d'opcions completa de la línia "
-"d'ordes.\n"
+msgstr "Executeu «%s --help» per a veure una llista d'opcions completa de la línia d'ordes.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -96,11 +93,9 @@ msgstr "Encara no es gestiona l'activació d'objectes «shlib» en un procés re
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"No s'ha llegit correctament el fitxer de la configuració de l'activació "
-"MateComponent correctament. Comproveu que és vàlid en: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "No s'ha llegit correctament el fitxer de la configuració de l'activació MateComponent correctament. Comproveu que és vàlid en: %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -138,9 +133,7 @@ msgstr "S'està provant el directori %s"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr ""
-"El procés fill no ha donat un missatge d'error, s'ha produït un error "
-"desconegut"
+msgstr "El procés fill no ha donat un missatge d'error, s'ha produït un error desconegut"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
@@ -357,9 +350,9 @@ msgid "General activation error with no description"
 msgstr "S'ha produït un error general d'activació sense descripció"
 
 #: ../matecomponent/matecomponent-moniker.c:342
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to resolve, or extend '%s'"
-msgstr "No s'ha pogut resoldre o estendre «%s»"
+msgstr ""
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -408,20 +401,20 @@ msgid "stream MonikerExtender"
 msgstr "flux MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Fàbrica del servidor d'eco del MateComponent"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Programa d'exemple de servidor d'eco del MateComponent"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Component d'eco"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Fàbrica de component d'eco"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Fàbrica del servidor d'eco del MateComponent"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Programa d'exemple de servidor d'eco del MateComponent"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -456,9 +449,7 @@ msgstr "S'ha alçat el fitxer de configuració correctament.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"el fitxer de configuració és:\n"
-"    %s\n"
+msgstr "el fitxer de configuració és:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -495,39 +486,3 @@ msgstr "Mostra els directoris al fitxer de configuració"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Mostra el camí al fitxer de configuració"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "No s'ha pogut inicialitzar el MateComponent"
-
-#~ msgid ""
-#~ "Register as the users' activation server without locking [!] for debugging"
-#~ msgstr ""
-#~ "Registra com a servidor d'activació de l'usuari sense blocar [!] per a "
-#~ "depurar"
-
-#~ msgid "MateComponent Activation"
-#~ msgstr "Activació de MateComponent"
-
-# Condició de carrera... no sé un altra traducció per a "race condition". jm
-# (molt després...) en una traducció al castellà he vist "condició de fuga". jm
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "Condició de carrera en activar el servidor «%s»"
-
-#~ msgid "directory path"
-#~ msgstr "camí del directori"
-
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr "Massa nivells d'àlies per al locale, pot indicar un bucle"
-
-#~ msgid "Child received signal %u (%s)"
-#~ msgstr "El fill ha rebut el senyal %u (%s)"
-
-#~ msgid "Unknown non-exit error (status is %u)"
-#~ msgstr "S'ha produït un error de no-sortida desconegut (l'estat és %u)"
-
-#~ msgid "matecomponent-activation failed to set process group of %s: %s\n"
-#~ msgstr ""
-#~ "matecomponent-activation no ha pogut establir el grup del procés de %s: %s\n"
-
-#~ msgid "Failed to execute %s: %d (%s)\n"
-#~ msgstr "No s'ha pogut executar %s: %d (%s)\n"

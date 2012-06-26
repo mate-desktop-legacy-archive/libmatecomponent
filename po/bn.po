@@ -1,24 +1,26 @@
-# The Bengali translation for  libmatecomponent
-# Copyright (C) 2003 Free Software Foundation .
-# This file is distributed under the same license as the libmatecomponent package.
-# Muhammad Mahmudur Rahman Khan <mrk_ju@yahoo.com>, 2003.
-# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
-# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
-# Sadia Afroz <sadia@ankur.org.bd>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Israt Jahan <israt@ankur.org.bd>, 2010.
-#
+# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
+# Muhammad Mahmudur Rahman Khan <mrk_ju@yahoo.com>, 2003.
+# Sadia Afroz <sadia@ankur.org.bd>, 2010.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
 msgid ""
 msgstr ""
-"Project-Id-Version: bn\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=libmatecomponent&component=general\n"
-"POT-Creation-Date: 2010-03-28 09:46+0000\n"
-"PO-Revision-Date: 2010-03-28 20:07+0600\n"
-"Last-Translator: Sadia Afroz <sadia@ankur.org.bd>\n"
-"Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:38+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -28,49 +30,44 @@ msgstr "কোন চাইল্ডে সার্ভারের তালি
 msgid "Not a valid Activation ID"
 msgstr "অ্যাকটিভেশন আইডি কার্যকর নয়"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "যে ডিরেক্টরি থেকে .server ফাইল পড়তে হবে"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "DIRECTORY"
 
-#: ../activation-server/activation-server-main.c:179
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"ActivationContext হিসেবে সেবা দেয়া হবে (পূর্বনির্ধারিত শুধুমাত্র একটি "
-"ObjectDirectory)"
+msgstr "ActivationContext হিসেবে সেবা দেয়া হবে (পূর্বনির্ধারিত শুধুমাত্র একটি ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "IOR লেখার জন্য ফাইল বর্ণনাকারী"
 
-#: ../activation-server/activation-server-main.c:183
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:186
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"লক না করেই ব্যবহারকারী সক্রিয়করণ সার্ভার হিসেবে রেজিস্টার করুন। সতর্কীকরণ: এই "
-"অপশনটি ব্যবহারীর চলন্ত সেশনে মারাত্মক ক্ষতিকর হতে পারে, এবং শুধুমাত্র ডিবাগিং এর "
-"জন্য ব্যবহার হওয়া উচিত"
+msgstr "লক না করেই ব্যবহারকারী সক্রিয়করণ সার্ভার হিসেবে রেজিস্টার করুন। সতর্কীকরণ: এই অপশনটি ব্যবহারীর চলন্ত সেশনে মারাত্মক ক্ষতিকর হতে পারে, এবং শুধুমাত্র ডিবাগিং এর জন্য ব্যবহার হওয়া উচিত"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "যাচাইয়ের জন্য কোয়েরী এক্সপ্রেশন"
 
-#: ../activation-server/activation-server-main.c:194
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "EXPRESSION"
 
-#: ../activation-server/activation-server-main.c:547
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
@@ -99,11 +96,9 @@ msgstr "দূরবর্তী প্রক্রিয়াতে আমরা 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"বোনোবো সক্রিয়করণ কনফিগারেশন ফাইল সফলভাবে পড়া যায়নি। অনুগ্রহ করে, পরীক্ষা করুন এটি "
-"কার্যকর: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "বোনোবো সক্রিয়করণ কনফিগারেশন ফাইল সফলভাবে পড়া যায়নি। অনুগ্রহ করে, পরীক্ষা করুন এটি কার্যকর: %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -120,7 +115,7 @@ msgid "iid %s has a NULL location"
 msgstr "iid %s-এর একটি ফাঁকা অবস্থান রয়েছে"
 
 #: ../activation-server/object-directory-load.c:119
-#| msgid "invalid character '%c' in iid '%s'"
+#, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "iid '%2$s' এ অকার্যকর অক্ষর '%1$c'"
 
@@ -249,7 +244,6 @@ msgstr "ফ্যাক্টরি থেকে অবজেক্ট সক্
 msgid "No permission to access stream"
 msgstr "স্ট্রীম ব্যবহারের অনুমতি নেই"
 
-# msgstr "স্ট্রীম (stream) ব্যবহারের অনুমতি নেই"
 #: ../matecomponent/matecomponent-exception.c:180
 msgid "An unsupported stream action was attempted"
 msgstr "স্ট্রীমে কোন অসমর্থিত কাজ করার চেষ্টা করা হয়েছে"
@@ -298,7 +292,6 @@ msgstr "ত্রুটিপূর্ণভাবে গঠিত ব্যব�
 msgid "invalid path to XML user interface element"
 msgstr "XML ব্যবহারকারী ইন্টারফেস উপাদানের অকার্যকর পাথ"
 
-# # এক্স.এম.এল -- should be consistent
 #: ../matecomponent/matecomponent-exception.c:216
 msgid "the requested UI attribute didn't exist"
 msgstr "অনুরোধকৃত UI বৈশিষ্ট্য বিদ্যমান নেই"
@@ -361,8 +354,8 @@ msgstr "বিবরণহীন সাধারণ সক্রিয়করণ 
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "'%s-কে সমাধান করতে, বা বাড়াতে ব্যর্থ"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -411,20 +404,20 @@ msgid "stream MonikerExtender"
 msgstr "MonikerExtender স্ট্রীম"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "বোনোবো ইকো সার্ভার ফ্যাক্টরি"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "বোনোবো ইকো সার্ভারের নমুনা প্রোগ্রাম"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "ইকোর কম্পোনেন্ট"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "ইকো কম্পোনেন্টের ফ্যাক্টরি"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "বোনোবো ইকো সার্ভার ফ্যাক্টরি"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "বোনোবো ইকো সার্ভারের নমুনা প্রোগ্রাম"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -459,9 +452,7 @@ msgstr "সফলভাবে কনফিগারেশন ফাইল লে
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"কনফিগারেশন ফাইল হচ্ছে:\n"
-"    %s\n"
+msgstr "কনফিগারেশন ফাইল হচ্ছে:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -498,24 +489,3 @@ msgstr "কনফিগারেশন ফাইলে ডিরেক্টর�
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "কনফিগারেশন ফাইলে পাথ প্রদর্শন"
-
-#~ msgid ""
-#~ "Register as the users' activation server without locking [!] for debugging"
-#~ msgstr ""
-#~ "ডিবাগ করার জন্য লকবিহীন [!] অবস্থায় ব্যবহারকারীর অ্যাক্টিভেশন-সার্ভাররূপে "
-#~ "নিবন্ধিত করা হবে"
-
-#~ msgid "MateComponent Activation"
-#~ msgstr "বোনোবো সক্রিয়করণ"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "বনোবো চালু (Initialize) করা যায়নি"
-
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "রেস অবস্থা সক্রিয়করণ সার্ভার '%s'"
-
-#~ msgid "directory path"
-#~ msgstr "ডিরেক্টরি পাথ"
-
-#~ msgid "Failed to execute %s: %d (%s)\n"
-#~ msgstr "%s সক্রিয় করতে ব্যর্থ: %d (%s)\n"

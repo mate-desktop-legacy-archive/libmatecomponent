@@ -1,22 +1,24 @@
-# libmatecomponent ja.po
-# Copyright (C) 1999-2007,2010 Free Software Foundation, Inc.
-# Yukihiro Nakai <nacai@iname.com>, 1999.
-# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 1999-2002, 2010.
-# Takeshi Aihana <takeshi.aihana@gmail.com>, 2000,2003-2007.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
-#
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 1999-2002, 2010.
+# Yukihiro Nakai <nacai@iname.com>, 1999.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=matecomponent&component=libmatecomponent\n"
-"POT-Creation-Date: 2010-09-01 03:12+0000\n"
-"PO-Revision-Date: 2010-09-13 23:53+0900\n"
-"Last-Translator: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>\n"
-"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:38+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -36,8 +38,7 @@ msgstr "DIRECTORY"
 
 #: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"ActivationContextとして振る舞う (デフォルトでは ObjectDirectory としてのみ)"
+msgstr "ActivationContextとして振る舞う (デフォルトでは ObjectDirectory としてのみ)"
 
 #: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
@@ -54,10 +55,7 @@ msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"ロックせずにユーザの活性化サーバを登録する (警告: このオプションはユーザが実"
-"行しているセッションの安定性の面から見るといくつか危険な側面を持っているの"
-"で、デバッグを行う時にのみ使用すること)"
+msgstr "ロックせずにユーザの活性化サーバを登録する (警告: このオプションはユーザが実行しているセッションの安定性の面から見るといくつか危険な側面を持っているので、デバッグを行う時にのみ使用すること)"
 
 #: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
@@ -71,9 +69,7 @@ msgstr "EXPRESSION"
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"'%s --help' すると、利用可能なすべてのコマンドライン引数の一覧が表示されま"
-"す\n"
+msgstr "'%s --help' すると、利用可能なすべてのコマンドライン引数の一覧が表示されます\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -93,17 +89,14 @@ msgstr "活性化の通知サービス"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr ""
-"リモート・プロセスの shlib オブジェクトの活性化は未だ実装されていません"
+msgstr "リモート・プロセスの shlib オブジェクトの活性化は未だ実装されていません"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"MateComponent Activatoin 設定ファイルの読み込みに失敗しました (妥当なものか確認して"
-"ください : %s)"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "MateComponent Activatoin 設定ファイルの読み込みに失敗しました (妥当なものか確認してください : %s)"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -141,8 +134,7 @@ msgstr "ディレクトリ %s の試行中"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr ""
-"子プロセスがエラーメッセージを出力しませんでした (不明なエラーが発生しました)"
+msgstr "子プロセスがエラーメッセージを出力しませんでした (不明なエラーが発生しました)"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
@@ -410,20 +402,20 @@ msgid "stream MonikerExtender"
 msgstr "ストリームの MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent Echo サーバ・ファクトリ"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "MateComponent Echo サーバ・サンプル・プログラム"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Echo コンポーネント"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Echo コンポーネント・ファクトリ"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent Echo サーバ・ファクトリ"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "MateComponent Echo サーバ・サンプル・プログラム"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -458,9 +450,7 @@ msgstr "設定ファイルの書き込みが完了しました\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"設定ファイル:\n"
-"    %s\n"
+msgstr "設定ファイル:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -497,6 +487,3 @@ msgstr "設定ファイル中のディレクトリの表示"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "設定ファイルのパスを表示"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "MateComponent を初期化できませんでした"

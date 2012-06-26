@@ -1,89 +1,84 @@
-# translation of mn.po to Mongolian
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
+# 
+# Translators:
 # Sanlig Badral <badral@chinggis.com>, 2003.
-# Sanlig Badral <Badral@openmn.org>, 2003, 2004.
 # Sanlig Badral <badral@openmn.org>, 2004, 2008.
+# Sanlig Badral <Badral@openmn.org>, 2003, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: mn\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-05-27 22:24+0200\n"
-"PO-Revision-Date: 2008-05-27 22:34+0200\n"
-"Last-Translator: Badral <badral@openmn.org>\n"
-"Language-Team: Mongolian <openmn-translation@lists.sf.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: mn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../activation-server/activation-context-corba.c:527
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "Ямар хүү (процесс)сервер дотор жигсаагдсан мэдээлэл алга"
 
-#: ../activation-server/activation-context-corba.c:819
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "Хүчингүй идэвхжүүлэх дугаар (ID)"
 
-#: ../activation-server/activation-server-main.c:164
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Сервер файлууд уншигдах ёстой лавлах"
 
-#: ../activation-server/activation-server-main.c:164
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "ЛАВЛАХ"
 
-#: ../activation-server/activation-server-main.c:167
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "ActivationContext -р гүйцэтгэх (Стандарт нь объект лавлах)"
 
-#: ../activation-server/activation-server-main.c:171
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "IOR бичигдэх файлын тодорхойлогч"
 
-#: ../activation-server/activation-server-main.c:171
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:174
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Хэрэглэгчийн идэвхжүүлэлт серверээр түгжээгүй бүртгүүлнэ үү. Сануулга: "
-"энэ үйлдэл ажиллаж байгаа суултын тогтворжуулалтанд сөргөөр нөлөөлөх "
-"магадлалтай тул зөвхөн алдааны шинжилгээнд хэрэглэнэ үү"
+msgstr "Хэрэглэгчийн идэвхжүүлэлт серверээр түгжээгүй бүртгүүлнэ үү. Сануулга: энэ үйлдэл ажиллаж байгаа суултын тогтворжуулалтанд сөргөөр нөлөөлөх магадлалтай тул зөвхөн алдааны шинжилгээнд хэрэглэнэ үү"
 
-#: ../activation-server/activation-server-main.c:182
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Үнэлэгдэх ёстой илэрхийлэл"
 
-#: ../activation-server/activation-server-main.c:182
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "Илэрхийлэл"
 
-#: ../activation-server/activation-server-main.c:461
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Тушаалын мөрийн сонголтыг бүрэн эхээр нь харахыг хүсвэл та '%s --help' гэж "
-"ажиллуулна уу.\n"
+msgstr "Тушаалын мөрийн сонголтыг бүрэн эхээр нь харахыг хүсвэл та '%s --help' гэж ажиллуулна уу.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
 msgstr "CORBA-CosNaming-Үйлчилгээ."
 
-# CHECK
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:2
 msgid "Name service"
 msgstr "Нэрний үйлчилгээ"
 
-# CHECK
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:3
 msgid "Notification service"
 msgstr "Сонордуулга үйлчилгээ"
@@ -99,11 +94,9 @@ msgstr "Бид алсын процесс доторх shlib-Объект идэ�
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"MateComponent-Activation тохируулгын файл амжилттай уншигдсангүй. Та түүнийг "
-"хүчинтэй эсэхийг шалгана уу : %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "MateComponent-Activation тохируулгын файл амжилттай уншигдсангүй. Та түүнийг хүчинтэй эсэхийг шалгана уу : %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -213,11 +206,11 @@ msgstr "Нэр"
 msgid "Application unique name"
 msgstr "Програмын давтагдашгүй нэр"
 
-#: ../matecomponent/matecomponent-object.c:926
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
-#: ../matecomponent/matecomponent-object.c:926
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "Хэвшмэл CORBA POA"
 
@@ -305,7 +298,6 @@ msgstr "Шаардсан UI-Аттрибут байхгүй байна"
 msgid "Unknown command or verb"
 msgstr "Тодорхойгүй тушаал эсвэл үг"
 
-# CHECK!!
 #: ../matecomponent/matecomponent-exception.c:222
 msgid "Command is insensitive"
 msgstr "Тушаал sensitive биш"
@@ -360,8 +352,8 @@ msgstr "Ерөнхий идэвхжүүлэлтийн тодорхойлолтг
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "»%s« задрах эсвэл өргөтгөгдсөнгүй"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -397,7 +389,6 @@ msgstr "Ерөнхий OAF-идэвхжүүлэлт moniker"
 msgid "generic Oaf query moniker"
 msgstr "Ерөнхий OAF-хүсэлтийн moniker"
 
-# CHECK
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:6
 msgid "generic factory 'new' moniker"
 msgstr "Ерөнхий »шинэ« үйлдвэр moniker"
@@ -406,26 +397,25 @@ msgstr "Ерөнхий »шинэ« үйлдвэр moniker"
 msgid "generic item moniker"
 msgstr "Ерөнхий элемент moniker"
 
-# CHECK
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:8
 msgid "stream MonikerExtender"
 msgstr "урсгал MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent Echo серверийн үйлдвэр"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "MateComponent Echo-сервер жишээ программ"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Echo-бүрэлдхүүн"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Echo-бүрэлдхүүний үйлдвэр"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent Echo серверийн үйлдвэр"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "MateComponent Echo-сервер жишээ программ"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -460,9 +450,7 @@ msgstr "Тохируулгын файл амжилттай бичигдлээ.\n
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"Тохируулгын файл нь:\n"
-"    %s\n"
+msgstr "Тохируулгын файл нь:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -499,4 +487,3 @@ msgstr "Тохируулгын файл доторх лавлахуудыг ха
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Тохируулгын файлын замыг харуулах"
-

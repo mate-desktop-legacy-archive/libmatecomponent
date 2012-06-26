@@ -1,20 +1,22 @@
-# translation to libmatecomponent to Maithili
-# Copyright (C) 2006 The MATE Foundation
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # BOSS GNU/Linux <bosslinux@cdac.in>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: gedit.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-08-19 13:02+0000\n"
-"PO-Revision-Date: 2008-01-25 13:49+0530\n"
-"Last-Translator: Sangeeta Kumari\n"
-"Language-Team:  <en@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:38+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n\n"
+"Language: mai\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -24,44 +26,44 @@ msgstr "ढूँढि नहि पएलक जे कओन सन शिश
 msgid "Not a valid Activation ID"
 msgstr "वैध सक्रियण आईडी नहि"
 
-#: ../activation-server/activation-server-main.c:166
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "निर्देशिका जतएसँ .server फाइलसभकेँ पढ़नाइ छै"
 
-#: ../activation-server/activation-server-main.c:166
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "निर्देशिका"
 
-#: ../activation-server/activation-server-main.c:169
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "सक्रियण-संदर्भक तरह सेवारत अछि (मूलभूत सिर्फ एकटा आब्जेक्ट-निर्देशिका अछि)"
 
-#: ../activation-server/activation-server-main.c:173
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "आईओआर मे लिखबा लेल फाइल डिस्क्रिप्टर"
 
-#: ../activation-server/activation-server-main.c:173
+#: ../activation-server/activation-server-main.c:181
 #: ../matecomponent-activation/matecomponent-activation-init.c:352
 #: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-#: ../activation-server/activation-server-main.c:176
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
 msgstr "बिनु लाक कएनए प्रयोक्ताक सक्रियण सर्वर रूपेँ पंजीकृत करू.  चेतावनी: ई विकल्पक खतरनाक प्रभाव भ' सकैत अछि प्रयोक्ताक कार्यशील सत्र पर, डिबगिंग प्रक्रियाक लेल सिर्फ प्रयोग कएल जएनाइ चाही"
 
-#: ../activation-server/activation-server-main.c:184
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "मूल्यांकन लेल क्वैरी एक्सप्रेशन"
 
-#: ../activation-server/activation-server-main.c:184
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "एक्सप्रेशन"
 
-#: ../activation-server/activation-server-main.c:470
+#: ../activation-server/activation-server-main.c:541
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
@@ -90,11 +92,9 @@ msgstr "हम एसएचलिब ऑब्जैक्टसभकेँ अ
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"बोनबो सक्रियण बिन्यास फाइलकेँ सफलतापूर्वक नहि पढ़ल जाए सकल. कृप्या ई जाँच करू जे "
-"ई %s मे वैध अछि"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "बोनबो सक्रियण बिन्यास फाइलकेँ सफलतापूर्वक नहि पढ़ल जाए सकल. कृप्या ई जाँच करू जे ई %s मे वैध अछि"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -350,8 +350,8 @@ msgstr "बिनु वर्णनक' सँग सामान्य सक�
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "'%s क' समाधान अथवा विस्तार करबामे असफल"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
 #: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
@@ -400,20 +400,20 @@ msgid "stream MonikerExtender"
 msgstr "स्ट्रीम मोनिकर-एक्सटेंडर"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "बोनोबो इको सर्वर फैक्ट्री"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "बोनोबो इको सर्वर नमूना प्रोग्राम"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "इको अवयव"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "इको अवयव फैक्ट्री"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "बोनोबो इको सर्वर फैक्ट्री"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "बोनोबो इको सर्वर नमूना प्रोग्राम"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -448,9 +448,7 @@ msgstr "बिन्यास फाइल सफलतापूर्वक ल
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"बिन्यास फाइल अछि:\n"
-"    %s\n"
+msgstr "बिन्यास फाइल अछि:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -487,4 +485,3 @@ msgstr "बिन्यास फाइलमे निर्देशिका 
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "बिन्यास फाइलक पथ देखाबू"
-

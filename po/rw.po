@@ -1,222 +1,201 @@
-# translation of libmatecomponent to Kinyarwanda.
-# Copyright (C) 2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the libmatecomponent package.
-# Steve Murphy <murf@e-tools.com>, 2005
-# Steve performed initial rough translation from compendium built from translations provided by the following translators:
-# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
-# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
-# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
 # Carole Karema <karemacarole@hotmail.com>, 2005.
 # JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
-# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
-# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
-#
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Steve Murphy <murf@e-tools.com>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent 2.12\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-10-22 16:55+0200\n"
-"PO-Revision-Date: 2005-03-28 19:35-0700\n"
-"Last-Translator: Steve Murphy <murf@e-tools.com>\n"
-"Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:37+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: rw\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../activation-server/activation-context-corba.c:523
-#, fuzzy
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
-msgstr "Gushaka Seriveri in"
+msgstr ""
 
-#: ../activation-server/activation-context-corba.c:815
-#, fuzzy
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
-msgstr "a Byemewe"
+msgstr ""
 
-#: ../activation-server/activation-server-main.c:162
-#, fuzzy
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
-msgstr "Kuri Gusoma Seriveri Idosiye Bivuye"
+msgstr ""
 
-# svtools/source\dialogs\filedlg2.src:STR_FILEDLG_DIR.text
-#: ../activation-server/activation-server-main.c:162
-#, fuzzy
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
-msgstr "Ububiko"
+msgstr ""
 
-#: ../activation-server/activation-server-main.c:165
-#, fuzzy
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr "Nka Mburabuzi ni Nka"
+msgstr ""
 
-#: ../activation-server/activation-server-main.c:169
-#, fuzzy
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
-msgstr "Idosiye Kuri Kuri"
+msgstr ""
 
-#: ../activation-server/activation-server-main.c:169
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../activation-server/activation-server-main.c:181
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr ""
 
-#: ../activation-server/activation-server-main.c:172
+#: ../activation-server/activation-server-main.c:184
 msgid ""
-"Register as the users' activation server without locking [!] for debugging"
+"Register as the user's activation server without locking.  Warning: this "
+"option can have dangerous side effects on the stability of the user's "
+"running session, and should only be used for debugging purposes"
 msgstr ""
 
-#: ../activation-server/activation-server-main.c:177
-#, fuzzy
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
-msgstr "imvugo Kuri Suzuma"
+msgstr ""
 
-# 2170
-#: ../activation-server/activation-server-main.c:177
-#, fuzzy
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
-msgstr "imvugo"
+msgstr ""
 
-#: ../activation-server/activation-server-main.c:426
-#: ../utils/matecomponent-activation-sysconf.c:304
+#: ../activation-server/activation-server-main.c:541
+#: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
-#, fuzzy
 msgid "CORBA CosNaming service."
-msgstr "Serivisi"
+msgstr ""
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:2
-#, fuzzy
 msgid "Name service"
-msgstr "Serivisi"
+msgstr ""
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:3
-#, fuzzy
 msgid "Notification service"
-msgstr "Serivisi"
+msgstr ""
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:4
-#, fuzzy
 msgid "Notification service for activation"
-msgstr "Serivisi kugirango"
+msgstr ""
 
 #: ../activation-server/object-directory-activate.c:235
-#, fuzzy
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr "Ibintu in a"
+msgstr ""
 
 #: ../activation-server/object-directory-config-file.c:65
-#, fuzzy, c-format
+#, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr "Iboneza IDOSIYE OYA Gusoma Kugenzura... ni Byemewe in"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr ""
 
-#: ../activation-server/object-directory-load.c:101
-#, fuzzy
+#: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
-msgstr "a ni OYA Byemewe"
+msgstr ""
 
-#: ../activation-server/object-directory-load.c:105
-#, fuzzy, c-format
+#: ../activation-server/object-directory-load.c:106
+#, c-format
 msgid "iid %s has a NULL type"
-msgstr "a Ubwoko"
+msgstr ""
 
-#: ../activation-server/object-directory-load.c:109
-#, fuzzy, c-format
+#: ../activation-server/object-directory-load.c:110
+#, c-format
 msgid "iid %s has a NULL location"
-msgstr "a Ahantu"
+msgstr ""
 
-#: ../activation-server/object-directory-load.c:118
-#, fuzzy, c-format
+#: ../activation-server/object-directory-load.c:119
+#, c-format
 msgid "invalid character '%c' in iid '%s'"
-msgstr "Sibyo Inyuguti in"
+msgstr ""
 
-#: ../activation-server/object-directory-load.c:348
-#, fuzzy, c-format
+#: ../activation-server/object-directory-load.c:349
+#, c-format
 msgid "Property '%s' has no value"
-msgstr "Oya Agaciro"
+msgstr ""
 
-#: ../activation-server/object-directory-load.c:580
-#, fuzzy, c-format
+#: ../activation-server/object-directory-load.c:583
+#, c-format
 msgid "Could not parse badly formed XML document %s"
-msgstr "OYA Inyandiko"
+msgstr ""
 
-#: ../activation-server/object-directory-load.c:627
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr ""
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
-#, fuzzy
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr "OYA Ikosa Ubutumwa Kitazwi"
+msgstr ""
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to read from child process: %s\n"
-msgstr "Kuri Gusoma Bivuye"
+msgstr ""
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
-#, fuzzy
+#, c-format
 msgid "EOF from child process\n"
-msgstr "Bivuye"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-fork-server.c:435
-#, fuzzy
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
-msgstr "a Gishya"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
-#, fuzzy
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
-msgstr "Idosiye Kuri Gucapa ku"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:357
-#: ../matecomponent-activation/matecomponent-activation-init.c:367
-#, fuzzy
+#: ../matecomponent-activation/matecomponent-activation-init.c:354
+#: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
-msgstr "Kuri Kureka bigakora"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:359
-#: ../matecomponent-activation/matecomponent-activation-init.c:369
-#, fuzzy
+#: ../matecomponent-activation/matecomponent-activation-init.c:356
+#: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
-msgstr "Bya Seriveri Na:"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:403
-#, fuzzy
-msgid "MateComponent Activation"
-msgstr "Amahitamo"
+#: ../matecomponent-activation/matecomponent-activation-init.c:409
+msgid "MateComponent Activation options:"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:404
-#, fuzzy
+#: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
-msgstr "Amahitamo"
+msgstr ""
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:512
-#, fuzzy
+#: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
-msgstr "Amahitamo"
+msgstr ""
 
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:107
-#, fuzzy, c-format
+#, c-format
 msgid "g_module_open of `%s' failed with `%s'"
-msgstr "Bya Byanze Na:"
+msgstr ""
 
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:126
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:163
-#, fuzzy, c-format
+#, c-format
 msgid "Can't find symbol MateComponent_Plugin_info in `%s'"
-msgstr "Gushaka IKIMENYETSO in"
+msgstr ""
 
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:212
-#, fuzzy, c-format
+#, c-format
 msgid "Factory `%s' returned NIL for `%s'"
-msgstr "kugirango"
+msgstr ""
 
 #: ../matecomponent-activation/matecomponent-activation-shlib.c:229
 #, c-format
@@ -228,202 +207,161 @@ msgid "Name"
 msgstr "Izina"
 
 #: ../matecomponent/matecomponent-application.c:352
-#, fuzzy
 msgid "Application unique name"
-msgstr "Cyo nyine Izina:"
+msgstr ""
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr ""
 
-#: ../matecomponent/matecomponent-object.c:923
-#, fuzzy
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
-msgstr "Kugena"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:154
-#, fuzzy
 msgid "An unsupported action was attempted"
-msgstr "Igikorwa"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:157
 msgid "IO Error"
 msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:160
-#, fuzzy
 msgid "Invalid argument value"
-msgstr "Agaciro"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:164
-#, fuzzy
 msgid "Object not found"
-msgstr "OYA Byabonetse"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:167
-#, fuzzy
 msgid "Syntax error in object description"
-msgstr "Ikosa in Igikoresho Isobanuramiterere"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:172
-#, fuzzy
 msgid "Cannot activate object from factory"
-msgstr "Kureka bigakora Igikoresho Bivuye"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:177
-#, fuzzy
 msgid "No permission to access stream"
-msgstr "Kuri"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:180
-#, fuzzy
 msgid "An unsupported stream action was attempted"
-msgstr "Igikorwa"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:183
-#, fuzzy
 msgid "IO Error on stream"
-msgstr "ku"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:187
-#, fuzzy
 msgid "IO Error on storage"
-msgstr "ku"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:190
-#, fuzzy
 msgid "Name already exists in storage"
-msgstr "in"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:193
-#, fuzzy
 msgid "Object not found in storage"
-msgstr "OYA Byabonetse in"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:196
-#, fuzzy
 msgid "No permission to do operation on storage"
-msgstr "Kuri ku"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:198
-#, fuzzy
 msgid "An unsupported storage action was attempted"
-msgstr "Igikorwa"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:200
-#, fuzzy
 msgid "Object is not a stream"
-msgstr "ni OYA a"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:203
-#, fuzzy
 msgid "Object is not a storage"
-msgstr "ni OYA a"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:206
-#, fuzzy
 msgid "Storage is not empty"
-msgstr "ni OYA ubusa"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:210
-#, fuzzy
 msgid "malformed user interface XML description"
-msgstr "Ukoresha: Isobanuramiterere"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:213
-#, fuzzy
 msgid "invalid path to XML user interface element"
-msgstr "Sibyo Inzira Kuri Ukoresha: Ikigize:"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:216
-#, fuzzy
 msgid "the requested UI attribute didn't exist"
-msgstr "Ikiranga"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:219
-#, fuzzy
 msgid "Unknown command or verb"
-msgstr "Komandi: Cyangwa Ishinga"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:222
-#, fuzzy
 msgid "Command is insensitive"
-msgstr "ni"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:226
-#, fuzzy
 msgid "incorrect data type"
-msgstr "Ibyatanzwe Ubwoko"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:229
-#, fuzzy
 msgid "stream not found"
-msgstr "OYA Byabonetse"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:233
-#, fuzzy
 msgid "property not found"
-msgstr "indangakintu OYA Byabonetse"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:236
-#, fuzzy
 msgid "property has invalid type"
-msgstr "indangakintu Sibyo Ubwoko"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:239
-#, fuzzy
 msgid "property is read only"
-msgstr "indangakintu ni Gusoma"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:242
-#, fuzzy
 msgid "config database backend failed "
-msgstr "Ububikoshingiro Byanze"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:246
-#, fuzzy
 msgid "Moniker interface cannot be found"
-msgstr "Byabonetse"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:249
-#, fuzzy
 msgid "Moniker activation timed out"
-msgstr "Inyuma"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:252
-#, fuzzy
 msgid "Syntax error within moniker"
-msgstr "Ikosa muri"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:255
-#, fuzzy
 msgid "Moniker has an unknown moniker prefix"
-msgstr "Kitazwi Imbanziriza"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:279
-#, fuzzy
 msgid "Error checking error; no exception"
-msgstr "Ikosa Oya Irengayobora(-)"
+msgstr ""
 
 #: ../matecomponent/matecomponent-exception.c:288
-#, fuzzy
 msgid "General activation error with no description"
-msgstr "Ikosa Na: Oya Isobanuramiterere"
-
-#: ../matecomponent/matecomponent-generic-factory.h:79 ../matecomponent/matecomponent-generic-factory.h:83
-#, fuzzy
-msgid "Could not initialize MateComponent"
-msgstr "OYA gutangiza"
+msgstr ""
 
 #: ../matecomponent/matecomponent-moniker.c:342
-#, fuzzy, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "Kuri Cyangwa"
+#, c-format
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
-#: ../matecomponent/matecomponent-moniker-util.c:246
-#, fuzzy
+#: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
-msgstr "Kuri Kureka bigakora Igikoresho"
+msgstr ""
 
 #: ../monikers/matecomponent-moniker-oaf.c:53
 #, c-format
@@ -431,9 +369,9 @@ msgid "Exception activating '%s'"
 msgstr ""
 
 #: ../monikers/matecomponent-moniker-oaf.c:62
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to activate '%s'"
-msgstr "Kuri Kureka bigakora"
+msgstr ""
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:1
 msgid "HTTP Moniker"
@@ -448,133 +386,108 @@ msgid "Standard Moniker factory"
 msgstr ""
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:4
-#, fuzzy
 msgid "generic Oaf activation moniker"
-msgstr "Gifitanye isano"
+msgstr ""
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:5
-#, fuzzy
 msgid "generic Oaf query moniker"
-msgstr "Gifitanye isano Ikibazo#"
+msgstr ""
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:6
-#, fuzzy
 msgid "generic factory 'new' moniker"
-msgstr "Gifitanye isano"
+msgstr ""
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:7
-#, fuzzy
 msgid "generic item moniker"
-msgstr "Gifitanye isano Ikintu"
+msgstr ""
 
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:8
 msgid "stream MonikerExtender"
 msgstr ""
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-#, fuzzy
-msgid "MateComponent Echo server factory"
-msgstr "Seriveri"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-#, fuzzy
-msgid "MateComponent Echo server sample program"
-msgstr "Seriveri Urugero Porogaramu"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr ""
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr ""
 
-#: ../samples/echo/echo-client.c:22
-#, fuzzy
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr ""
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr ""
+
+#: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
-msgstr "OYA gutangiza"
+msgstr ""
 
-#: ../samples/echo/echo-client.c:33
-#, fuzzy
+#: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
-msgstr "OYA Kurema Urugero Bya Urugero"
+msgstr ""
 
-#: ../samples/echo/echo-client.c:45
-#, fuzzy, c-format
+#: ../samples/echo/echo-client.c:47
+#, c-format
 msgid "An exception occurred '%s'"
-msgstr "Irengayobora(-)"
-
-#: ../utils/matecomponent-activation-sysconf.c:82
-#, fuzzy
-msgid "Could not save configuration file.\n"
-msgstr "OYA Kubika Iboneza IDOSIYE"
+msgstr ""
 
 #: ../utils/matecomponent-activation-sysconf.c:83
-#, fuzzy, c-format
+#, c-format
+msgid "Could not save configuration file.\n"
+msgstr ""
+
+#: ../utils/matecomponent-activation-sysconf.c:84
+#, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
-msgstr "Ubwoko Uruhushya Kuri Kuri"
+msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:86
-#, fuzzy
+#: ../utils/matecomponent-activation-sysconf.c:87
+#, c-format
 msgid "Successfully wrote configuration file.\n"
-msgstr "Iboneza IDOSIYE"
+msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:103
-#, fuzzy, c-format
+#: ../utils/matecomponent-activation-sysconf.c:104
+#, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr "Iboneza IDOSIYE ni"
+msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:145
-#, fuzzy, c-format
+#: ../utils/matecomponent-activation-sysconf.c:146
+#, c-format
 msgid "%s already in configuration file\n"
-msgstr "%sin Iboneza"
+msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:165
-#, fuzzy
+#: ../utils/matecomponent-activation-sysconf.c:166
+#, c-format
 msgid "there is not a properly structured configuration file\n"
-msgstr "ni OYA a Iboneza"
+msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:236
-#, fuzzy
+#: ../utils/matecomponent-activation-sysconf.c:237
+#, c-format
 msgid "MateComponent-activation configuration file contains:\n"
-msgstr "Iboneza IDOSIYE Kirimo"
+msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:266
-#, fuzzy
+#: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
-msgstr "Kuri Gukuraho... Bivuye Iboneza IDOSIYE"
+msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:266
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:267
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
 msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:268
-#, fuzzy
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
-msgstr "Kuri Kongeramo Kuri Iboneza IDOSIYE"
+msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:270
-#, fuzzy
+#: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
-msgstr "ububiko bw'amaderese in Iboneza IDOSIYE"
+msgstr ""
 
-#: ../utils/matecomponent-activation-sysconf.c:272
-#, fuzzy
+#: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
-msgstr "Inzira Kuri Iboneza IDOSIYE"
-
-#, fuzzy
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "Ibisabwa Seriveri"
-
-#, fuzzy
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr "Irihimbano Intera kugirango a Umwanya Gicurasi a"
-
-# wizards/source\formwizard\dbwizres.src:RID_DB_FORM_WIZARD_START_+_60.text
-#, fuzzy
-#~ msgid "directory path"
-#~ msgstr "Inzira y'ububiko"
+msgstr ""

@@ -1,25 +1,25 @@
-# translation of libmatecomponent.HEAD.po to Punjabi
-# Copyright (C) 2004 THE libmatecomponent.HEAD'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the libmatecomponent.HEAD package.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Amanpreet Singh Alam <amanlinux@netscape.net>, 2004.
 # Amanpreet Singh Alam <amanpreetalam@yahoo.com>, 2005.
-# A S Alam <apbrar@gmail.com>, 2006.
 # A S Alam <aalam@users.sf.net>, 2007, 2010.
+# A S Alam <apbrar@gmail.com>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent.HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=matecomponent&component=libmatecomponent\n"
-"POT-Creation-Date: 2010-06-21 20:31+0000\n"
-"PO-Revision-Date: 2010-08-29 09:25+0530\n"
-"Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: testLokalize <punjabi-users@lists.sf.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:35+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pa\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -56,9 +56,7 @@ msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"ਬਿਨਾਂ ਲਾਕ ਦੇ ਯੂਜ਼ਰ ਦੇ ਸਰਗਰਮੀ ਸਰਵਰ ਨਾਲ ਰਜਿਸਟਰ ਕਰੋ।  ਸਾਵਧਾਨ: ਇਹ ਚੋਣ ਨਾਲ ਯੂਜ਼ਰ ਦੇ "
-"ਚੱਲਦੇ ਸ਼ੈਸ਼ਨ ਲਈ ਖਤਰਨਾਕ ਨੁਕਸਾਨ ਹੋ ਸਕਦੇ ਹੋ ਅਤੇ ਸਿਰਫ਼ ਡੀਬੱਗ ਵਾਸਤੇ ਹੀ ਵਰਤਣਾ ਚਾਹੀਦਾ ਹੈ।"
+msgstr "ਬਿਨਾਂ ਲਾਕ ਦੇ ਯੂਜ਼ਰ ਦੇ ਸਰਗਰਮੀ ਸਰਵਰ ਨਾਲ ਰਜਿਸਟਰ ਕਰੋ।  ਸਾਵਧਾਨ: ਇਹ ਚੋਣ ਨਾਲ ਯੂਜ਼ਰ ਦੇ ਚੱਲਦੇ ਸ਼ੈਸ਼ਨ ਲਈ ਖਤਰਨਾਕ ਨੁਕਸਾਨ ਹੋ ਸਕਦੇ ਹੋ ਅਤੇ ਸਿਰਫ਼ ਡੀਬੱਗ ਵਾਸਤੇ ਹੀ ਵਰਤਣਾ ਚਾਹੀਦਾ ਹੈ।"
 
 #: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
@@ -97,10 +95,9 @@ msgstr "ਅਸੀ shlib ਇਕਾਈਆ ਨੂੰ ਰਿਮੋਟ ਪਰੋਸ�
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"ਬੋਨਬੋ ਸਰਗਰਮੀ ਸੰਰਚਨਾ ਫਾਇਲ ਸਫਲਤਾਪੂਰਕ ਪੜ੍ਹੀ ਨਹੀਂ ਗਈ ਹੈ । ਇਸ ਦੀ ਮਿਆਦ ਦੀ ਜਾਂਚ ਕਰੋ ਜੀ: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "ਬੋਨਬੋ ਸਰਗਰਮੀ ਸੰਰਚਨਾ ਫਾਇਲ ਸਫਲਤਾਪੂਰਕ ਪੜ੍ਹੀ ਨਹੀਂ ਗਈ ਹੈ । ਇਸ ਦੀ ਮਿਆਦ ਦੀ ਜਾਂਚ ਕਰੋ ਜੀ: %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -356,7 +353,6 @@ msgstr "ਆਮ ਸਰਗਰਮੀ ਗਲਤੀ, ਬਿਨਾਂ ਵੇਰਵੇ 
 
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-#| msgid "Failed to resolve, or extend '%s"
 msgid "Failed to resolve, or extend '%s'"
 msgstr "ਹੱਲ ਕਰਨ ਵਿੱਚ ਫੇਲ੍ਹ, ਜਾਂ ਵਾਧਾ '%s'"
 
@@ -407,20 +403,20 @@ msgid "stream MonikerExtender"
 msgstr "ਸਟਰੀਮ ਮਾਨੀਕਰ-ਵਧਾਰਾ"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "ਬੋਨਬੋ ਈਚੋ ਸਰਵਰ ਫੈਕਟਰੀ"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "ਬੋਨਬੋ ਈਚੋ ਸਰਵਰ ਸਧਾਰਨ ਪਰੋਗਰਾਮ"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "ਈਚੋ ਭਾਗ"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "ਈਚੋ ਭਾਗ ਫੈਕਟਰੀ"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "ਬੋਨਬੋ ਈਚੋ ਸਰਵਰ ਫੈਕਟਰੀ"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "ਬੋਨਬੋ ਈਚੋ ਸਰਵਰ ਸਧਾਰਨ ਪਰੋਗਰਾਮ"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -455,9 +451,7 @@ msgstr "ਸੰਰਚਨਾ ਫਾਇਲ ਨੂੰ ਸਫ਼ਲਤਾਪੂਰਕ
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"ਸੰਰਚਨਾ ਫਾਇਲ ਹੈ:\n"
-"    %s\n"
+msgstr "ਸੰਰਚਨਾ ਫਾਇਲ ਹੈ:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -494,6 +488,3 @@ msgstr "ਸੰਰਚਨਾ ਫਾਇਲ ਵਿੱਚ ਡਾਇਰੈਕਟਰੀ
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "ਸੰਰਚਨਾ ਫਾਇਲ ਲਈ ਰਾਹ ਵੇਖੋ"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "ਬੋਨਬੋ ਆਰੰਭ ਨਹੀਂ ਕਰ ਸਕਿਆ"

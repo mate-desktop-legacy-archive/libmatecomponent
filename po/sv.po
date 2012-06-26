@@ -1,69 +1,71 @@
-# Swedish messages for libmatecomponent.
-# Copyright (C) 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
-# Daniel Nylander <po@danielnylander.se>, 2006.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Christian Rose <menthos@menthos.com>, 2001, 2002, 2003, 2004, 2005.
-#
-# $Id$
-#
-#
+# Daniel Nylander <po@danielnylander.se>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-12-11 19:07+0100\n"
-"PO-Revision-Date: 2006-12-12 00:02+0100\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:37+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../activation-server/activation-context-corba.c:523
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "Kunde inte hitta vilket barn som servern var angiven i"
 
-#: ../activation-server/activation-context-corba.c:815
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "Inte ett giltigt aktiverings-ID"
 
-#: ../activation-server/activation-server-main.c:163
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Katalog som .server-filer ska läsas från"
 
-#: ../activation-server/activation-server-main.c:163
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "KATALOG"
 
-# SUN CHANGED MESSAGE
-#: ../activation-server/activation-server-main.c:166
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
 msgstr "Fungera som en ActivationContext (standard är endast som ett ObjectDirectory)"
 
-# SUN CHANGED MESSAGE
-#: ../activation-server/activation-server-main.c:170
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Filidentifierare som IOR ska skrivas till"
 
-#: ../activation-server/activation-server-main.c:170
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../activation-server/activation-server-main.c:181
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FI"
 
-#: ../activation-server/activation-server-main.c:173
-msgid "Register as the user's activation server without locking.  Warning: this option can have dangerous side effects on the stability of the user's running session, and should only be used for debugging purposes"
+#: ../activation-server/activation-server-main.c:184
+msgid ""
+"Register as the user's activation server without locking.  Warning: this "
+"option can have dangerous side effects on the stability of the user's "
+"running session, and should only be used for debugging purposes"
 msgstr "Registrera som användarens aktiveringsserver utan låsning.  Varning: det här alternativet kan ha farligt sidoeffekter på stabiliteten för användarens körande session, och bör endast användas för felsökningssyften"
 
-#: ../activation-server/activation-server-main.c:181
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Frågeuttryck som ska evalueras"
 
-#: ../activation-server/activation-server-main.c:181
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "UTTRYCK"
 
-#: ../activation-server/activation-server-main.c:430
-#: ../utils/matecomponent-activation-sysconf.c:304
+#: ../activation-server/activation-server-main.c:541
+#: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
 msgstr "Kör \"%s --help\" för att se en fullständig lista på tillgängliga kommandoradsflaggor.\n"
@@ -90,42 +92,41 @@ msgstr "Vi hanterar inte aktivering av shlib-objekt i en fjärrprocess än"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
-msgid "The MateComponent Activation configuration file was not read successfully. Please, check it is valid in: %s"
+msgid ""
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
 msgstr "Läsning av konfigurationsfilen för MateComponent Activation misslyckades. Kontrollera om den är giltig i: %s"
 
-# SUN CHANGED MESSAGE
-#: ../activation-server/object-directory-load.c:101
+#: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr "ett iid som är NULL är inte giltigt"
 
-# SUN CHANGED MESSAGE
-#: ../activation-server/object-directory-load.c:105
+#: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr "iid %s har typen NULL"
 
-# SUN CHANGED MESSAGE
-#: ../activation-server/object-directory-load.c:109
+#: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr "iid %s har platsen NULL"
 
-#: ../activation-server/object-directory-load.c:118
+#: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "ogiltigt tecken \"%c\" i iid \"%s\""
 
-#: ../activation-server/object-directory-load.c:348
+#: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
 msgstr "Egenskapen \"%s\" har inget värde"
 
-#: ../activation-server/object-directory-load.c:580
+#: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
 msgstr "Kunde inte tolka felaktiga XML-dokumentet %s"
 
-#: ../activation-server/object-directory-load.c:627
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr "Försöker med katalogen %s"
@@ -140,38 +141,38 @@ msgid "Failed to read from child process: %s\n"
 msgstr "Misslyckades med att läsa från barnprocess: %s\n"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
+#, c-format
 msgid "EOF from child process\n"
 msgstr "Filslut från barnprocess\n"
 
-#: ../matecomponent-activation/matecomponent-activation-fork-server.c:435
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
 msgstr "Kunde inte starta en ny process"
 
-# SUN CHANGED MESSAGE
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
 msgstr "Filidentifierare som IOR ska skrivas på"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:357
-#: ../matecomponent-activation/matecomponent-activation-init.c:367
+#: ../matecomponent-activation/matecomponent-activation-init.c:354
+#: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
 msgstr "IID att aktivera"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:359
-#: ../matecomponent-activation/matecomponent-activation-init.c:369
+#: ../matecomponent-activation/matecomponent-activation-init.c:356
+#: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
 msgstr "Förhindra registrering av server med OAF"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:403
+#: ../matecomponent-activation/matecomponent-activation-init.c:409
 msgid "MateComponent Activation options:"
 msgstr "Flaggor för MateComponent Activation:"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:404
+#: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
 msgstr "Visa flaggor för MateComponent Activation"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:512
+#: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
 msgstr "Flaggor för MateComponent Activation"
 
@@ -204,13 +205,11 @@ msgstr "Namn"
 msgid "Application unique name"
 msgstr "Unikt namn för program"
 
-# Osäker
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
-# Osäker
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "Anpassad CORBA-POA"
 
@@ -250,7 +249,6 @@ msgstr "Ett försök gjordes med en flödesåtgärd som inte stöds"
 msgid "IO Error on stream"
 msgstr "IO-fel på flöde"
 
-# SUN CHANGED MESSAGE
 #: ../matecomponent/matecomponent-exception.c:187
 msgid "IO Error on storage"
 msgstr "IO-fel i lagringsutrymme"
@@ -263,7 +261,6 @@ msgstr "Namnet finns redan i lagringsutrymmet"
 msgid "Object not found in storage"
 msgstr "Objektet kunde inte hittas i lagringsutrymmet"
 
-# SUN CHANGED MESSAGE
 #: ../matecomponent/matecomponent-exception.c:196
 msgid "No permission to do operation on storage"
 msgstr "Ingen tillåtelse att utföra åtgärd i lagringsutrymmet"
@@ -352,17 +349,12 @@ msgstr "Fel vid kontroll av fel; inget undantag"
 msgid "General activation error with no description"
 msgstr "Allmänt aktiveringsfel utan beskrivning"
 
-#: ../matecomponent/matecomponent-generic-factory.h:79
-#: ../matecomponent/matecomponent-generic-factory.h:83
-msgid "Could not initialize MateComponent"
-msgstr "Kunde inte initiera MateComponent"
-
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "Misslyckades med att lösa upp eller utöka \"%s"
+msgid "Failed to resolve, or extend '%s'"
+msgstr ""
 
-#: ../matecomponent/matecomponent-moniker-util.c:246
+#: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
 msgstr "Misslyckades med att aktivera objekt"
 
@@ -409,150 +401,88 @@ msgid "stream MonikerExtender"
 msgstr "strömmonikerutökare"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "Fabrik för MateComponent-ekoserver"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "Testprogram för MateComponent-ekoserver"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Ekokomponent"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Ekokomponentfabrik"
 
-#: ../samples/echo/echo-client.c:22
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "Fabrik för MateComponent-ekoserver"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "Testprogram för MateComponent-ekoserver"
+
+#: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
 msgstr "Jag kunde inte initiera MateComponent"
 
-#: ../samples/echo/echo-client.c:33
+#: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
 msgstr "Kunde inte skapa en instans av testekokomponenten"
 
-#: ../samples/echo/echo-client.c:45
+#: ../samples/echo/echo-client.c:47
 #, c-format
 msgid "An exception occurred '%s'"
 msgstr "Ett undantag inträffade \"%s\""
 
-#: ../utils/matecomponent-activation-sysconf.c:82
+#: ../utils/matecomponent-activation-sysconf.c:83
+#, c-format
 msgid "Could not save configuration file.\n"
 msgstr "Kunde inte spara konfigurationsfilen.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:83
+#: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "Försäkra dig om att du har rättighet att skriva till \"%s\".\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:86
+#: ../utils/matecomponent-activation-sysconf.c:87
+#, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "Skrev konfigurationsfilen utan problem.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:103
+#: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"konfigurationsfilen är:\n"
-"    %s\n"
+msgstr "konfigurationsfilen är:\n    %s\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:145
+#: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "%s finns redan i konfigurationsfilen\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:165
+#: ../utils/matecomponent-activation-sysconf.c:166
+#, c-format
 msgid "there is not a properly structured configuration file\n"
 msgstr "det finns ingen korrekt strukturerad konfigurationsfil\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:236
+#: ../utils/matecomponent-activation-sysconf.c:237
+#, c-format
 msgid "MateComponent-activation configuration file contains:\n"
 msgstr "Konfigurationsfilen för matecomponent-activation innehåller:\n"
 
-# SUN CHANGED MESSAGE
-#: ../utils/matecomponent-activation-sysconf.c:266
+#: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
 msgstr "Katalog som ska tas bort från konfigurationsfilen"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:267
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
 msgstr "SÖKVÄG"
 
-# SUN CHANGED MESSAGE
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
 msgstr "Katalog som ska läggas till i konfigurationsfilen"
 
-#: ../utils/matecomponent-activation-sysconf.c:270
+#: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
 msgstr "Visa kataloger i konfigurationsfilen"
 
-#: ../utils/matecomponent-activation-sysconf.c:272
+#: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Visa sökväg till konfigurationsfilen"
-
-#~ msgid "MateComponent Activation"
-#~ msgstr "MateComponent Activation"
-#~ msgid ""
-#~ "Register as the users' activation server without locking [!] for debugging"
-#~ msgstr ""
-#~ "Registrera som användarens aktiveringsserver utan att låsa [!] för "
-#~ "felsökning"
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "Kapplöpning vid aktivering av servern \"%s\""
-#~ msgid "directory path"
-#~ msgstr "katalogsökväg"
-#~ msgid "Child received signal %u (%s)"
-#~ msgstr "Barnet tog emot signalen %u (%s)"
-#~ msgid "Unknown non-exit error (status is %u)"
-#~ msgstr "Okänt icke avslutandefel (status är %u)"
-#~ msgid "matecomponent-activation failed to set process group of %s: %s\n"
-#~ msgstr ""
-#~ "matecomponent-activation misslyckades med att ställa in processgrupp för %s: %s\n"
-#~ msgid "Failed to execute %s: %d (%s)\n"
-#~ msgstr "Misslyckades med att köra %s: %d (%s)\n"
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr "För många aliasnivåer för en lokal, kan betyda en slinga"
-#~ msgid "No server corresponding to your query"
-#~ msgstr "Ingen server motsvarar din förfrågan"
-#~ msgid "Query failed: "
-#~ msgstr "Fråga misslyckades: "
-#~ msgid "Activation failed: "
-#~ msgstr "Aktivering misslyckades: "
-#~ msgid "Could not parse AID"
-#~ msgstr "Kunde inte tolka AID"
-#~ msgid "Could not parse context: "
-#~ msgstr "Kunde inte tolka sammanhanget: "
-#~ msgid "Could not activate server: "
-#~ msgstr "Kunde inte aktivera servern: "
-#~ msgid "Domain of ObjectDirectory"
-#~ msgstr "ObjectDirectory-domän"
-#~ msgid "DOMAIN"
-#~ msgstr "DOMÄN"
-#~ msgid "Object directory to use when registering servers"
-#~ msgstr "Objektkatalog som ska användas då servrar registreras"
-#~ msgid "OAF options"
-#~ msgstr "OAF-alternativ"
-#~ msgid "Exec failed: %d (%s)\n"
-#~ msgstr "Körning misslyckades: %d (%s)\n"
-#~ msgid "Failed to resolve, or extend '%s'"
-#~ msgstr "Misslyckades med att lösa upp eller utöka \"%s\""
-#~ msgid "The User canceled the save"
-#~ msgstr "Användaren avbröt sparandet"
-#~ msgid "No filename"
-#~ msgstr "Inget filnamn"
-#~ msgid "unknown mime type for '%s'"
-#~ msgstr "okänd mime-typ för \"%s\""
-#~ msgid "no handlers for mime type '%s'"
-#~ msgstr "inga hanterare för mime-typen \"%s\""
-#~ msgid "file MonikerExtender"
-#~ msgstr "filmonikerutökare"
-#~ msgid "generic file moniker"
-#~ msgstr "allmän filmoniker"
-#~ msgid "Can not matecomponent_init"
-#~ msgstr "Kan inte utföra matecomponent_init"
-

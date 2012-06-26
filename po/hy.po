@@ -1,19 +1,21 @@
-# Translation of libmatecomponent to Armenian
-# This file is distributed under the same license as the libmatecomponent package.
-# Copyright (C) 2010, Astghik Mkrtchyan
-# Astghik Mkrtchyan <astghikmkrtchyan147@gmail.com>
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-20 17:15+0500\n"
-"PO-Revision-Date: 2010-08-20 17:00+0400\n"
-"Last-Translator: Nune <nune@instigatedesign.com>\n"
-"Language-Team: Armenian <norik@freenet.am>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:37+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: hy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -50,10 +52,7 @@ msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Գրանցել որպես օգտագործողի ակտիվացման սերվեր առանց արգելափակման։ Զգուշացում․ "
-"այս ընտրանքը կարող է վտանգավոր ազդեցություն ունենալ օգտագործողի ընթացիկ "
-"սեսիայի հաստատունության վրա և կարող է օգտագործվել միայն վրիպազերծման նպատակով"
+msgstr "Գրանցել որպես օգտագործողի ակտիվացման սերվեր առանց արգելափակման։ Զգուշացում․ այս ընտրանքը կարող է վտանգավոր ազդեցություն ունենալ օգտագործողի ընթացիկ սեսիայի հաստատունության վրա և կարող է օգտագործվել միայն վրիպազերծման նպատակով"
 
 #: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
@@ -67,9 +66,7 @@ msgstr "ԱՐՏԱՀԱՅՏՈՒԹՅՈՒՆ"
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Աշխատեցնել '%s --help' տեսնելու համար հրամանային տողի հասանելի "
-"հատկութունների ամբողջական ցանկը։\n"
+msgstr "Աշխատեցնել '%s --help' տեսնելու համար հրամանային տողի հասանելի հատկութունների ամբողջական ցանկը։\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -89,18 +86,14 @@ msgstr "Ծանուցման ծառայություն ակտիվացման համ�
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr ""
-"Հեռացված պրոցեսում բաժանված գրադարանների օբյեկտների ակտիվացումը դեռ չի "
-"աջակցվում"
+msgstr "Հեռացված պրոցեսում բաժանված գրադարանների օբյեկտների ակտիվացումը դեռ չի աջակցվում"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"MateComponent Activation կոնֆիգուրացիոն ֆայլը հաջողությամբ չի կարդացվել․ Խնդրում "
-"ենք ստուգել նրա վավերությունը․ %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "MateComponent Activation կոնֆիգուրացիոն ֆայլը հաջողությամբ չի կարդացվել․ Խնդրում ենք ստուգել նրա վավերությունը․ %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -138,9 +131,7 @@ msgstr "Փորձ է կատարվում բացել %s պանակը"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr ""
-"Ենթապրոցեսը չի վերադարձրել սխալի հաղորդագրություն, տեղի է ունեցել անհայտ "
-"դադարեցում"
+msgstr "Ենթապրոցեսը չի վերադարձրել սխալի հաղորդագրություն, տեղի է ունեցել անհայտ դադարեցում"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
@@ -408,20 +399,20 @@ msgid "stream MonikerExtender"
 msgstr "MonikerExtender հոսք"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent Echo համակարգային ֆաբրիկա"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "MateComponent Echo համակարգի ծրագրի օրինակ"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Echo բաղադրիչ"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Echo բաղադրիչի ֆաբրիկա"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent Echo համակարգային ֆաբրիկա"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "MateComponent Echo համակարգի ծրագրի օրինակ"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -456,9 +447,7 @@ msgstr "Կոնֆիգուրացիոն ֆայլը հաջողությամբ գրվ�
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"Կոնֆիգուրացիոն ֆայլն է․\n"
-"    %s\n"
+msgstr "Կոնֆիգուրացիոն ֆայլն է․\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format

@@ -1,79 +1,77 @@
-# Dutch translation of libmatecomponent.
-# Nederlandse vertalings van libmatecomponent
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# Dennis Smit <synap@area101.penguin.nl>, 2000.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Almer S. Tigelaar <almer1@dds.nl>, 2000.
-# Tino Meinen <a.t.meinen@chello.nl>, 2003, 2005, 2006, 2007.
+# Dennis Smit <synap@area101.penguin.nl>, 2000.
 # Huib Kleinhout <huib@stack.nl>, 2002, 2004.
-#
-#
+# Michael Steenbeek <m.o.steenbeek@gmail.com>, 2012.
+# Tino Meinen <a.t.meinen@chello.nl>, 2003, 2005, 2006, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent 1.110.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-01 11:39+0100\n"
-"PO-Revision-Date: 2007-02-06 10:09+0100\n"
-"Last-Translator: Tino Meinen <a.t.meinen@chello.nl>\n"
-"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-21 10:45+0000\n"
+"Last-Translator: Michael Steenbeek <m.o.steenbeek@gmail.com>\n"
+"Language-Team: Dutch (http://www.transifex.net/projects/p/MATE/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../activation-server/activation-context-corba.c:523
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "Kon niet vinden in welke dochter de server werd genoemd"
 
-#: ../activation-server/activation-context-corba.c:815
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "Geen geldige activerings-ID"
 
-#: ../activation-server/activation-server-main.c:163
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Map om .server-bestanden uit te lezen"
 
-#: ../activation-server/activation-server-main.c:163
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "MAP"
 
-#: ../activation-server/activation-server-main.c:166
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Doe dienst als een ActivationContext (standaardwaarde is alleen als "
-"ObjectDirectory)"
+msgstr "Doe dienst als een ActivationContext (standaardwaarde is alleen als ObjectDirectory)"
 
-#: ../activation-server/activation-server-main.c:170
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "File descriptor om IOR naar te schrijven"
 
-#: ../activation-server/activation-server-main.c:170
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../activation-server/activation-server-main.c:181
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
-# aanmerken/opzetten/registreren
-#: ../activation-server/activation-server-main.c:173
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
 msgstr "Aanmerken als de activeringsserver van de gebruiker zonder beveiliging ('locking'). Pas op: deze optie kan gevaarlijke bijeffecten hebben op de stabiliteit van de sessie van de gebruiker en zou alleen gebruikt moeten worden voor debug-doeleinden."
 
-#: ../activation-server/activation-server-main.c:181
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Te evalueren query-expressie"
 
-#: ../activation-server/activation-server-main.c:181
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "EXPRESSIE"
 
-#: ../activation-server/activation-server-main.c:430
-#: ../utils/matecomponent-activation-sysconf.c:304
+#: ../activation-server/activation-server-main.c:541
+#: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Geef ‘%s --help’ voor een volledige lijst met beschikbare "
-"opdrachtregelopties.\n"
+msgstr "Geef ‘%s --help’ voor een volledige lijst met beschikbare opdrachtregelopties.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -83,7 +81,6 @@ msgstr "CORBA CosNaming service"
 msgid "Name service"
 msgstr "Naam service"
 
-# verkondiging/aankondiging
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:3
 msgid "Notification service"
 msgstr "Aankondigingsservice"
@@ -94,57 +91,52 @@ msgstr "Aankondigingsservice voor activering"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr ""
-"We ondersteunen het activeren van bibliotheekobjecten in een ander proces "
-"nog niet"
+msgstr "We ondersteunen het activeren van bibliotheekobjecten in een ander proces nog niet"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"Het matecomponent-activering configuratiebestand kon niet worden ingelezen. "
-"Controleer of het in orde is in: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "Het matecomponent-activering configuratiebestand kon niet worden ingelezen. Controleer of het in orde is in: %s"
 
-#: ../activation-server/object-directory-load.c:101
+#: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr "een NULL-iid is ongeldig"
 
-#: ../activation-server/object-directory-load.c:105
+#: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr "iid %s heeft een NULL-type"
 
-#: ../activation-server/object-directory-load.c:109
+#: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr "iid %s heeft een NULL locatie"
 
-#: ../activation-server/object-directory-load.c:118
+#: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "ongeldig teken ‘%c’ in iid ‘%s’"
 
-#: ../activation-server/object-directory-load.c:348
+#: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
 msgstr "Eigenschap ‘%s’ heeft geen waarde"
 
-#: ../activation-server/object-directory-load.c:580
+#: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
 msgstr "Het foutief opgetelde XML-document %s kon niet worden ingelezen"
 
-#: ../activation-server/object-directory-load.c:627
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr "De map %s wordt geprobeerd"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
-msgstr ""
-"Dochterproces gaf geen foutmelding, er is een onbekende fout opgetreden"
+msgstr "Dochterproces gaf geen foutmelding, er is een onbekende fout opgetreden"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
@@ -152,38 +144,38 @@ msgid "Failed to read from child process: %s\n"
 msgstr "Lezen van dochterproces is mislukt: %s\n"
 
 #: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
+#, c-format
 msgid "EOF from child process\n"
 msgstr "EOF van dochterproces\n"
 
-#: ../matecomponent-activation/matecomponent-activation-fork-server.c:435
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
 msgstr "Kon geen nieuw proces afsplitsen"
 
-# File descriptor om de afkorting duidelijk te laten. Normale gebruikers weten waarschijnlijk niet wat een bestandsbeschrijver is.
-#: ../matecomponent-activation/matecomponent-activation-init.c:355
-#: ../matecomponent-activation/matecomponent-activation-init.c:365
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
 msgstr "File descriptor voor afdrukken van de IOR"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:357
-#: ../matecomponent-activation/matecomponent-activation-init.c:367
+#: ../matecomponent-activation/matecomponent-activation-init.c:354
+#: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
 msgstr "Te activeren IID"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:359
-#: ../matecomponent-activation/matecomponent-activation-init.c:369
+#: ../matecomponent-activation/matecomponent-activation-init.c:356
+#: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
 msgstr "Voorkom het registreren van de server met OAF"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:403
+#: ../matecomponent-activation/matecomponent-activation-init.c:409
 msgid "MateComponent Activation options:"
 msgstr "MateComponent-activeringsopties:"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:404
+#: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
 msgstr "MateComponent-activeringsopties tonen"
 
-#: ../matecomponent-activation/matecomponent-activation-init.c:512
+#: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
 msgstr "MateComponent-activeringsopties"
 
@@ -216,11 +208,11 @@ msgstr "Naam"
 msgid "Application unique name"
 msgstr "Toepassingsunieke naam"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
-#: ../matecomponent/matecomponent-object.c:923
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "Aangepaste CORBA POA"
 
@@ -360,16 +352,12 @@ msgstr "Fout bij het nakijken van fout; geen uitzondering"
 msgid "General activation error with no description"
 msgstr "Algemene activeringsfout zonder omschrijving"
 
-#: ../matecomponent/matecomponent-generic-factory.h:79 ../matecomponent/matecomponent-generic-factory.h:83
-msgid "Could not initialize MateComponent"
-msgstr "MateComponent kon niet geinitialiseerd worden"
-
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
-msgid "Failed to resolve, or extend '%s"
-msgstr "'%s kon niet gevonden worden of het uitbreiden hiervan is mislukt"
+msgid "Failed to resolve, or extend '%s'"
+msgstr "Kon %s niet oplossen of uitbreiden"
 
-#: ../matecomponent/matecomponent-moniker-util.c:246
+#: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
 msgstr "Kan object niet activeren"
 
@@ -416,119 +404,88 @@ msgid "stream MonikerExtender"
 msgstr "stream MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent Echo-server factory"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "MateComponent Echo-server voorbeeldprogramma"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Echo component"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Echo component fabriek"
 
-#: ../samples/echo/echo-client.c:22
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent Echo-server factory"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "MateComponent Echo-server voorbeeldprogramma"
+
+#: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
 msgstr "MateComponent kon niet geinitialiseerd worden"
 
-#: ../samples/echo/echo-client.c:33
+#: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
-msgstr ""
-"Er kon geen realisatie van het voorbeeld 'echo' component worden aangemaakt"
+msgstr "Er kon geen realisatie van het voorbeeld 'echo' component worden aangemaakt"
 
-#: ../samples/echo/echo-client.c:45
+#: ../samples/echo/echo-client.c:47
 #, c-format
 msgid "An exception occurred '%s'"
 msgstr "Er is een uitzondering opgetreden ‘%s’"
 
-#: ../utils/matecomponent-activation-sysconf.c:82
+#: ../utils/matecomponent-activation-sysconf.c:83
+#, c-format
 msgid "Could not save configuration file.\n"
 msgstr "Opslaan OAF-configuratiebestand is mislukt.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:83
+#: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "Controleer de schrijfrechten voor ‘%s’.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:86
+#: ../utils/matecomponent-activation-sysconf.c:87
+#, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "Opslaan OAF-configuratiebestand is geslaagd.\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:103
+#: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"configuratiebestand is:\n"
-"   %s\n"
+msgstr "configuratiebestand is:\n   %s\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:145
+#: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "%s is al in het OAF-configuratiebestand\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:165
+#: ../utils/matecomponent-activation-sysconf.c:166
+#, c-format
 msgid "there is not a properly structured configuration file\n"
 msgstr "er is geen correct gestructureerde configuratiebestand\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:236
+#: ../utils/matecomponent-activation-sysconf.c:237
+#, c-format
 msgid "MateComponent-activation configuration file contains:\n"
 msgstr "MateComponent-activering configuratiebestand bevat:\n"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
+#: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
 msgstr "Map om uit het configuratiebestand te verwijderen"
 
-#: ../utils/matecomponent-activation-sysconf.c:266
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:267
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
 msgstr "PAD"
 
-#: ../utils/matecomponent-activation-sysconf.c:268
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
 msgstr "Map om toe te voegen aan het configuratiebestand"
 
-#: ../utils/matecomponent-activation-sysconf.c:270
+#: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
 msgstr "Mappen tonen in het configuratiebestand"
 
-#: ../utils/matecomponent-activation-sysconf.c:272
+#: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Pad tonen naar het configuratiebestand"
-
-#~ msgid ""
-#~ "Register as the users' activation server without locking [!] for debugging"
-#~ msgstr ""
-#~ "Registreer de activeringsserver van de gebruiker zonder te vergrendelen "
-#~ "[!] voor debuggen"
-
-#~ msgid "MateComponent Activation"
-#~ msgstr "MateComponent activering"
-
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "Race-conditie bij activeren van server ‘%s’"
-
-#~ msgid "directory path"
-#~ msgstr "Map-pad"
-
-#~ msgid "Child received signal %u (%s)"
-#~ msgstr "Dochter ontving signaal %u (%s)"
-
-#~ msgid "Unknown non-exit error (status is %u)"
-#~ msgstr "Onbekende, non-exit gerelateerde, fout (status is %u)"
-
-#~ msgid "matecomponent-activation failed to set process group of %s: %s\n"
-#~ msgstr "matecomponent-activering kon de procesgroep van %s niet instellen: %s\n"
-
-#~ msgid "Failed to execute %s: %d (%s)\n"
-#~ msgstr "Uitvoeren van %s mislukt: %d (%s)\n"
-
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr ""
-#~ "Te veel alias-niveaus voor een locale, mogelijk een aanwijzing voor een "
-#~ "lus"

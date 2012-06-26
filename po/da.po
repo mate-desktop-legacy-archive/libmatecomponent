@@ -1,28 +1,24 @@
-# Danish translation of libmatecomponent.
-# Copyright (C) 1999-2007 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Keld Simonsen <keld@dkuug.dk>, 2001.
-# Kjartan Maraas <kmaraas@gnome.org>, 1999-2001.
-# Ole Laursen <olau@hardworking.dk>, 2002, 03, 04.
-# Martin Willemoes Hansen <mwh@sysrq.dk>, 2005.
 # Kenneth Nielsen <k.nielsen81@gmail.com>, 2007.
-#
-# Konventioner:
-#
-#   child -> under-
-#   moniker -> protokolhåndtering
-#   storage -> lager
-#
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2005.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-19 17:41+0200\n"
-"PO-Revision-Date: 2010-09-19 17:25+0200\n"
-"Last-Translator: Kenneth Nielsen <k.nielsen81@gmail.com>\n"
-"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Danish (http://www.transifex.net/projects/p/MATE/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8-bit\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
@@ -59,10 +55,7 @@ msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Registrér som brugerens aktiveringsserver uden at låse. Advarsel: Denne "
-"valgmulighed kan have farlige bivirkninger for brugerens kørerende session "
-"og bør kun bruges til fejlfindingsformål"
+msgstr "Registrér som brugerens aktiveringsserver uden at låse. Advarsel: Denne valgmulighed kan have farlige bivirkninger for brugerens kørerende session og bør kun bruges til fejlfindingsformål"
 
 #: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
@@ -76,9 +69,7 @@ msgstr "UDTRYK"
 #: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Kør \"%s --help\" for at se den fulde liste af tilgængelige "
-"kommandolinjetilvalg.\n"
+msgstr "Kør \"%s --help\" for at se den fulde liste af tilgængelige kommandolinjetilvalg.\n"
 
 #: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
@@ -98,17 +89,14 @@ msgstr "Bekendtgørelsestjeneste for aktivering"
 
 #: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr ""
-"Vi kan endnu ikke behandle aktivering af shlib-objekter i en fjernproces"
+msgstr "Vi kan endnu ikke behandle aktivering af shlib-objekter i en fjernproces"
 
 #: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"Konfigurationsfilen til MateComponent-aktivering blev ikke indlæst korrekt. Tjek "
-"venligst om den er gyldig i: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "Konfigurationsfilen til MateComponent-aktivering blev ikke indlæst korrekt. Tjek venligst om den er gyldig i: %s"
 
 #: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
@@ -230,7 +218,6 @@ msgstr "Brugerdefineret CORBA POA"
 msgid "An unsupported action was attempted"
 msgstr "En ikke-understøttet handling blev forsøgt udført"
 
-# RETMIG: suboptimalt - bør undersøges nærmere
 #: ../matecomponent/matecomponent-exception.c:157
 msgid "IO Error"
 msgstr "IO-fejl"
@@ -363,9 +350,6 @@ msgstr "Fejl i fejltjekning; ingen undtagelse"
 msgid "General activation error with no description"
 msgstr "Generel fejl under aktivering uden beskrivelse"
 
-# "extend" går vist nok på at et alias kan resultere i en længere streng
-# (i så fald skulle det betyde noget i retning af "udfolde") -
-# imidlertid er den betydning vist overflødig her
 #: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
 msgid "Failed to resolve, or extend '%s'"
@@ -405,7 +389,6 @@ msgstr "generel aktiviseringsprotokolhåndtering til Oaf"
 msgid "generic Oaf query moniker"
 msgstr "generel forespørgselsprotokolhåndtering til Oaf"
 
-# RETMIG: klodset
 #: ../monikers/MateComponent_Moniker_std.server.in.in.h:6
 msgid "generic factory 'new' moniker"
 msgstr "generel fabrik-'new'-protokolhåndtering"
@@ -419,20 +402,20 @@ msgid "stream MonikerExtender"
 msgstr "strøm MonikerExtender"
 
 #: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent-ekkoserverfabrik"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
-msgid "MateComponent Echo server sample program"
-msgstr "MateComponent-ekkoserver-eksempelprogram"
-
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
 msgid "Echo component"
 msgstr "Ekkokomponent"
 
-#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Ekkokomponentfabrik"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent-ekkoserverfabrik"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "MateComponent-ekkoserver-eksempelprogram"
 
 #: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
@@ -467,9 +450,7 @@ msgstr "Skrev konfigurationsfil.\n"
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"konfigurationsfil er:\n"
-"    %s\n"
+msgstr "konfigurationsfil er:\n    %s\n"
 
 #: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
@@ -506,58 +487,3 @@ msgstr "Vis mapper i konfigurationsfil"
 #: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Vis sti til konfigurationsfil"
-
-#~ msgid "MateComponent Activation"
-#~ msgstr "MateComponent-aktivering"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "Kunne ikke klargøre MateComponent"
-
-#~ msgid "Race condition activating server '%s'"
-#~ msgstr "Racebetingelser ved aktivering af serveren '%s'"
-
-#~ msgid "directory path"
-#~ msgstr "sti til mappe"
-
-#~ msgid "Child received signal %u (%s)"
-#~ msgstr "Underproces modtog signal %u (%s)"
-
-#~ msgid "Unknown non-exit error (status is %u)"
-#~ msgstr "Ukendt ikke-afslutningsfejl (status er %u)"
-
-#~ msgid "matecomponent-activation failed to set process group of %s: %s\n"
-#~ msgstr ""
-#~ "Det lykkedes ikke matecomponent-activation at sætte procesgruppen for %s: %s\n"
-
-#~ msgid "Failed to execute %s: %d (%s)\n"
-#~ msgstr "Det mislykkedes at udføre %s: %d (%s)\n"
-
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr "For mange aliasniveauer for en region, kan indikere en løkke"
-
-#~ msgid "No server corresponding to your query"
-#~ msgstr "Ingen server svarer til forespørgslen"
-
-#~ msgid "Query failed: "
-#~ msgstr "Forespørgsel mislykkedes: "
-
-#~ msgid "Activation failed: "
-#~ msgstr "Aktivering mislykkedes: "
-
-#~ msgid "Could not parse AID"
-#~ msgstr "Kunne ikke fortolke AID"
-
-#~ msgid "Could not parse context: "
-#~ msgstr "Kunne ikke fortolke kontekst: "
-
-#~ msgid "Could not activate server: "
-#~ msgstr "Kunne ikke aktivere server: "
-
-#~ msgid "Domain of ObjectDirectory"
-#~ msgstr "Domæne for ObjectDirectory"
-
-#~ msgid "DOMAIN"
-#~ msgstr "DOMÆNE"
-
-#~ msgid "Object directory to use when registering servers"
-#~ msgstr "Objektkatalog som skal bruges ved registrering af tjenere"

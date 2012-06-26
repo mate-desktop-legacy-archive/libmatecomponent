@@ -1,387 +1,486 @@
-# Libmatecomponent eesti keele tõlge.
-# Estonian translation of libmatecomponent.
-#
-# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
-# Copyright (C) 2007–2010, The MATE Project.
-# This file is distributed under the same license as the libmatecomponent package.
-#
-# Ivar Smolin <okul@linux.ee>, 2005–2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponent HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=libmatecomponent&component=general\n"
-"POT-Creation-Date: 2010-04-21 08:51+0000\n"
-"PO-Revision-Date: 2010-04-25 08:05+0300\n"
-"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
-"Language-Team: Estonian <mate-et@linux.ee>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 15:33+0100\n"
+"PO-Revision-Date: 2012-02-17 14:37+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Estonian (http://www.transifex.net/projects/p/MATE/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
+#: ../activation-server/activation-context-corba.c:530
 msgid "Couldn't find which child the server was listed in"
 msgstr "Pole võimalik leida, millises alamprotsessis server kuulas"
 
+#: ../activation-server/activation-context-corba.c:822
 msgid "Not a valid Activation ID"
 msgstr "Vigane aktiveerimise ID"
 
+#: ../activation-server/activation-server-main.c:174
 msgid "Directory to read .server files from"
 msgstr "Kataloog, millest lugeda .server faile"
 
+#: ../activation-server/activation-server-main.c:174
 msgid "DIRECTORY"
 msgstr "KATALOOG"
 
+#: ../activation-server/activation-server-main.c:177
 msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
-msgstr ""
-"Serveeritakse kui ActivationContexti (vaikimisi serveeritakse "
-"ObjectDirectoryt)"
+msgstr "Serveeritakse kui ActivationContexti (vaikimisi serveeritakse ObjectDirectoryt)"
 
+#: ../activation-server/activation-server-main.c:181
 msgid "File descriptor to write IOR to"
 msgstr "Failideskriptor, kuhu IOR kirjutada"
 
+#: ../activation-server/activation-server-main.c:181
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "FD"
 msgstr "FD"
 
+#: ../activation-server/activation-server-main.c:184
 msgid ""
 "Register as the user's activation server without locking.  Warning: this "
 "option can have dangerous side effects on the stability of the user's "
 "running session, and should only be used for debugging purposes"
-msgstr ""
-"Kasutaja aktiveerimisserveri registreerimine ilma lukustamata.  Hoiatus: "
-"selle valiku kasutamisega võivad kaasneda ohtlikud kõrvalmõjud kasutaja "
-"käimasolevale seansile ja seda peaks kasutama ainult silumiseesmärgil"
+msgstr "Kasutaja aktiveerimisserveri registreerimine ilma lukustamata.  Hoiatus: selle valiku kasutamisega võivad kaasneda ohtlikud kõrvalmõjud kasutaja käimasolevale seansile ja seda peaks kasutama ainult silumiseesmärgil"
 
+#: ../activation-server/activation-server-main.c:192
 msgid "Query expression to evaluate"
 msgstr "Hinnatav päringuavaldis"
 
+#: ../activation-server/activation-server-main.c:192
 msgid "EXPRESSION"
 msgstr "AVALDIS"
 
+#: ../activation-server/activation-server-main.c:541
+#: ../utils/matecomponent-activation-sysconf.c:305
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Täieliku saadaolevate käsureavõtmete loetelu jaoks käivita '%s --help'.\n"
+msgstr "Täieliku saadaolevate käsureavõtmete loetelu jaoks käivita '%s --help'.\n"
 
+#: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:1
 msgid "CORBA CosNaming service."
 msgstr "CORBA CosNaming teenus."
 
+#: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:2
 msgid "Name service"
 msgstr "Nimeteenus"
 
+#: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:3
 msgid "Notification service"
 msgstr "Teavitusteenus"
 
+#: ../activation-server/MateComponent_CosNaming_NamingContext.server.in.in.h:4
 msgid "Notification service for activation"
 msgstr "Teavitusteenus aktiveerimise jaoks"
 
+#: ../activation-server/object-directory-activate.c:235
 msgid "We don't handle activating shlib objects in a remote process yet"
-msgstr ""
-"Shlib objektide aktiveerimist kaugprotsessides pole veel võimalik käsitleda"
+msgstr "Shlib objektide aktiveerimist kaugprotsessides pole veel võimalik käsitleda"
 
+#: ../activation-server/object-directory-config-file.c:65
 #, c-format
 msgid ""
-"The MateComponent Activation configuration file was not read successfully. Please, "
-"check it is valid in: %s"
-msgstr ""
-"MateComponent Aktiveerimise seadistusfaili lugemine nurjus. Palun veendu, et see "
-"oleks korrektne sisend: %s"
+"The MateComponent Activation configuration file was not read successfully. "
+"Please, check it is valid in: %s"
+msgstr "MateComponent Aktiveerimise seadistusfaili lugemine nurjus. Palun veendu, et see oleks korrektne sisend: %s"
 
+#: ../activation-server/object-directory-load.c:102
 msgid "a NULL iid is not valid"
 msgstr "NULL-iid pole lubatud"
 
+#: ../activation-server/object-directory-load.c:106
 #, c-format
 msgid "iid %s has a NULL type"
 msgstr "iid %s on NULL-tüüpi"
 
+#: ../activation-server/object-directory-load.c:110
 #, c-format
 msgid "iid %s has a NULL location"
 msgstr "iid %s on NULL-asukohaga"
 
+#: ../activation-server/object-directory-load.c:119
 #, c-format
 msgid "invalid character '%c' in iid '%s'"
 msgstr "lubamatu märk '%c' iid-is '%s'"
 
+#: ../activation-server/object-directory-load.c:349
 #, c-format
 msgid "Property '%s' has no value"
 msgstr "Omadusel '%s' puudub väärtus"
 
+#: ../activation-server/object-directory-load.c:583
 #, c-format
 msgid "Could not parse badly formed XML document %s"
 msgstr "Vigaselt vormindatud XML-dokumenti %s pole võimalik analüüsida"
 
+#: ../activation-server/object-directory-load.c:629
 #, c-format
 msgid "Trying dir %s"
 msgstr "Kataloogi %s proovimine"
 
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:107
 msgid "Child process did not give an error message, unknown failure occurred"
 msgstr "Tekkis tundmatu tõrge, alamprotsess ei väljastanud veateadet"
 
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:237
 #, c-format
 msgid "Failed to read from child process: %s\n"
 msgstr "Tõrge alamprotsessilt andmete lugemisel: %s\n"
 
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:247
 #, c-format
 msgid "EOF from child process\n"
 msgstr "Alamprotsessilt tuli faililõputunnus\n"
 
+#: ../matecomponent-activation/matecomponent-activation-fork-server.c:438
 msgid "Couldn't spawn a new process"
 msgstr "Uut protsessi pole võimalik luua"
 
+#: ../matecomponent-activation/matecomponent-activation-init.c:352
+#: ../matecomponent-activation/matecomponent-activation-init.c:397
 msgid "File descriptor to print IOR on"
 msgstr "Failideskriptor, kuhu IOR printida"
 
+#: ../matecomponent-activation/matecomponent-activation-init.c:354
+#: ../matecomponent-activation/matecomponent-activation-init.c:399
 msgid "IID to activate"
 msgstr "Aktiveeritav IID"
 
+#: ../matecomponent-activation/matecomponent-activation-init.c:356
+#: ../matecomponent-activation/matecomponent-activation-init.c:401
 msgid "Prevent registering of server with OAF"
-msgstr ""
-"Serveri registreerimise keelamine objektide aktiveerimisraamistikuga (OAF)"
+msgstr "Serveri registreerimise keelamine objektide aktiveerimisraamistikuga (OAF)"
 
+#: ../matecomponent-activation/matecomponent-activation-init.c:409
 msgid "MateComponent Activation options:"
 msgstr "MateComponent aktiveerimisvalikud:"
 
+#: ../matecomponent-activation/matecomponent-activation-init.c:410
 msgid "Show MateComponent Activation options"
 msgstr "MateComponent aktiveerimisvõtmete näitamine"
 
+#: ../matecomponent-activation/matecomponent-activation-init.c:518
 msgid "MateComponent activation options"
 msgstr "MateComponent aktiveerimisvõtmed"
 
+#: ../matecomponent-activation/matecomponent-activation-shlib.c:107
 #, c-format
 msgid "g_module_open of `%s' failed with `%s'"
 msgstr "g_module_open `%s' avamisel tekkis tõrge `%s'"
 
+#: ../matecomponent-activation/matecomponent-activation-shlib.c:126
+#: ../matecomponent-activation/matecomponent-activation-shlib.c:163
 #, c-format
 msgid "Can't find symbol MateComponent_Plugin_info in `%s'"
 msgstr "Sümbolit MateComponent_Plugin_info pole võimalik `%s' seest leida"
 
+#: ../matecomponent-activation/matecomponent-activation-shlib.c:212
 #, c-format
 msgid "Factory `%s' returned NIL for `%s'"
 msgstr "Factory `%s' tagastas `%s' jaoks väärtuse NIL"
 
+#: ../matecomponent-activation/matecomponent-activation-shlib.c:229
 #, c-format
 msgid "Shlib `%s' didn't contain `%s'"
 msgstr "Shlib `%s' ei sisaldanud `%s'"
 
+#: ../matecomponent/matecomponent-application.c:352
 msgid "Name"
 msgstr "Nimi"
 
+#: ../matecomponent/matecomponent-application.c:352
 msgid "Application unique name"
 msgstr "Rakenduse unikaalne nimi"
 
+#: ../matecomponent/matecomponent-object.c:929
 msgid "POA"
 msgstr "POA"
 
+#: ../matecomponent/matecomponent-object.c:929
 msgid "Custom CORBA POA"
 msgstr "Kohandatud CORBA POA"
 
+#: ../matecomponent/matecomponent-exception.c:154
 msgid "An unsupported action was attempted"
 msgstr "Prooviti toetamata toimingut"
 
+#: ../matecomponent/matecomponent-exception.c:157
 msgid "IO Error"
 msgstr "S/V viga"
 
+#: ../matecomponent/matecomponent-exception.c:160
 msgid "Invalid argument value"
 msgstr "Vigane argumendi väärtus"
 
+#: ../matecomponent/matecomponent-exception.c:164
 msgid "Object not found"
 msgstr "Objekti ei leitud"
 
+#: ../matecomponent/matecomponent-exception.c:167
 msgid "Syntax error in object description"
 msgstr "Süntaksi viga objekti kirjelduses"
 
+#: ../matecomponent/matecomponent-exception.c:172
 msgid "Cannot activate object from factory"
 msgstr "Objekti pole factoryst võimalik aktiveerida"
 
+#: ../matecomponent/matecomponent-exception.c:177
 msgid "No permission to access stream"
 msgstr "Voole ligipääsuks pole õiguseid"
 
+#: ../matecomponent/matecomponent-exception.c:180
 msgid "An unsupported stream action was attempted"
 msgstr "Prooviti toetamata vootoimingut"
 
+#: ../matecomponent/matecomponent-exception.c:183
 msgid "IO Error on stream"
 msgstr "S/V viga voos"
 
+#: ../matecomponent/matecomponent-exception.c:187
 msgid "IO Error on storage"
 msgstr "S/V viga salvestis"
 
+#: ../matecomponent/matecomponent-exception.c:190
 msgid "Name already exists in storage"
 msgstr "Nimi on salvestis juba olemas"
 
+#: ../matecomponent/matecomponent-exception.c:193
 msgid "Object not found in storage"
 msgstr "Objekti ei leitud salvestist"
 
+#: ../matecomponent/matecomponent-exception.c:196
 msgid "No permission to do operation on storage"
 msgstr "Salvestiga tegelemiseks pole piisavalt õigusi"
 
+#: ../matecomponent/matecomponent-exception.c:198
 msgid "An unsupported storage action was attempted"
 msgstr "Prooviti toetamata salvestitoimingut"
 
+#: ../matecomponent/matecomponent-exception.c:200
 msgid "Object is not a stream"
 msgstr "Objekt ei ole voog"
 
+#: ../matecomponent/matecomponent-exception.c:203
 msgid "Object is not a storage"
 msgstr "Objekt ei ole salvesti"
 
+#: ../matecomponent/matecomponent-exception.c:206
 msgid "Storage is not empty"
 msgstr "Salvesti ei ole tühi"
 
+#: ../matecomponent/matecomponent-exception.c:210
 msgid "malformed user interface XML description"
 msgstr "kasutajaliidese vigaselt vormindatud XML-kirjeldus"
 
+#: ../matecomponent/matecomponent-exception.c:213
 msgid "invalid path to XML user interface element"
 msgstr "vigane rada XML-kasutajaliidese elemendile"
 
+#: ../matecomponent/matecomponent-exception.c:216
 msgid "the requested UI attribute didn't exist"
 msgstr "küsitud kasutajaliideseatribuuti pole olemas"
 
+#: ../matecomponent/matecomponent-exception.c:219
 msgid "Unknown command or verb"
 msgstr "Tundmatu käsk või verb"
 
+#: ../matecomponent/matecomponent-exception.c:222
 msgid "Command is insensitive"
 msgstr "Käsk on tõstutundetu"
 
+#: ../matecomponent/matecomponent-exception.c:226
 msgid "incorrect data type"
 msgstr "vigane andmetüüp"
 
+#: ../matecomponent/matecomponent-exception.c:229
 msgid "stream not found"
 msgstr "voogu ei leitud"
 
+#: ../matecomponent/matecomponent-exception.c:233
 msgid "property not found"
 msgstr "omadust ei leitud"
 
+#: ../matecomponent/matecomponent-exception.c:236
 msgid "property has invalid type"
 msgstr "omadus on vigase tüübiga"
 
+#: ../matecomponent/matecomponent-exception.c:239
 msgid "property is read only"
 msgstr "omadus on kirjutuskaitsega"
 
+#: ../matecomponent/matecomponent-exception.c:242
 msgid "config database backend failed "
 msgstr "tõrge seadistuste andmebaasi taustaprogrammis "
 
+#: ../matecomponent/matecomponent-exception.c:246
 msgid "Moniker interface cannot be found"
 msgstr "Monikeri liidest ei leitud"
 
+#: ../matecomponent/matecomponent-exception.c:249
 msgid "Moniker activation timed out"
 msgstr "Monikeri aktiveerimine ületas ajapiirangu"
 
+#: ../matecomponent/matecomponent-exception.c:252
 msgid "Syntax error within moniker"
 msgstr "Süntaksi viga monikeris"
 
+#: ../matecomponent/matecomponent-exception.c:255
 msgid "Moniker has an unknown moniker prefix"
 msgstr "Monikeril on tundmatu monikerieesliide"
 
+#: ../matecomponent/matecomponent-exception.c:279
 msgid "Error checking error; no exception"
 msgstr "Viga veakontrollil, erand puudub"
 
+#: ../matecomponent/matecomponent-exception.c:288
 msgid "General activation error with no description"
 msgstr "Üldine ilma kirjelduseta aktiveerimisviga"
 
+#: ../matecomponent/matecomponent-moniker.c:342
 #, c-format
 msgid "Failed to resolve, or extend '%s'"
 msgstr "Tõrge '%s' lahendamisel või laiendamisel"
 
+#: ../matecomponent/matecomponent-moniker-util.c:247
 msgid "Failed to activate object"
 msgstr "Tõrge objekti aktiveerimisel"
 
+#: ../monikers/matecomponent-moniker-oaf.c:53
 #, c-format
 msgid "Exception activating '%s'"
 msgstr "Viga '%s' aktiveerimisel"
 
+#: ../monikers/matecomponent-moniker-oaf.c:62
 #, c-format
 msgid "Failed to activate '%s'"
 msgstr "Tõrge '%s' aktiveerimisel"
 
+#: ../monikers/MateComponent_Moniker_std.server.in.in.h:1
 msgid "HTTP Moniker"
 msgstr "HTTP-Moniker"
 
+#: ../monikers/MateComponent_Moniker_std.server.in.in.h:2
 msgid "ORB IOR handling moniker"
 msgstr "ORB IOR käsitlemise moniker"
 
+#: ../monikers/MateComponent_Moniker_std.server.in.in.h:3
 msgid "Standard Moniker factory"
 msgstr "Standard Moniker factory"
 
+#: ../monikers/MateComponent_Moniker_std.server.in.in.h:4
 msgid "generic Oaf activation moniker"
 msgstr "üldine Oaf-i aktiveerimismoniker"
 
+#: ../monikers/MateComponent_Moniker_std.server.in.in.h:5
 msgid "generic Oaf query moniker"
 msgstr "üldine Oaf-i päringumoniker"
 
+#: ../monikers/MateComponent_Moniker_std.server.in.in.h:6
 msgid "generic factory 'new' moniker"
 msgstr "üldise factory 'uus' moniker"
 
+#: ../monikers/MateComponent_Moniker_std.server.in.in.h:7
 msgid "generic item moniker"
 msgstr "üldise kirje moniker"
 
+#: ../monikers/MateComponent_Moniker_std.server.in.in.h:8
 msgid "stream MonikerExtender"
 msgstr "voo MonikerExtender"
 
-msgid "MateComponent Echo server factory"
-msgstr "MateComponent Kajaserveri factory"
-
-msgid "MateComponent Echo server sample program"
-msgstr "MateComponent Kajaserveri näidisprogramm"
-
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:1
 msgid "Echo component"
 msgstr "Kaja komponent"
 
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:2
 msgid "Echo component factory"
 msgstr "Kajakomponendi factory"
 
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:3
+msgid "MateComponent Echo server factory"
+msgstr "MateComponent Kajaserveri factory"
+
+#: ../samples/echo/MateComponent_Sample_Echo.server.in.in.h:4
+msgid "MateComponent Echo server sample program"
+msgstr "MateComponent Kajaserveri näidisprogramm"
+
+#: ../samples/echo/echo-client.c:24
 msgid "I could not initialize MateComponent"
 msgstr "MateComponent lähtestamine pole võimalik"
 
+#: ../samples/echo/echo-client.c:35
 msgid "Could not create an instance of the sample echo component"
 msgstr "Näidiskomponendi (kaja) instantsi pole võimalik luua"
 
+#: ../samples/echo/echo-client.c:47
 #, c-format
 msgid "An exception occurred '%s'"
 msgstr "Leidis aset erandolukord '%s'"
 
+#: ../utils/matecomponent-activation-sysconf.c:83
 #, c-format
 msgid "Could not save configuration file.\n"
 msgstr "Seadistusfaili pole võimalik salvestada.\n"
 
+#: ../utils/matecomponent-activation-sysconf.c:84
 #, c-format
 msgid "Please, make sure you have permissions to write to '%s'.\n"
 msgstr "Palun veendu, et sul on õigused '%s' kirjutamiseks.\n"
 
+#: ../utils/matecomponent-activation-sysconf.c:87
 #, c-format
 msgid "Successfully wrote configuration file.\n"
 msgstr "Seadistusfail kirjutati edukalt.\n"
 
+#: ../utils/matecomponent-activation-sysconf.c:104
 #, c-format
 msgid ""
 "configuration file is:\n"
 "    %s\n"
-msgstr ""
-"seadistusfail on:\n"
-"    %s\n"
+msgstr "seadistusfail on:\n    %s\n"
 
+#: ../utils/matecomponent-activation-sysconf.c:146
 #, c-format
 msgid "%s already in configuration file\n"
 msgstr "%s on juba seadistusfailis\n"
 
+#: ../utils/matecomponent-activation-sysconf.c:166
 #, c-format
 msgid "there is not a properly structured configuration file\n"
 msgstr "puudub korralikult struktureeritud seadistusfail\n"
 
+#: ../utils/matecomponent-activation-sysconf.c:237
 #, c-format
 msgid "MateComponent-activation configuration file contains:\n"
 msgstr "MateComponent-activation seadistusfail sisaldab:\n"
 
+#: ../utils/matecomponent-activation-sysconf.c:267
 msgid "Directory to remove from configuration file"
 msgstr "Seadistusfailist eemaldatav kataloog"
 
+#: ../utils/matecomponent-activation-sysconf.c:267
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "PATH"
 msgstr "RADA"
 
+#: ../utils/matecomponent-activation-sysconf.c:269
 msgid "Directory to add to configuration file"
 msgstr "Seadistusfaili lisatav kataloog"
 
+#: ../utils/matecomponent-activation-sysconf.c:271
 msgid "Display directories in configuration file"
 msgstr "Kataloogide kuvamine seadistusfailides"
 
+#: ../utils/matecomponent-activation-sysconf.c:273
 msgid "Display path to configuration file"
 msgstr "Seadistusfaili raja kuvamine"
