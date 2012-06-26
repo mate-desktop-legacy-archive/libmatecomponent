@@ -1,0 +1,1014 @@
+========== am.po ==========
+# Translations into the Amharic Language.
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmatecomponent package.
+# Ge'ez Frontier Foundation <locales@geez.org>, 2002.
+#
+#
+
+
+
+
+========== ar.po ==========
+# translation of libmatecomponent.HEAD.ar.po to Arabic
+# translation of libmatecomponent.HEAD.ar.po to
+# Arabic translation of 1.
+# Copyright (C) 2003 THE 1'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 1 package.
+#
+# Mohammed Gamal <f2c2001@yahoo.com>, 2002.
+# Ammer Alsabbagh <whollyboss@yahoo.com>, 2002.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2003.
+#  <lumina@silverpen.de>, 2004.
+# Djihed Afifi <djihed@gmail.com>, 2006.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007.
+
+
+
+
+========== as.po ==========
+# translation of as.po to Assamese
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Amitakhya Phukan <aphukan@redhat.com>, 2008.
+
+
+
+
+========== ast.po ==========
+# Asturian translation for libmatecomponent.
+# Copyright (C) 2010 libmatecomponent's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmatecomponent package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+
+
+
+========== az.po ==========
+# translation of libmatecomponent.HEAD.az.po to Azerbaijani Turkish
+# Copyright (C) 2001, 2004 Free Software Foundation, Inc.
+# Vasif İsmayıloğlu MD <azerb_linux@hotmail.com>, 2001.
+# Mətin Əmirov <metin@karegen.com>, 2004.
+#
+
+
+
+
+========== be.po ==========
+# translation of libmatecomponent.HEAD.be.po to Belarusian
+# translation of libmatecomponent.HEAD.be.po to belarusian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER
+# Vital Khilko <dojlid@mova.org>, 2003, 2005.
+#
+
+
+
+
+========== bg.po ==========
+# Bulgarian translation of libmatecomponent po file.
+# Copyright (C) 2002, 2004, 2007, 2010 Free Software Foundation, Inc.
+# Alexander Shopov <ash@kambanaria.org>, 2002, 2004, 2007, 2010.
+# Yanko Kaneti <yaneti@declera.com>
+# Rostislav Raykov <zbrox@i-space.org>, 2004
+#
+#
+
+
+
+
+========== bn.po ==========
+# The Bengali translation for  libmatecomponent
+# Copyright (C) 2003 Free Software Foundation .
+# This file is distributed under the same license as the libmatecomponent package.
+# Muhammad Mahmudur Rahman Khan <mrk_ju@yahoo.com>, 2003.
+# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+# Sadia Afroz <sadia@ankur.org.bd>, 2010.
+# Israt Jahan <israt@ankur.org.bd>, 2010.
+#
+
+
+
+
+========== bn_IN.po ==========
+# The Bengali India translation for  libmatecomponent
+# Copyright (C) 2003 Free Software Foundation .
+# This file is distributed under the same license as the libmatecomponent package.
+# Muhammad Mahmudur Rahman Khan <mrk_ju@yahoo.com>, 2003.
+# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+#
+
+
+
+
+========== br.po ==========
+# Breton translation of mate-terminal
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# This file is distributed under the GNU General Public License Version 2.
+# Jérémy Ar Floc'h <jeremy.lefloch@gmail.com>, 2006
+# Maryvonne MORVAN <maryvonne.morvan3@wanadoo.fr>, 2006
+#
+
+
+
+
+========== bs.po ==========
+# translation of libmatecomponent to Bosnian
+# This file is distributed under the same license as the libmatecomponent package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2004.
+# Kenan Hadžiavdić <kenanh@frisurf.no>, 2004.
+#
+
+
+
+
+========== ca.po ==========
+# libmatecomponent translation to Catalan.
+# Copyright © 2001-2007 Free Software Foundation, Inc.
+# Softcatalà <info@softcatala.org>, 2001.
+# Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006, 2007.
+#
+
+
+
+
+========== ca@valencia.po ==========
+# libmatecomponent translation to Catalan.
+# Copyright © 2001-2007 Free Software Foundation, Inc.
+# Softcatalà <info@softcatala.org>, 2001.
+# Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006, 2007.
+#
+
+
+
+
+========== cs.po ==========
+# Czech translation of libmatecomponent.
+# Copyright (C) 2002, 2008, 2010 the author(s) of libmatecomponent.
+# Copyright (C) 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
+# This file is distributed under the same license as the libmatecomponent package.
+# Michal Bukovjan <bukm@centrum.cz>, 2002.
+# Miloslav Trmac <mitr@volny.cz>, 2004, 2005, 2006.
+# Lucas Lommer <llommer@svn.gnome.org>, 2008.
+# Petr Kovar <pknbe@volny.cz>, 2008.
+
+
+
+
+========== cy.po ==========
+# libmatecomponent yn Gymraeg.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmatecomponent package.
+# Dafydd Harries <daf@parnassus.ath.cx>, 2003.
+# Rhys Jones <rhys@sucs.org>, 2003.
+# Iestyn Pryce <dylunio@gmail.com>, 2009.
+
+
+
+
+========== da.po ==========
+# Danish translation of libmatecomponent.
+# Copyright (C) 1999-2007 Free Software Foundation, Inc.
+# Keld Simonsen <keld@dkuug.dk>, 2001.
+# Kjartan Maraas <kmaraas@gnome.org>, 1999-2001.
+# Ole Laursen <olau@hardworking.dk>, 2002, 03, 04.
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2005.
+# Kenneth Nielsen <k.nielsen81@gmail.com>, 2007.
+#
+# Konventioner:
+#
+#   child -> under-
+#   moniker -> protokolhåndtering
+#   storage -> lager
+#
+
+
+
+
+========== de.po ==========
+# German libmatecomponent translation
+# Copyright (C) 2002-2004 Free Software Foundation, Inc.
+# Jörgen Scheibengruber <mfcn@gmx.de>, 2002.
+# Christian Meyer <chrisime@gnome.org>, 2002.
+# Christian Neumair <chris@mate-de.org>, 2002-2004.
+# Hendrik Richter <hendrikr@gnome.org>, 2007, 2010.
+
+
+
+
+========== dz.po ==========
+# Dzongkha translation of libmatecomponent.
+# Copyright @ 2006 Free software foundation,Inc.
+# Mindu Dorji.
+#
+
+
+
+
+========== el.po ==========
+# Greek translation of libmatecomponent.
+# Copyright (C) 2002,2003 Simos Xenitellis.
+#
+# kostas: 28Jan2003, updated translation
+#
+# simos: 52 messages, 16Aug2002, initial translation.
+# simos: 54 messages, 04Nov2002, completed translation.
+# kostas: 03Sep2003, 103 messages, updated translation.
+# Simos Xenitellis <simos@hellug.gr>, 2002,2003.
+# Kostas Papadimas <pkst@gmx.net>, 2003.
+# Kostas Papadimas <pkst@gnome.org>, 2004, 2006.
+# Simos Xenitellis <simos@gnome.org>, 2005.
+
+
+
+
+========== en@shaw.po ==========
+# Shavian translation for libmatecomponent.
+# Copyright (C) 2009 The Mate Foundation.
+# Thomas Thurman <tthurman@gnome.org>, 2009.
+
+
+
+
+========== en_CA.po ==========
+# English/Canada translation of libmatecomponent.
+# Copyright (C) 2004-2005 Adam Weinberger and the MATE Foundation
+# This file is distributed under the same licence as the libmatecomponent package.
+# Adam Weinberger <adamw@gnome.org>, 2004, 2005.
+# 
+# 
+
+
+
+
+========== en_GB.po ==========
+# English (British) translation.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmatecomponent package.
+# Gareth Owen <gowen72@yahoo.com> 2004
+# Bruce Cowan <bruce@bcowan.me.uk>, 2010.
+
+
+
+
+========== eo.po ==========
+# Esperanto translation of libmatecomponent.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matecomponent-activation package.
+# Charles Voelger <cvoelger@dweasel.com>, 2003.
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010.
+#
+
+
+
+
+========== es.po ==========
+# Translation into spanish of libmatecomponent.
+# Copyright (C) 2001,2003, 2004 Free Software Foundation, Inc.
+# Diego Sevilla Ruiz <dsevilla@um.es>, 2000.
+# Carlos Perelló Marín <carlos@mate-db.org>, 2001.
+# Héctor García Álvarez <hector@scouts-es.org>, 2001.
+# Germán Poo-Caamaño <gpoo@ubiobio.cl>, 2002.
+# Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2004.
+# Jorge González <jorgegonz@svn.gnome.org>, 2010.
+#
+
+
+
+
+========== et.po ==========
+# Libmatecomponent eesti keele tõlge.
+# Estonian translation of libmatecomponent.
+#
+# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2007–2010, The MATE Project.
+# This file is distributed under the same license as the libmatecomponent package.
+#
+# Ivar Smolin <okul@linux.ee>, 2005–2010.
+#
+
+
+
+
+========== eu.po ==========
+# translation of eu.po to Basque
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2004, 2005, 2006, 2007, 2010.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007.
+
+
+
+
+========== fa.po ==========
+# translation of libmatecomponent to Persian
+# Copyright (C) 2002 The FarsiWeb Project Group
+# Roozbeh Pournader <roozbeh@sharif.edu>, 2002
+#
+
+
+
+
+========== fi.po ==========
+# libmatecomponent Finnish translation
+# Suomennos: http://mate-fi.sourceforge.net/
+#
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Sami Gerdt <sgerdt@cs.joensuu.fi>, 2000.
+# Pauli Virtanen <pauli.virtanen@hut.fi>, 2000-2002.
+#
+#
+# embeddable = upote
+# control = säädin
+#
+
+
+
+
+========== fr.po ==========
+# French translation of libmatecomponent.
+# Copyright (C) 2001-2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmatecomponent package.
+#
+# Christophe Merlet (RedFox) <redfox@redfoxcenter.org>, 2001-2005.
+# Christophe Fergeau <teuf@users.sourceforge.net> 2002.
+# Sun G11n <mate_int_l10n@ireland.sun.com>, 2002.
+# Gianni Moschini <gianni@cmsoft.net>, 2006.
+# Benoît Dejean <benoit@placenet.org>, 2006.
+# Jonathan Ernst <jonathan@ernstfamily.ch>, 2006.
+# Robert-André Mauchin <zebob.m@pengzone.org>, 2007.
+# Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007
+#
+
+
+
+
+========== ga.po ==========
+# Irish language translation of oaf
+# Copyright (C) 2000,2004 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2000.
+
+
+
+
+========== gl.po ==========
+# translation of gl.po to Galego
+# Galician translation of libmatecomponent.
+# Copyright (C) 2001-2004 Jesús Bravo Álvarez
+# Copyright (C) 2001-2002 Manuel A. Fernández Montecelo
+#
+# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
+# colaborar connosco, podes atopar máis información en http://www.trasno.net
+#
+# Jesús Bravo Álvarez <suso@trasno.net>, 2001-2004.
+# Manuel A. Fernández Montecelo <manuel@sindominio.net>, 2001-2002.
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
+# Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2008.
+# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
+# Fran Diéguez <frandieguez@ubuntu.com>, 2010.
+#
+
+
+
+
+========== gu.po ==========
+# translation of libmatecomponent.HEAD.gu.po to Gujarati
+# Copyright (C) 2005, 2006, 2007 Free Software Foundation, Inc.
+# Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
+# Ankit Patel <ankit@redhat.com>, 2006, 2007.
+
+
+
+
+========== he.po ==========
+# translation of libmatecomponent.HEAD.he.po to Hebrew
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
+# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2002,2003.
+# Gil Osher <dolfin@rpg.org.il>, 2004.
+#
+
+
+
+
+========== hi.po ==========
+# translation of hi.po to Hindi
+# Copyright (C) 2003, 2004, 2005, 2006, 2009 Free Software Foundation, Inc.
+#
+# G Karunakar <karunakar@freedomink.org>, 2003.
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004.
+# Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006, 2009.
+
+
+
+
+========== hr.po ==========
+# Translation of libmatecomponent to Croatiann
+# Copyright (C) Croatiann team
+# Translators: Automatski Prijevod <>,Robert Sedak <robert.sedak@sk.tel.hr>,
+
+
+
+
+========== hu.po ==========
+# Hungarian translation of libmatecomponent.
+# Copyright (C) 2002, 2003, 2004, 2006, 2007, 2008, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmatecomponent package.
+#
+# Emese Kovacs <emese@gnome.hu>, 2002, 2003.
+# Andras Timar <timar@gnome.hu>, 2003, 2004.
+# Laszlo Dvornik <dvornik@gnome.hu>, 2004.
+# Gabor Kelemen <kelemeng@gnome.hu>, 2005, 2006, 2007, 2008.
+# Gabor Kelemen <kelemeng at mate dot hu>, 2010.
+
+
+
+
+========== hy.po ==========
+# Translation of libmatecomponent to Armenian
+# This file is distributed under the same license as the libmatecomponent package.
+# Copyright (C) 2010, Astghik Mkrtchyan
+# Astghik Mkrtchyan <astghikmkrtchyan147@gmail.com>
+#
+
+
+
+
+========== id.po ==========
+# Indonesia translation of libmatecomponent.
+# Copyright (C) 2005 THE libmatecomponent'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmatecomponent package.
+# Mohammad DAMT <mdamt@bisnisweb.com>, 2005.
+#
+
+
+
+
+========== is.po ==========
+# Icelandic translation of libmatecomponent
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmatecomponent package.
+# Richard Allen <ra@ra.is>, 2003
+#
+
+
+
+
+========== it.po ==========
+# Italian localization for libmatecomponent
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Pier Luigi Fiorini <plfiorini@users.sourceforge.net>, 2000.
+# Christopher R. Gabriel <cgabriel@cgabriel.org, 2001
+# Alessio Frusciante <algol@firenze.linux.it>, 2003.
+# Luca Ferretti <elle.uca@libero.it>, 2005-2006.
+# Milo Casagrande <milo@ubuntu.com>, 2010.
+
+
+
+
+========== ja.po ==========
+# libmatecomponent ja.po
+# Copyright (C) 1999-2007,2010 Free Software Foundation, Inc.
+# Yukihiro Nakai <nacai@iname.com>, 1999.
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 1999-2002, 2010.
+# Takeshi Aihana <takeshi.aihana@gmail.com>, 2000,2003-2007.
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
+#
+
+
+
+
+========== ka.po ==========
+# translation of ka.po to Georgian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Vladimer Sichinava <vlsichinava@gmail.com>, 2006.
+# Vladimer Sichinava <vsichi@gnome.org>, 2006.
+# Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2007.
+
+
+
+
+========== kn.po ==========
+# translation of libmatecomponent.HEAD.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2009.
+
+
+
+
+========== ko.po ==========
+# Korean messages for libmatecomponent
+# Chideok Hwang <hwang@mizi.co.kr>, 2000.
+# Changwoo Ryu <cwryu@debian.org>, 2002-2006.
+#
+
+
+
+
+========== ku.po ==========
+# translation of libmatecomponent.HEAD.po to Kurdish
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Erdal Ronahi <erdal.ronahi@gmail.com, pckurd@hotmail.com>, 2005.
+#
+
+
+
+
+========== li.po ==========
+# Limburgish translation of libmatecomponent.
+# Limburgse euverzètting van libmatecomponent
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Mathieu van Woerkom <mathieu@brabants.org>, 2003.
+#
+
+
+
+
+========== lt.po ==========
+# translation of lt.po to Lithuanian
+# Lithuanian translation of libmatecomponent
+# Copyright (C) 2003-2006, 2007 Free Software Foundation, Inc.
+#
+#
+# Tomas Kuliavas <tokul@users.sourceforge.net>, 2003-2004.
+# Žygimantas Beručka <zygis@gnome.org>, 2004-2006.
+# Gintautas Miliauskas <gintas@akl.lt>, 2007.
+
+
+
+
+========== lv.po ==========
+# translation of lv.po to Latvian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Raivis Dejus <orvils@gmail.com>, 2006, 2009.
+
+
+
+
+========== mai.po ==========
+# translation to libmatecomponent to Maithili
+# Copyright (C) 2006 The MATE Foundation
+# This file is distributed under the same license as the PACKAGE package.
+# BOSS GNU/Linux <bosslinux@cdac.in>, 2008.
+
+
+
+
+========== mg.po ==========
+# MALAGASY TRANSLATION OF LIBMATECOMPONENT.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Thierry Randrianiriana <randriniriana@gmail.com>, YEAR.
+
+
+
+
+========== mk.po ==========
+# translation of libmatecomponent.HEAD.po to Macedonian
+# translation of libmatecomponent.HEAD.mk.po to
+# translation of libmatecomponent.HEAD.mk.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Ivan Stojmirov <stojmir@linux.net.mk>, 2002.
+# Maratonec <kjdskjds@dksjd>, 2002,2003.
+# Vladislav Bidikov <bidikovi@mail.com.mk>, 2003.
+# Arangel Angov <ufo@linux.net.mk>, 2004, 2006.
+# Арангел Ангов <ufo@linux.net.mk>, 2005.
+# Jovan Naumovski <jovan@lugola.net>, 2006.
+# Arangel Angov <arangel@linux.net.mk>, 2007.
+
+
+
+
+========== ml.po ==========
+# translation of libmatecomponent.HEAD.ml.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# FSF-India <locale@gnu.org.in>, 2003.
+# Ani Peter <apeter@redhat.com>, 2006, 2007.
+
+
+
+
+========== mn.po ==========
+# translation of mn.po to Mongolian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Sanlig Badral <badral@chinggis.com>, 2003.
+# Sanlig Badral <Badral@openmn.org>, 2003, 2004.
+# Sanlig Badral <badral@openmn.org>, 2004, 2008.
+
+
+
+
+========== mr.po ==========
+# translation of libmatecomponent.HEAD.po to marathi
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# sandeep shedmake <sandeep.shedmake@gmail.com>, 2007.
+
+
+
+
+========== ms.po ==========
+# libmatecomponent Bahasa Melayu.
+# Copyright (C) 2002 Free Software Foundation, Inc., Projek Gabai.
+# 1. Mohamad Afifi Omar (App) <mr_mohd_afifi@yahoo.com>, 2002.
+# 2. Hasbullah Bin Pit <sebol@ikhlas.com>, 2002-2004.
+#
+
+
+
+
+========== nb.po ==========
+# Norwegian translation of libmatecomponent (bokmål dialect).
+# Copyright (C) 1999-2004 Free Software Foundation, Inc.
+# Kjartan Maraas <kmaraas@gnome.org>, 1999-2010.
+#
+
+
+
+
+========== ne.po ==========
+# translation of libmatecomponent.HEAD.ne.po to Nepali
+# This file is distributed under the same license as the libmatecomponent package.
+# Pawan Chitrakar <pawan@nplinux.org>.
+#
+# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2005.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+
+
+
+
+========== nl.po ==========
+# Dutch translation of libmatecomponent.
+# Nederlandse vertalings van libmatecomponent
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Dennis Smit <synap@area101.penguin.nl>, 2000.
+# Almer S. Tigelaar <almer1@dds.nl>, 2000.
+# Tino Meinen <a.t.meinen@chello.nl>, 2003, 2005, 2006, 2007.
+# Huib Kleinhout <huib@stack.nl>, 2002, 2004.
+#
+#
+
+
+
+
+========== nn.po ==========
+# translation of nn.po to Norwegian Nynorsk
+# Norwegian Nynorsk translation of libmatecomponent.
+# Copyright (C) 1999-2002, 2003, 2004, 2006 Free Software Foundation, Inc.
+#
+# Kjartan Maraas <kmaraas@gnome.org>, 2001.
+# Roy-Magne Mo <rmo@sunnmore.net>, 2002.
+# Åsmund Skjæveland <aasmunds@fys.uio.no>, 2003, 2004, 2006.
+
+
+
+
+========== oc.po ==========
+# Translation of oc.po to Occitan
+# Occitan translation of libmatecomponent.
+# Copyright (C) 2006, 2007, Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmatecomponent package.
+#
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008
+
+
+
+
+========== or.po ==========
+# translation of libmatecomponent.HEAD.or.po to Oriya
+# Oriya translation of libmatecomponent.
+# Copyright (C) 2006, 2007, Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmatecomponent package.
+# $Id: or.po,v 1.2 2006/10/22 15:14:09 kmaraas Exp $
+#
+# Gora Mohanty <gora_mohanty@yahoo.co.in>, 2006.
+# Subhransu Behera <arya_subhransu@yahoo.co.in>, 2007.
+
+
+
+
+========== pa.po ==========
+# translation of libmatecomponent.HEAD.po to Punjabi
+# Copyright (C) 2004 THE libmatecomponent.HEAD'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmatecomponent.HEAD package.
+#
+# Amanpreet Singh Alam <amanlinux@netscape.net>, 2004.
+# Amanpreet Singh Alam <amanpreetalam@yahoo.com>, 2005.
+# A S Alam <apbrar@gmail.com>, 2006.
+# A S Alam <aalam@users.sf.net>, 2007, 2010.
+
+
+
+
+========== pl.po ==========
+# translation of libmatecomponent.HEAD.pl.po to Polish
+# Artur Flinta <aflinta@at.kernel.pl>, 2006.
+# Copyright (C) 2001-2006 Free Software Foundation, Inc.
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# matepl@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+#
+
+
+
+
+========== pt.po ==========
+# libmatecomponent's Portuguese Translation
+# Copyright © 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2010 libmatecomponent.
+# Distributed under the same licence as the libmatecomponent package
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2010.
+#
+
+
+
+
+========== pt_BR.po ==========
+# Brazilian Portuguese translation of libmatecomponent.
+# Copyright (C) 2000-2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmatecomponent package.
+# Gustavo Maciel Dias Vieira <gustavo@sagui.org>, 2000.
+# Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2002, 2004, 2005.
+# Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com.br>, 2006.
+#
+
+
+
+
+========== ro.po ==========
+# Romanian translation for libmatecomponent
+# Copyright (C) 2001 - 2009 Free Software Foundation, Inc.
+# Marius Andreiana <mandreiana@yahoo.com>, 2001.
+# Dan Damian <dand@gnome.ro>, 2001.
+# Mișu Moldovan <dumol@gnome.ro>, 2003 - 2009.
+#
+
+
+
+
+========== ru.po ==========
+# translation of ru.po to
+# translation of libmatecomponent.HEAD.po to
+# Copyright (C) 2001-2002, 2005, 2006, 2007 Free Software Foundation, Inc.
+# Sun G11n <mate_int_l10n@ireland.sun.com>
+#
+# Valek Filippov <frob@df.ru>, 2001-2002.
+# Dmitry Mastrukov <dmitry@taurussoft.org>, 2002.
+# Leonid Kanter <leon@asplinux.ru>, 2005, 2006, 2007.
+
+
+
+
+========== rw.po ==========
+# translation of libmatecomponent to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmatecomponent package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+
+
+
+
+========== sk.po ==========
+# libmatecomponent sk.po
+# Copyright (C) 2001, 2002, 2003, 2004, 2005, 2008 Free Software Foundation, Inc.
+# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2000,2001,2002,2003.
+# Marcel Telka <marcel@telka.sk>, 2001, 2002, 2003, 2004, 2005, 2008.
+#
+
+
+
+
+========== sl.po ==========
+# Slovenian translation of libmatecomponent.
+# Copyright (C) 1999-2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmatecomponent package.
+#
+# Andraz Tori <andraz.tori1@guest.arnes.si>, 2002.
+# Matjaž Horvat <m@owca.info>, 2006.
+# Matej Urbančič <mateju@svn.gnome.org>, 2007 - 2010.
+#
+
+
+
+
+========== sq.po ==========
+# Përkthimi i mesazheve të libbono në shqip
+# Copyright (C) 2003, 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
+#
+#
+# Laurent Dhima <laurenti@alblinux.net>, 2003, 2004, 2005, 2007, 2008.
+
+
+
+
+========== sr.po ==========
+# Serbian translation of libmatecomponent
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004, 2005, 2006, 2007.
+#
+# This file is distributed under the same license as the libmatecomponent package.
+#
+# Maintainer: Вељко М. Станојевић <veljko@vms.homelinux.net>
+# Reviewed on 2005-07-09 by: Данило Шеган <dsegan@gmx.net>
+# Translated on 2006-02-01 by Слободан Д. Средојевић <slobo@akrep.be>
+# Милош Поповић <gpopac@gmail.com>, 2010.
+#
+
+
+
+
+========== sr@latin.po ==========
+# Serbian translation of libmatecomponent
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004, 2005, 2006, 2007.
+#
+# This file is distributed under the same license as the libmatecomponent package.
+#
+# Maintainer: Veljko M. Stanojević <veljko@vms.homelinux.net>
+# Reviewed on 2005-07-09 by: Danilo Šegan <dsegan@gmx.net>
+# Translated on 2006-02-01 by Slobodan D. Sredojević <slobo@akrep.be>
+# Miloš Popović <gpopac@gmail.com>, 2010.
+#
+
+
+
+
+========== sv.po ==========
+# Swedish messages for libmatecomponent.
+# Copyright (C) 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+# Daniel Nylander <po@danielnylander.se>, 2006.
+# Christian Rose <menthos@menthos.com>, 2001, 2002, 2003, 2004, 2005.
+#
+# $Id$
+#
+#
+
+
+
+
+========== ta.po ==========
+# translation of libmatecomponent.HEAD.ta.po to Tamil
+# libmatecomponent translation in Tamil
+# Copyright (C) 2001, 2004, 2006, 2008 Free Software Foundation, Inc.
+#
+# Dinesh Nadarajah <n_dinesh@yahoo.com>, 2001.
+# Jayaradha N <jaya@pune.redhat.com>, 2004.
+# Felix <ifelix@redhat.com>, 2006.
+# I. Felix <ifelix@redhat.com>, 2008.
+
+
+
+
+========== te.po ==========
+# translation of te.po to Telugu
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2008.
+
+
+
+
+========== th.po ==========
+# Thai translation of libmatecomponent.
+# Copyright (C) 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmatecomponent package.
+# aka.ape <aka.ape@gmail.com>, 2007.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2007.
+# 
+
+
+
+
+========== tr.po ==========
+# Turkish translation of libmatecomponent.
+# Copyright (C) 2001-2003 Free Software Foundation, Inc.
+# Ömer Fadıl USTA <omer_fad@hotmail.com>, 2001.
+# Nilgün Belma Bugüner <nilgun@fide.org>, 2001.
+# Fatih Demir <kabalak@gtranslator.org>, 2001.
+# Arman Aksoy <armish@linux-sevenler.de>, 2003.
+#
+#
+
+
+
+
+========== uk.po ==========
+# Ukrainian translation of libmatecomponent.
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Yuriy Syrota <rasta@renome.rovno.ua>, 2001.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2004-2006
+#
+
+
+
+
+========== vi.po ==========
+# Vietnamese translation for LibMateComponent.
+# Copyright © 2007 Mate i18n Project for Vietnamese.
+# Nguyễn Thái Ngọc Duy <pclouds@gmx.net>, 2002.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2007.
+# 
+
+
+
+
+========== wa.po ==========
+# translation of matecomponent-activation.po to Walon
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Pablo Saratxaga <srtxg@chanae.alphanet.ch>, 2003.
+# Pablo Saratxaga <pablo@walon.org>, 2004.
+#
+
+
+
+
+========== xh.po ==========
+# Xhosa translation of libmatecomponent
+# Copyright (C) 2005 Canonical Ltd.
+# This file is distributed under the same license as the libmatecomponent package.
+# Translation by Canonical Ltd <translations@canonical.com> with thanks to
+# Translation World CC in South Africa, 2005.
+#
+
+
+
+
+========== yi.po ==========
+# matecomponent-activation
+# Yiddish version
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Raphael Finkel <raphael@cs.uky.edu>, 2003.
+#
+
+
+
+
+========== zh_CN.po ==========
+# Simplified Chinese translation of libmatecomponent
+# Copyright (C) 2010 Free Software Foundation, Inc.
+# Wang Jian <lark@linux.net.cn>, 2001
+# Funda Wang <fundawang@linux.net.cn>, 2003
+# Wang Xiaozhe <wangxz00@mails.tsinghua.edu.cn>, 2003
+# Yang Zhang <zyangmath@gmail.com>, 2007.
+# Aron Xu <happyaron.xu@gmail.com>, 2010.
+#
+
+
+
+
+========== zh_HK.po ==========
+# Chinese (Hong Kong) translation for libmatecomponent.
+# Copyright (C) 2001, 02, 03, 04, 05, 06, 07 Free Software Foundation, Inc.
+# Joe Man <trmetal@yahoo.com.hk>, 2001, 2002.
+# Ben Wu <hpwu@redhat.com>, 2002
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2005.
+# Abel Cheung <abel@oaka.org>, 2003, 04, 06.
+#
+#
+
+
+
+
+========== zh_TW.po ==========
+# Chinese (Taiwan) translation for libmatecomponent.
+# Copyright (C) 2001, 02, 03, 04, 05, 06, 07 Free Software Foundation, Inc.
+# Joe Man <trmetal@yahoo.com.hk>, 2001, 2002.
+# Ben Wu <hpwu@redhat.com>, 2002
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2005.
+# Abel Cheung <abel@oaka.org>, 2003, 04, 06.
+#
+#
+
+
+
+
