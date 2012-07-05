@@ -1,3 +1,205 @@
+commit 024884b02fefcbf956752d1f911e5104775d2277
+Merge: 5d5c931 65ebb6d
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Jun 26 12:51:42 2012 +0200
+
+    Merge branch 'master' of github.com:mate-desktop/libmatecomponent
+
+commit 5d5c931967668f26182865be3a3864c919a20a3b
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Jun 26 12:50:36 2012 +0200
+
+    sync translations with transifex
+
+ po/am.po          |  164 +++++++++----------
+ po/ar.po          |   89 +++++-----
+ po/as.po          |   89 +++++-----
+ po/ast.po         |   79 ++++-----
+ po/az.po          |  207 +++++++++++------------
+ po/be.po          |  228 ++++++++++----------------
+ po/bg.po          |   74 ++++-----
+ po/bn.po          |  114 +++++--------
+ po/bn_IN.po       |  179 ++++++++++----------
+ po/br.po          |   87 +++++-----
+ po/bs.po          |  210 +++++++++++-------------
+ po/ca.po          |  123 +++++---------
+ po/ca@valencia.po |  127 +++++----------
+ po/cs.po          |   80 +++++----
+ po/cy.po          |  123 +++++---------
+ po/da.po          |  134 ++++-----------
+ po/de.po          |  132 +++++----------
+ po/dz.po          |  205 ++++++++++-------------
+ po/el.po          |  124 +++++---------
+ po/en_CA.po       |  170 ++++++++++---------
+ po/en_GB.po       |  112 ++++---------
+ po/eo.po          |   55 ++++---
+ po/es.po          |  130 +++++----------
+ po/et.po          |  187 ++++++++++++++++-----
+ po/eu.po          |   81 ++++-----
+ po/fa.po          |  197 ++++++++++------------
+ po/fi.po          |  146 ++++++-----------
+ po/fr.po          |   91 ++++-------
+ po/ga.po          |  162 +++++++++---------
+ po/gl.po          |   86 ++++------
+ po/gu.po          |  177 ++++++++++----------
+ po/he.po          |  110 ++++---------
+ po/hi.po          |   81 +++++----
+ po/hr.po          |   93 +++++------
+ po/hu.po          |   76 ++++-----
+ po/hy.po          |   71 ++++----
+ po/id.po          |   71 ++++----
+ po/is.po          |  225 ++++++++++++-------------
+ po/it.po          |   95 +++++------
+ po/ja.po          |   77 ++++-----
+ po/ka.po          |   90 +++++-----
+ po/kn.po          |   68 ++++----
+ po/ko.po          |  184 ++++++++++-----------
+ po/ku.po          |  152 ++++++++---------
+ po/li.po          |  214 +++++++++++-------------
+ po/lt.po          |  180 ++++++++++----------
+ po/lv.po          |   76 ++++-----
+ po/mai.po         |   73 ++++-----
+ po/mg.po          |  178 ++++++++++----------
+ po/mk.po          |  188 ++++++++++-----------
+ po/ml.po          |   82 +++++-----
+ po/mn.po          |   97 +++++------
+ po/mr.po          |   83 +++++-----
+ po/ms.po          |  211 +++++++++++-------------
+ po/nb.po          |   87 +++++-----
+ po/ne.po          |   87 +++++-----
+ po/nl.po          |  223 ++++++++++---------------
+ po/nn.po          |   85 +++++-----
+ po/oc.po          |   71 ++++----
+ po/or.po          |   98 ++++++-----
+ po/pa.po          |   63 +++----
+ po/pl.po          |   77 ++++-----
+ po/pt.po          |  313 ++++++++++++++---------------------
+ po/pt_BR.po       |  124 +++++---------
+ po/ro.po          |   88 +++++-----
+ po/ru.po          |   82 ++++------
+ po/rw.po          |  469 ++++++++++++++++++++++-------------------------------
+ po/sk.po          |   91 +++++------
+ po/sl.po          |  120 +++++---------
+ po/sq.po          |  117 +++++--------
+ po/sr.po          |  110 ++++---------
+ po/sr@latin.po    |  110 ++++---------
+ po/sv.po          |  244 ++++++++++------------------
+ po/ta.po          |  142 ++++++----------
+ po/te.po          |   78 ++++-----
+ po/th.po          |   82 +++++-----
+ po/tr.po          |  172 +++++++-------------
+ po/uk.po          |  188 ++++++++++-----------
+ po/vi.po          |  178 ++++++++++----------
+ po/wa.po          |  193 ++++++++++------------
+ po/xh.po          |  220 +++++++++++--------------
+ po/yi.po          |  210 +++++++++++-------------
+ po/zh_CN.po       |   95 ++++-------
+ po/zh_HK.po       |   70 +++-----
+ po/zh_TW.po       |   74 +++------
+ 85 files changed, 4771 insertions(+), 6527 deletions(-)
+
+commit 8aea7a68cfa44bc048f6180472d4df6eee7300b9
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Jun 26 12:40:02 2012 +0200
+
+    add po gnome copyrights
+
+ po/gnome-copyrights.txt | 1014 +++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1014 insertions(+)
+
+commit 65ebb6de067b655903d1a25fc6be5bb8529a0340
+Author: Perberos <perberos@gmail.com>
+Date:   Wed May 9 10:14:49 2012 -0300
+
+    Update PKGBUILD
+
+ distro/archlinux/PKGBUILD |    3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 5b49b9a77a22b8637c9421ff3d72700b199df3a0
+Merge: 68be50d 6cc1d01
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu May 3 06:42:59 2012 -0700
+
+    Merge pull request #3 from MDykstra/master
+    
+    GVoidFunc redeclared
+
+commit 6cc1d0104de68ad098d3f18b60b8801a5c1739c8
+Author: Marcel Dijkstra <marcel.dykstra@gmail.com>
+Date:   Thu Apr 26 15:19:59 2012 +0200
+
+    GVoidFunc redeclared, but should be removed
+
+ .../matecomponent-activation-client.h              |    5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 68be50d44db96975240ba689867f148511df2cbb
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Mar 27 20:48:18 2012 +0200
+
+    update for 1.2.1 release
+
+ configure.in |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 6dcf2d028fab067f83dc54389007c42763810b7b
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Mar 27 20:46:59 2012 +0200
+
+    updated Arabic translation
+
+ po/ar.po |   89 ++++++++++++++++++++++++++++----------------------------------
+ 1 file changed, 40 insertions(+), 49 deletions(-)
+
+commit eb7ea8f31806f7e4465e142dfb9b33fbb760c0fb
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Mar 27 20:44:17 2012 +0200
+
+    updated Dutch translation
+
+ po/nl.po |  223 +++++++++++++++++++++++++-------------------------------------
+ 1 file changed, 90 insertions(+), 133 deletions(-)
+
+commit 8f80a2a832a4c0d2f16af9176e8ed9058dbe5427
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Mar 27 20:43:22 2012 +0200
+
+    updated Turkish translation
+
+ po/tr.po |  172 ++++++++++++++++++++------------------------------------------
+ 1 file changed, 55 insertions(+), 117 deletions(-)
+
+commit a560ebf36d8c66c894e6ee3b83d2a78b57545cc9
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Feb 17 15:32:51 2012 +0100
+
+    update gettext package name
+
+ configure.in |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c40d55b8cc1db345c734777f957829ba9beed7c7
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Feb 17 00:00:14 2012 +0100
+
+    fix autogen.sh executable
+
+ 0 files changed
+
+commit 7067d20fc3793f93144f0f78a424a554c91c5598
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu Feb 16 23:59:11 2012 +0100
+
+    fix things for MATE 1.2
+
+ AUTHORS      |   22 +-
+ ChangeLog    |  726 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ README       |   27 +--
+ autogen.sh   |    4 +-
+ configure.in |    4 +-
+ 5 files changed, 744 insertions(+), 39 deletions(-)
+
 commit e4c02f2ee3898a548a7f4c45e7e7e12898b09bca
 Author: Stefano Karapetsas <stefano@karapetsas.com>
 Date:   Thu Feb 16 23:25:13 2012 +0100
@@ -5,7 +207,7 @@ Date:   Thu Feb 16 23:25:13 2012 +0100
     remove MAINTAINERS file
 
  MAINTAINERS |   15 ---------------
- 1 files changed, 0 insertions(+), 15 deletions(-)
+ 1 file changed, 15 deletions(-)
 
 commit 30d80c9f603870b07bc97ca356cb3e794173c15f
 Author: Perberos <perberos@gmail.com>
@@ -14,7 +216,7 @@ Date:   Tue Jan 24 13:47:12 2012 -0300
     changing pkgbuild source method
 
  distro/archlinux/PKGBUILD |   10 ++++------
- 1 files changed, 4 insertions(+), 6 deletions(-)
+ 1 file changed, 4 insertions(+), 6 deletions(-)
 
 commit eaca42f01e6ebc280d34591466d08fcf30f66134
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -23,7 +225,7 @@ Date:   Wed Jan 18 10:50:34 2012 +0100
     fix typo in man page
 
  .../matecomponent-activation-server.1              |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 commit 2d0cf23c2e97fcc080bc38ba072279336a97b811
 Author: Steve Zesch <stevezesch2@gmail.com>
@@ -32,7 +234,7 @@ Date:   Mon Jan 9 21:14:50 2012 -0500
     Changed mate.gr.jp to gnome.gr.jp as requested in Issue #86
 
  po/ChangeLog |   98 +++++++++++++++++++++++++++++-----------------------------
- po/ja.po     |    4 +-
+ po/ja.po     |    4 +--
  2 files changed, 51 insertions(+), 51 deletions(-)
 
 commit 838880bd22cbc25617fd21da19f17921d970b59c
@@ -60,7 +262,7 @@ Date:   Thu Dec 8 12:53:09 2011 -0300
     removing autogenerated file
 
  ltmain.sh | 9655 -------------------------------------------------------------
- 1 files changed, 0 insertions(+), 9655 deletions(-)
+ 1 file changed, 9655 deletions(-)
 
 commit 52ae6a2c65a0ef13d030f80564c4ed0fa5a7fc20
 Author: Perberos <perberos@gmail.com>
@@ -69,7 +271,7 @@ Date:   Tue Dec 6 13:03:08 2011 -0300
     ubuntu issues
 
  samples/echo/Makefile.am |    1 +
- 1 files changed, 1 insertions(+), 0 deletions(-)
+ 1 file changed, 1 insertion(+)
 
 commit bd8416081fe5c97eb87ab55785e669a4f426f28e
 Author: Perberos <perberos@gmail.com>
@@ -78,7 +280,7 @@ Date:   Tue Dec 6 11:54:54 2011 -0300
     ubuntu issues
 
  samples/echo/Makefile.am |    4 ++--
- 1 files changed, 2 insertions(+), 2 deletions(-)
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
 commit 2580711df0d23d2c0d120ef4dec1175c7960cd33
 Author: Perberos <perberos@gmail.com>
@@ -87,7 +289,7 @@ Date:   Tue Dec 6 11:09:28 2011 -0300
     ubuntu issues
 
  samples/echo/Makefile.am |    1 +
- 1 files changed, 1 insertions(+), 0 deletions(-)
+ 1 file changed, 1 insertion(+)
 
 commit cd080d91a957700d4e234aa414c8391a47540d1f
 Merge: 59bb76a 90b4c55
@@ -115,7 +317,7 @@ Date:   Tue Dec 6 10:51:15 2011 -0300
 
  matecomponent-activation/Makefile.am |    1 +
  samples/echo/Makefile.am             |    1 +
- 2 files changed, 2 insertions(+), 0 deletions(-)
+ 2 files changed, 2 insertions(+)
 
 commit 649cdc3502bd71fe61ce277f2d8d093f7d512370
 Author: Perberos <perberos@gmail.com>
@@ -124,7 +326,7 @@ Date:   Tue Dec 6 10:11:20 2011 -0300
     ubuntu issues
 
  matecomponent-activation/Makefile.am |  108 +++++++++++++++++-----------------
- samples/echo/Makefile.am             |   48 ++++++++--------
+ samples/echo/Makefile.am             |   48 +++++++--------
  2 files changed, 78 insertions(+), 78 deletions(-)
 
 commit a4f93b30e81ef07306b9a8f5030a7692fcac4c3e
@@ -143,9 +345,9 @@ Date:   Fri Dec 2 02:23:22 2011 +0100
     deleted unuseful files, switch to 2011.12.01 version
 
  AUTHORS                              |   16 +-
- ChangeLog                            | 6446 +------------
+ ChangeLog                            | 6446 +-----------
  Makefile.in                          |  873 --
- NEWS                                 | 1087 +---
+ NEWS                                 | 1087 +--
  aclocal.m4                           |10711 --------------------
  activation-server/Makefile.in        |  990 --
  config.guess                         | 1501 ---
@@ -722,4 +924,4 @@ Date:   Thu Dec 1 20:45:06 2011 -0300
  utils/Makefile.in                                  |  671 +
  utils/matecomponent-activation-sysconf.c           |  310 +
  utils/matecomponent-slay.in                        |  239 +
- 538 files changed, 191594 insertions(+), 0 deletions(-)
+ 538 files changed, 191594 insertions(+)
